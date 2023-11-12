@@ -1,33 +1,17 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.8*%
-%TF.CreationDate,2023-11-09T18:47:33+07:00*%
+%TF.CreationDate,2023-11-09T18:46:38+07:00*%
 %TF.ProjectId,sudi-redox-clone,73756469-2d72-4656-946f-782d636c6f6e,0.1*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Paste,Bot*%
+%TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.8) date 2023-11-09 18:47:33*
+G04 Created by KiCad (PCBNEW 7.0.8) date 2023-11-09 18:46:38*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
 G04 Aperture macros list*
-%AMRoundRect*
-0 Rectangle with rounded corners*
-0 $1 Rounding radius*
-0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
-0 Add a 4 corners polygon primitive as box body*
-4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
-0 Add four circle primitives for the rounded corners*
-1,1,$1+$1,$2,$3*
-1,1,$1+$1,$4,$5*
-1,1,$1+$1,$6,$7*
-1,1,$1+$1,$8,$9*
-0 Add four rect primitives between the rounded corners*
-20,1,$1+$1,$2,$3,$4,$5,0*
-20,1,$1+$1,$4,$5,$6,$7,0*
-20,1,$1+$1,$6,$7,$8,$9,0*
-20,1,$1+$1,$8,$9,$2,$3,0*%
 %AMRotRect*
 0 Rectangle, with rotation*
 0 The origin of the aperture is its center*
@@ -39,7 +23,6 @@ G04 Aperture macros list*
 G04 Aperture macros list end*
 %ADD10R,1.200000X1.200000*%
 %ADD11RotRect,1.200000X1.200000X45.000000*%
-%ADD12RoundRect,0.250000X-0.312500X-0.625000X0.312500X-0.625000X0.312500X0.625000X-0.312500X0.625000X0*%
 G04 APERTURE END LIST*
 D10*
 %TO.C,D34*%
@@ -217,14 +200,5 @@ X169215000Y-97790000D03*
 %TO.C,D12*%
 X84785000Y-72390000D03*
 X87935000Y-72390000D03*
-%TD*%
-D12*
-%TO.C,R1*%
-X205240000Y-76200000D03*
-X208165000Y-76200000D03*
-%TD*%
-%TO.C,R2*%
-X205240000Y-80010000D03*
-X208165000Y-80010000D03*
 %TD*%
 M02*
