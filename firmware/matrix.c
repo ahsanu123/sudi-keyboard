@@ -3,6 +3,7 @@
 Copyright 2013 Oleg Kostyuk <cub.uanic@gmail.com>
           2020 Pierre Chevalier <pierrechevalier83@gmail.com>
           2021 Mark Story <mark@mark-story.com>
+          2023 edit by Ahsanu Amala <ahsanuamala0ff@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
