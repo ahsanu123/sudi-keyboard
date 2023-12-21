@@ -1,4 +1,5 @@
 # Sudi Keyboard
+
 <img style="align: center; width: 50vw;" src="./pcb-design/output/banner.png">
 <!-- <img style="align: right; width: 50vw;" src="./pcb-design/output/sudi-redox-clone-RIGHT.png"> -->
 Sudi keyboard is custom split keyboard based on QMK, its use MCP23017 for scanning key matrix on right side, use promicro for scanning left side. right now sudi is not come with rgb led but its planned.
@@ -19,6 +20,8 @@ casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete
     <img src="http://i3.ytimg.com/vi/LN7CI2rUKP8/hqdefault.jpg" width="50%">
   </a>
 </p>
+
+<img style="align: center; width: 50vw;" src="./casing-design/Export/keyboarddrawing_img_1.png">
 
 ## Reference 
 - [Redox-Keyboard](https://github.com/mattdibi/redox-keyboard) i use redox schematic for initial design  
