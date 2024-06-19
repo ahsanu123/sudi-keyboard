@@ -1,4 +1,4 @@
-# Sudi Keyboard
+# 1️⃣ Sudi Keyboard V1
 
 <img style="align: center; width: 50vw;" src="./pcb-design/output/banner.png">
 <!-- <img style="align: right; width: 50vw;" src="./pcb-design/output/sudi-redox-clone-RIGHT.png"> -->
@@ -25,4 +25,6 @@ casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete
 
 ## Reference 
 - [Redox-Keyboard](https://github.com/mattdibi/redox-keyboard) i use redox schematic for initial design  
-- [MCP23017 datasheet](reference/MCP23017-20001952c.pdf) and add my *initial redox sch* with MCP23017  
+- [MCP23017 datasheet](reference/MCP23017-20001952c.pdf) and add my *initial redox sch* with MCP23017
+
+<sup>🔥 make it V2 - 19 juni 2024 10:49</sup>
