@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SUDI - Ergonomic Split Keyboard")
-		(date "2024-06-28")
+		(date "2024-07-01")
 		(rev "1")
 		(company "AHAH_TERROR")
 		(comment 1 "Made With Love By AH")
@@ -4780,6 +4780,10 @@
 		(uuid "0d73c752-5409-41cd-bd0f-1bd29fefd410")
 	)
 	(no_connect
+		(at 128.27 54.61)
+		(uuid "1d138354-e598-40fb-84f3-14029504ef2c")
+	)
+	(no_connect
 		(at 38.1 110.49)
 		(uuid "29cb39f4-3913-413d-a953-08b2d825c8d6")
 	)
@@ -4796,8 +4800,28 @@
 		(uuid "4888a59e-bd53-4bb9-93a5-1097a15b0d01")
 	)
 	(no_connect
+		(at 147.32 54.61)
+		(uuid "6fc549a7-7faf-4801-8505-d00b7edf7fe2")
+	)
+	(no_connect
+		(at 139.7 54.61)
+		(uuid "92a79cde-bece-4563-b477-20c3b5254b0e")
+	)
+	(no_connect
+		(at 143.51 54.61)
+		(uuid "a93d2388-4b0a-4f91-b673-ed43af2e42a7")
+	)
+	(no_connect
+		(at 151.13 54.61)
+		(uuid "aadfac12-bae9-4fdb-8efd-f1cf219962db")
+	)
+	(no_connect
 		(at 229.87 33.02)
 		(uuid "b395a7c2-5e56-4f6c-8782-81e91a09f3e7")
+	)
+	(no_connect
+		(at 132.08 54.61)
+		(uuid "ba4bb851-600c-4b97-80d5-cdb031b1acd1")
 	)
 	(no_connect
 		(at 204.47 30.48)
@@ -4806,6 +4830,10 @@
 	(no_connect
 		(at 73.66 135.89)
 		(uuid "dbbfd4ec-9bd0-48cb-8a69-1f4956b42afe")
+	)
+	(no_connect
+		(at 135.89 54.61)
+		(uuid "de2ba676-8729-408c-9629-e50a2bde2b68")
 	)
 	(no_connect
 		(at 73.66 133.35)
@@ -15305,7 +15333,7 @@
 			"rkJggg=="
 		)
 	)
-	(text_box "SUDI - Split Keyboard \nSUDI is my custom split keyboard based on redox, it will designed\nwith 75%+ keyboard layout (84 key with 42 each side).\nuse promicro for main MCU and MCP23017 for 16bit bidirectional I/O \nexpantion"
+	(text_box "SUDI - Split Keyboard \nSUDI is my custom split keyboard based on redox, it will designed\nwith 75%+ keyboard layout (84 key with 42 each side).\nuse promicro for main MCU and MCP23017 for 16bit bidirectional I/O \nexpantion\nkailh hot swap"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
 		(size 158.75 50.8)
