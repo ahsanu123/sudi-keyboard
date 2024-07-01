@@ -44551,6 +44551,19 @@
 			)
 		)
 	)
+	(gr_text "MAKE Front Back MCP23017\nMAKE Front Back RJ12 Socket"
+		(at 241 47.5 0)
+		(layer "User.1")
+		(uuid "6db71818-3710-4404-bd12-36d97fc4680c")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 34.163 86.995)
 		(end 33.974 86.806)
