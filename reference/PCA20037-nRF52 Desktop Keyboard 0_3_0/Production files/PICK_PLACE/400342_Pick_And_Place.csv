@@ -1,0 +1,43 @@
+Altium Designer Pick and Place Locations
+C:\Applications\hardware\pca20037\trunk\production_files\400342_pick_and_place.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       05-06-19
+Time:       15:44
+Revision:   16699
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"C16","N.C.","TopLayer","CAPC1005X04L","58.6218","12.2140","270","Not mounted"
+"LD1","L0603R","TopLayer","LED_0603_R","29.7942","12.2428","180","LED 0603, EL19-21SURC"
+"R1","100R","TopLayer","RESC1005X04L","32.4612","12.2428","180","Resistor, ±1%, 0.063W"
+"L4","1.5nH","TopLayer","INDC1005X04L","57.2052","11.7144","360","Inductor, 280mA, ±0.1nH"
+"C11","1.2pF","TopLayer","CAPC1005X04L","55.8324","12.2056","90","Capacitor, NP0, ±0.1pF"
+"Fiducual2","Fiducial mark","TopLayer","Fiducial","1.7018","10.1854","90","Fiducial Mark"
+"Fiducual1","Fiducial mark","TopLayer","Fiducial","54.8894","21.3360","90","Fiducial Mark"
+"SW1","Switch","TopLayer","JS102011SAQN","29.2135","19.8584","180","SMD slide Switch (ON-ON)"
+"P2","Card Edge, 0.8mm","TopLayer","10056847-101LF","17.4992","17.8204","180","0.8mm pitch, dual edge, right angle, SMD, card edge connector"
+"P1","HDR-2, 1mm","TopLayer","SM02B-SRSS-TB","3.8509","14.5786","270","1.0mm pitch connector side entry SMD"
+"C15","1.0µF","TopLayer","CAPC1608X06L","10.1430","14.3031","90","Capacitor, X7R, ±10%"
+"C14","100nF","TopLayer","CAPC1005X04L","9.1680","14.5781","90","Capacitor, X7R, ±10%"
+"P4","KBRFBE71_Keyboard_Connector","TopLayer","KBRFBE71_Keyboard_Connector","32.1426","5.0000","360","KBRFBE71 Keyboard Connector"
+"C10","1.0µF","TopLayer","CAPC1608X06L","42.8224","21.5179","310","Capacitor, X7R, ±10%"
+"L3","15nH","TopLayer","INDC1005X04L","42.1366","20.6543","310","Inductor, 320mA, ±5%"
+"L2","10µH","TopLayer","INDC1608X06L","43.3042","18.5716","270","Inductor, 80mA, ±10%"
+"C4","100nF","TopLayer","CAPC1005X04L","40.0530","15.4930","180","Capacitor, X7R, ±10%"
+"C5","100nF","TopLayer","CAPC1005X04L","42.5422","9.5240","180","Capacitor, X7R, ±10%"
+"C7","100pF","TopLayer","CAPC1005X04L","50.6702","16.2296","360","Capacitor, NP0, ±5%"
+"C1","12pF","TopLayer","CAPC1005X04L","53.3118","18.2108","270","Capacitor, NP0, ±2%"
+"X1","32MHz","TopLayer","BT-XTAL_2016","51.5338","18.2108","180","XTAL SMD 2016, 32MHz, Cl=8pF, Tol: ±10ppm, Stab: ±20ppm"
+"C8","100nF","TopLayer","CAPC1005X04L","48.8922","18.2108","90","Capacitor, X7R, ±10%"
+"C9","4.7µF","TopLayer","CAPC1608X06L","40.0530","16.5344","180","Capacitor, X5R, ±10%"
+"C6","N.C.","TopLayer","CAPC1005X04L","50.6702","15.3406","180","Not mounted"
+"C2","12pF","TopLayer","CAPC1005X04L","49.7558","18.2108","90","Capacitor, NP0, ±2%"
+"U1","nRF52832-QFAAE0","TopLayer","QFN40P600X600X90-48N","45.3870","13.6134","360","Multi-protocol Bluetooth Low Energy, ANT and 2.4GHz proprietary system-on-chip"
+"L1","3.9nH","TopLayer","INDC1005X04L","51.0004","13.1054","360","Inductor, 170mA, ±0.1nH"
+"C3","0.8pF","TopLayer","CAPC1005X04L","49.5780","13.6134","270","Capacitor, NP0, ±5%"
+"C12","12pF","TopLayer","CAPC1005X04L","47.8268","18.3110","90","Capacitor, NP0, ±2%"
+"C13","12pF","TopLayer","CAPC1005X04L","46.8616","18.3110","90","Capacitor, NP0, ±2%"
