@@ -1,4 +1,4 @@
-# ⌨️ Sudi Keyboard V1
+# ⌨️ Sudi Keyboard V2
 
 <img style="align: center; width: 50vw;" src="./pcb-design/output/RedoxV2.png">
 <!-- <img style="align: right; width: 50vw;" src="./pcb-design/output/sudi-redox-clone-RIGHT.png"> -->
