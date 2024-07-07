@@ -1,6 +1,6 @@
 # ⌨️ Sudi Keyboard V1
 
-<img style="align: center; width: 50vw;" src="./pcb-design/output/banner.png">
+<img style="align: center; width: 50vw;" src="./pcb-design/output/RedoxV2.png">
 <!-- <img style="align: right; width: 50vw;" src="./pcb-design/output/sudi-redox-clone-RIGHT.png"> -->
 Sudi keyboard is custom split keyboard based on QMK, its use MCP23017 for scanning key matrix on right side, use promicro for scanning left side. right now sudi is not come with rgb led but its planned.
 each side consist 42 standard mechanical key, 84 in total. 
