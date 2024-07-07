@@ -6047,12 +6047,6 @@
 		(uuid "6babfde8-7201-4219-918e-690c1929fd06")
 	)
 	(junction
-		(at 270.51 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dedb10b-6b15-4d6f-90ec-b998f6c4719f")
-	)
-	(junction
 		(at 292.1 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6299,7 +6293,7 @@
 		(uuid "de377cbc-390d-4482-9940-ebade3a892f4")
 	)
 	(junction
-		(at 22.86 77.47)
+		(at 22.86 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1cc358c-b2eb-455e-8e42-7dddd694b74a")
@@ -6379,8 +6373,8 @@
 		(uuid "76af1173-b682-4fb6-9201-a433a4a3d905")
 	)
 	(no_connect
-		(at 279.4 233.68)
-		(uuid "7e95c491-3247-4381-ac6d-86db7f47370c")
+		(at 279.4 207.01)
+		(uuid "88c6c205-4b2e-4554-9fad-d40de770b11b")
 	)
 	(no_connect
 		(at 228.6 176.53)
@@ -6397,10 +6391,6 @@
 	(no_connect
 		(at 377.19 189.23)
 		(uuid "a5493fff-1e96-4064-9afe-4444f0e40169")
-	)
-	(no_connect
-		(at 279.4 237.49)
-		(uuid "a8f0162b-d9a9-4467-a694-2605b3421463")
 	)
 	(no_connect
 		(at 172.72 66.04)
@@ -6425,6 +6415,10 @@
 	(no_connect
 		(at 172.72 71.12)
 		(uuid "e0dbe0da-e3b8-4505-96ad-73ae1284750a")
+	)
+	(no_connect
+		(at 279.4 210.82)
+		(uuid "e467a9d9-3bf3-4052-af38-ce14f9c88a0e")
 	)
 	(no_connect
 		(at 228.6 199.39)
@@ -6710,7 +6704,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 77.47) (xy 26.67 77.47)
+			(xy 22.86 63.5) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6990,7 +6984,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 77.47) (xy 22.86 78.74)
+			(xy 22.86 63.5) (xy 22.86 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7940,7 +7934,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 77.47) (xy 26.67 60.96)
+			(xy 26.67 63.5) (xy 26.67 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8607,6 +8601,16 @@
 			(type default)
 		)
 		(uuid "7bafb95c-d577-4acc-9cf4-6f937875ce22")
+	)
+	(polyline
+		(pts
+			(xy 154.94 134.62) (xy 219.71 134.62)
+		)
+		(stroke
+			(width 0.762)
+			(type default)
+		)
+		(uuid "7bc12002-257e-444f-8833-fc042f91bc34")
 	)
 	(polyline
 		(pts
@@ -9550,16 +9554,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 210.82) (xy 270.51 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8712f09-1a77-45d3-bdfa-d99f4ee689fe")
-	)
-	(wire
-		(pts
 			(xy 22.86 163.83) (xy 39.37 163.83)
 		)
 		(stroke
@@ -10220,16 +10214,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 207.01) (xy 271.78 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc703a22-5000-4fc1-b445-e98a8f6fdc31")
-	)
-	(wire
-		(pts
 			(xy 287.02 90.17) (xy 289.56 90.17)
 		)
 		(stroke
@@ -10430,7 +10414,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 60.96) (xy 19.05 77.47)
+			(xy 19.05 60.96) (xy 19.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10550,7 +10534,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 77.47) (xy 22.86 77.47)
+			(xy 19.05 63.5) (xy 22.86 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10667,16 +10651,6 @@
 			(type default)
 		)
 		(uuid "f6eb965e-c200-40d8-b40f-4f849d161be5")
-	)
-	(wire
-		(pts
-			(xy 271.78 210.82) (xy 270.51 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82512a1-fbd6-4a4f-aae2-cfbf9e8cbd4a")
 	)
 	(wire
 		(pts
@@ -11888,7 +11862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 274.32 171.45 0)
 			(effects
 				(font
@@ -12315,7 +12289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 351.79 76.2 0)
 			(effects
 				(font
@@ -12598,7 +12572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 303.53 76.2 0)
 			(effects
 				(font
@@ -13008,7 +12982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.706 156.464 90)
 			(effects
 				(font
@@ -13076,7 +13050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 279.4 104.14 0)
 			(effects
 				(font
@@ -13347,7 +13321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 327.66 76.2 0)
 			(effects
 				(font
@@ -13591,7 +13565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 78.74 0)
+		(at 22.86 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13600,7 +13574,7 @@
 		(fields_autoplaced yes)
 		(uuid "34adc4b8-7e5b-43d5-8c3b-c4368918d99d")
 		(property "Reference" "#PWR018"
-			(at 22.86 85.09 0)
+			(at 22.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,7 +13583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 83.82 0)
+			(at 22.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +13592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 78.74 0)
+			(at 22.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +13601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 78.74 0)
+			(at 22.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 78.74 0)
+			(at 22.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,7 +13857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 303.53 90.17 0)
 			(effects
 				(font
@@ -14087,7 +14061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 255.27 104.14 0)
 			(effects
 				(font
@@ -14223,7 +14197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 312.42 147.32 0)
 			(effects
 				(font
@@ -14499,7 +14473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 274.32 196.85 0)
 			(effects
 				(font
@@ -14577,7 +14551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 56.134 49.276 90)
 			(effects
 				(font
@@ -14845,7 +14819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 327.66 90.17 0)
 			(effects
 				(font
@@ -14887,74 +14861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54c02edc-00f6-48ca-92ad-986f449cd782")
-		(property "Reference" "H2"
-			(at 274.3199 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 271.78 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 276.86 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f46a533d-d08d-4524-a83e-7b6997c449c1")
-		)
-		(instances
-			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 72.39 204.47 180)
 		(unit 1)
@@ -14981,7 +14887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 71.374 204.216 90)
 			(effects
 				(font
@@ -15048,7 +14954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 351.79 196.85 0)
 			(effects
 				(font
@@ -15123,7 +15029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 331.47 196.85 0)
 			(effects
 				(font
@@ -15311,73 +15217,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61b60953-c414-499f-87fc-16a580afd6a9")
-		(property "Reference" "H1"
-			(at 274.3199 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 271.78 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 276.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1681f8af-6365-4c4b-9446-01c3b8900f08")
-		)
-		(instances
-			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "canadian_parts:KEYSW")
 		(at 255.27 90.17 0)
 		(unit 1)
@@ -15403,7 +15242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -15469,7 +15308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 312.42 171.45 0)
 			(effects
 				(font
@@ -15545,7 +15384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 351.79 90.17 0)
 			(effects
 				(font
@@ -15611,7 +15450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 293.37 196.85 0)
 			(effects
 				(font
@@ -15686,7 +15525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 351.79 147.32 0)
 			(effects
 				(font
@@ -16237,7 +16076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 327.66 104.14 0)
 			(effects
 				(font
@@ -16396,7 +16235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 370.84 147.32 0)
 			(effects
 				(font
@@ -16612,7 +16451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 303.53 104.14 0)
 			(effects
 				(font
@@ -16655,7 +16494,8 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 274.32 207.01 270)
+		(at 276.86 207.01 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16663,7 +16503,7 @@
 		(dnp no)
 		(uuid "7ff0cf2f-a41e-48aa-acf4-94e69be61359")
 		(property "Reference" "H9"
-			(at 276.8601 209.55 0)
+			(at 274.3199 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16673,7 +16513,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 279.4 205.74 0)
+			(at 271.78 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16523,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 274.32 207.01 0)
+			(at 276.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 207.01 0)
+			(at 276.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16701,7 +16541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 207.01 0)
+			(at 276.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16747,7 +16587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 279.4 90.17 0)
 			(effects
 				(font
@@ -16926,73 +16766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 270.51 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8953513f-9bd1-4fc9-9888-270e4f42e07a")
-		(property "Reference" "#PWR03"
-			(at 270.51 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e96c8ec-3fef-4418-aa36-b6e4fe3b8f06")
-		)
-		(instances
-			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "canadian_parts:KEYSW")
 		(at 255.27 76.2 0)
 		(unit 1)
@@ -17018,7 +16791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 255.27 76.2 0)
 			(effects
 				(font
@@ -17220,7 +16993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 331.47 147.32 0)
 			(effects
 				(font
@@ -17428,7 +17201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 375.92 104.14 0)
 			(effects
 				(font
@@ -17764,7 +17537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 56.134 49.784 90)
 			(effects
 				(font
@@ -17897,7 +17670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 293.37 171.45 0)
 			(effects
 				(font
@@ -17973,7 +17746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 375.92 90.17 0)
 			(effects
 				(font
@@ -18110,7 +17883,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
@@ -18313,7 +18085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 375.92 76.2 0)
 			(effects
 				(font
@@ -18380,7 +18152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 351.79 104.14 0)
 			(effects
 				(font
@@ -18718,7 +18490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 293.37 147.32 0)
 			(effects
 				(font
@@ -18860,7 +18632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "canadian_footprints:Mx_Alps_100-dualside"
+		(property "Footprint" "keyswitches.pretty-master:Kailh_socket_MX_optional_reversible_platemount"
 			(at 279.4 76.2 0)
 			(effects
 				(font
@@ -19220,7 +18992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 370.84 171.45 0)
 			(effects
 				(font
@@ -19364,7 +19136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 274.32 147.32 0)
 			(effects
 				(font
@@ -20132,7 +19904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 370.84 196.85 0)
 			(effects
 				(font
@@ -20547,7 +20319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 312.42 196.85 0)
 			(effects
 				(font
@@ -20692,7 +20464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 351.79 171.45 0)
 			(effects
 				(font
@@ -20813,7 +20585,8 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 274.32 210.82 270)
+		(at 276.86 210.82 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20821,7 +20594,7 @@
 		(dnp no)
 		(uuid "e113e8d6-6868-482f-a988-01b194100b8e")
 		(property "Reference" "H8"
-			(at 276.8601 213.36 0)
+			(at 274.3199 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20831,7 +20604,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 279.4 209.55 0)
+			(at 271.78 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20841,7 +20614,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 274.32 210.82 0)
+			(at 276.86 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20850,7 +20623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 210.82 0)
+			(at 276.86 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20859,7 +20632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 210.82 0)
+			(at 276.86 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21240,7 +21013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "CustomWS2185BFootPrint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 331.47 171.45 0)
 			(effects
 				(font
@@ -21605,7 +21378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 192.786 156.464 90)
 			(effects
 				(font
@@ -21742,7 +21515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 165.354 61.976 90)
 			(effects
 				(font
@@ -21957,7 +21730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 194.056 75.946 90)
 			(effects
 				(font
@@ -22070,8 +21843,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 232.41)
-		(size 29.21 5.08)
+		(at 172.72 109.22)
+		(size 29.21 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -22082,7 +21855,7 @@
 		)
 		(uuid "c474124e-34bd-49d8-8819-329d9c2bdf56")
 		(property "Sheetname" "Receiver"
-			(at 214.63 231.0634 0)
+			(at 172.72 107.8734 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -22092,7 +21865,7 @@
 			)
 		)
 		(property "Sheetfile" "Receiver.kicad_sch"
-			(at 214.63 238.0746 0)
+			(at 172.72 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22101,7 +21874,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 214.63 232.41 0)
+			(at 172.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
