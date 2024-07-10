@@ -21845,7 +21845,6 @@
 	(sheet
 		(at 172.72 109.22)
 		(size 29.21 16.51)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -21855,7 +21854,7 @@
 		)
 		(uuid "c474124e-34bd-49d8-8819-329d9c2bdf56")
 		(property "Sheetname" "Receiver"
-			(at 172.72 107.8734 0)
+			(at 178.562 118.618 0)
 			(effects
 				(font
 					(size 2.54 2.54)
