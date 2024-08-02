@@ -1,9 +1,24 @@
-# ⌨️ Sudi Keyboard V2
+<p >
+  <a href="">
+    <img alt="npm version" src="https://badgen.net/github/commits/ahsanu123/sudi-keyboard/">
+  </a>
+  <a href="">
+    <img alt="npm" src="https://badgen.net/github/contributors/ahsanu123/sudi-keyboard/">
+  </a>
+  <a href="">
+    <img alt="npm" src="https://badgen.net/github/branches/ahsanu123/sudi-keyboard/">
+  </a>
+  <a href="https://github.com/ahsanu123/sudi-keyboard/blob/main/LICENSE">
+    <img alt="licence" src="https://badgen.net/github/license/ahsanu123/sudi-keyboard/">
+  </a>
+</p>
 
-<img style="align: center; width: 50vw;" src="./pcb-design/output/RedoxV2.png">
-<!-- <img style="align: right; width: 50vw;" src="./pcb-design/output/sudi-redox-clone-RIGHT.png"> -->
-Sudi keyboard is custom split keyboard based on QMK, its use MCP23017 for scanning key matrix on right side, use promicro for scanning left side. right now sudi is not come with rgb led but its planned.
-each side consist 42 standard mechanical key, 84 in total. 
+<h1 align="center">🌿 <i>Sudi</i> Keyboard V2</h1>
+
+<img style="align: center; width: 50vw;" src="./pcb-design/output/RedoxV2.png"> 
+
+Sudi V2 is custom wireless split keyboard based on NRF51822 Nordic Semiconductor Microcontroller series, each side consist 18 keys 36 in totals, use MCP23017 I2C I/O expansion to scan one side of keyboard, and use wire to trasfer data to NRF51.
+Sudi Have interactive RGB LED and OLED 0.91 inch for graphic display. Planned to create 3D print casing.
 
 ## 🔋 how to compile 
 to build firmware you can follow qmk documentation on: https://docs.qmk.fm/#/newbs_building_firmware, create new keyboard then copy replace `sudi/firmware` to newly created qmk keyboard folder.
@@ -26,6 +41,7 @@ casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete
 </details>
 
 ## 💳 Reference 
+- [NRF51 Series Documentation](https://www.nordicsemi.com/Products/nRF51822/GetStarted)
 - [Redox-Keyboard](https://github.com/mattdibi/redox-keyboard) i use redox schematic for initial design  
 - [MCP23017 datasheet](reference/MCP23017-20001952c.pdf) and add my *initial redox sch* with MCP23017
 
