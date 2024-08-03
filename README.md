@@ -1,3 +1,9 @@
+
+<h1 align="center">🌿 <i>SUDI</i> Keyboard V2</h1>
+<p style="align: right;">
+<img style="align: center; " src="./pcb-design/output/RedoxV2.png"> 
+</p>
+
 <p >
   <a href="">
     <img alt="npm version" src="https://badgen.net/github/commits/ahsanu123/sudi-keyboard/">
@@ -13,9 +19,6 @@
   </a>
 </p>
 
-<h1 align="center">🌿 <i>Sudi</i> Keyboard V2</h1>
-
-<img style="align: center; width: 50vw;" src="./pcb-design/output/RedoxV2.png"> 
 
 Sudi V2 is custom wireless split keyboard based on NRF51822 Nordic Semiconductor Microcontroller series, each side consist 18 keys 36 in totals, use MCP23017 I2C I/O expansion to scan one side of keyboard, and use wire to trasfer data to NRF51.
 Sudi Have interactive RGB LED and OLED 0.91 inch for graphic display. Planned to create 3D print casing.
@@ -27,6 +30,8 @@ source code is copied and modified from mark story article: http://mark-story.co
 ## 💾 hardware 
 hardware is designed with kicad, you can find out hardware design in `pcb-design` folder. 
 - schematic: [sudi schematic](pcb-design/output/sudi-redox-keyboard-Schematic.pdf)
+
+  
 
 casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete yet but planned)  
 <details>
