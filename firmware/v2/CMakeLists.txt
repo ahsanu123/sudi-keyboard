@@ -27,6 +27,13 @@ else()
   message(FATAL_ERROR "Cant Find Linker File")
 endif()
 
+message("-- Configuring ld file: ${CMAKE_CURRENT_SOURCE_DIR}/src/gcc_nrf51.ld.in")
+
+configure_file(
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/gcc_nrf51.ld.in
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/gcc_nrf51.ld
+)
+
 set(
   SRCS
 
@@ -105,7 +112,7 @@ target_link_libraries(
 target_link_options(
   sudiMain
   PUBLIC
-  -T ${LINKER_FILE}
+  -T ${CMAKE_CURRENT_SOURCE_DIR}/src/gcc_nrf51.ld
 )
 
 target_compile_options(
@@ -254,3 +261,13 @@ target_include_directories(
   ${SDK_ROOT}/components/libraries/fifo
 )
 
+set(MAIN_TARGET sudiMain)
+set(PROJECT_NAME sudiMain)
+
+add_custom_command(
+        TARGET  ${MAIN_TARGET}
+        POST_BUILD
+        COMMAND ${CMAKE_SIZE} ${MAIN_TARGET}.elf
+        COMMAND ${CMAKE_OBJCOPY} -O ihex ${MAIN_TARGET}.elf ${PROJECT_NAME}.hex
+        COMMAND ${CMAKE_OBJCOPY} -O binary ${MAIN_TARGET}.elf ${PROJECT_NAME}.bin
+)
