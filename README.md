@@ -39,15 +39,7 @@ sudo openocd -f interface/jlink.cfg  -c "transport select swd; adapter speed 100
 next, you can use Jlink cli tool, you can download tool from Segger Jlink webpage. 
 run this command 
 ```shell
-$ sudo JLinkExe                                                                                      21:13:52 [11/144]
-[sudo] password for user:
-SEGGER J-Link Commander V7.92o (Compiled Nov  8 2023 15:46:41)
-DLL version V7.92o, compiled Nov  8 2023 15:46:18
-
-Connecting to J-Link via USB...FAILED: Cannot connect to J-Link.
-J-Link>%
-
-~/project/2024/hardware/sudi-keyboard/firmware/v2/build on  sudi-v2 ⌚ 21:13:25
+ 
 $ sudo JLinkExe
 SEGGER J-Link Commander V7.92o (Compiled Nov  8 2023 15:46:41)
 DLL version V7.92o, compiled Nov  8 2023 15:46:18
