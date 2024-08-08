@@ -4,6 +4,7 @@ project(Sudi VERSION 1)
 set(SDK_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/sdk/nRF5_SDK_12)
 set(PROJ_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(TARGET_DEVICE nrf51822_xxac)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
 include(./cmake/toolchain.cmake)
 message("-- Current Working Directory: ${CMAKE_CURRENT_SOURCE_DIR}")
