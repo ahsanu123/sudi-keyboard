@@ -49,10 +49,11 @@ openocd -f openocd.cfg -c "init" \
 ```
 
 ## 🐞 Debugging Step
-to debug you can use openocd + stlink, openocd + jlink, native jlink.
+to debug you can use openocd + stlink, openocd + jlink, ozone. make sure to change `gdbcmd.txt` based on your setting (gdb port, output filename, etc.)
 
 ```shell
-// gdbcmd.txt
+//🗒️🗒️🗒️🗒️ gdbcmd.txt 🗒️🗒️🗒️🗒️🗒️
+// you need to connect into server first before choosing `file` to debug, 
 target extended-remote :3333
 file ./build/nrf51822_xxaa.out
 break main
@@ -61,19 +62,28 @@ continue
 
 - openocd + stlink
   first start openocd gdb server with this command
-  ```shell
-  sudo openocd -f interface/jlink.cfg  -c "transport select swd; adapter speed 1000" -f target/nrf51.cfg
+  
+ ```shell
+   sudo openocd -f interface/stlink-v2.cfg -f target/nrf51.cfg &
   ```
+ 
   next you can use `arm-none-eabi-gdb` to debug your program, run this command on other terminal `arm-none-eabi-gdb -x gdbcmd.txt`
 
 - openocd + jlink
-- native jlink 
+ you can start jlink gdb server with this command `sudo JLinkGDBServerExe &` then choose device and peripheral (swd) , or you can start server with openocd
+
+ ```shell
+  sudo openocd -f interface/jlink.cfg  -c "transport select swd; adapter speed 1000" -f target/nrf51.cfg
+  ```
+
+  next you can use `arm-none-eabi-gdb` to debug your program, run this command on other terminal `arm-none-eabi-gdb -x gdbcmd.txt`
+  
+- ozone
+  last option you can use segger ozone. (not trying yet)
 
 ## 💾 hardware 
 hardware is designed with kicad, you can find out hardware design in `pcb-design` folder. 
 - schematic: [sudi schematic](pcb-design/output/sudi-redox-keyboard-Schematic.pdf)
-
-  
 
 casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete yet but planned)  
 <details>
@@ -86,6 +96,10 @@ casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete
 
 <img style="align: center; width: 50vw;" src="./casing-design/Export/keyboarddrawing_img_1.png">
 </details>
+
+## 🧱 TODO List 
+- try to understand why linker script flash ram address need to change from `0x8000` to `0x4000` [look this thread](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
+  
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
