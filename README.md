@@ -25,15 +25,20 @@ Sudi Have interactive RGB LED and OLED 0.91 inch for graphic display. Planned to
 
 ## 🖨️ Compile And Flash
 
-**Ok!!**, I need 2 days (on my weekend) for figuring out how compile in NRF51 mcu with NRF5 SDK (at time of writing NRF5 SDK was obsolete/under maintenance only by Nordic Semiconductor). 
+<details>
+  <summary>expand this if you curious</summary>
+  
+- **Ok!!**, I need 2 days (on my weekend) for figuring out how compile in NRF51 mcu with NRF5 SDK (at time of writing NRF5 SDK was obsolete/under maintenance only by Nordic Semiconductor). 
 
-**FIRST** as far as i understand NRF51 MCU series only work with NRF5 sdk below version 12 (never complete compiling with version above 12), so you need to download NRF5 SDK version 12 or below. 
+- **FIRST** as far as i understand NRF51 MCU series only work with NRF5 sdk below version 12 (never complete compiling with version above 12), so you need to download NRF5 SDK version 12 or below. 
 
-**SECOND** i have try to compile nrf project with cmake, but fail and make me stress, so i stick with makefile
+- **SECOND** i have try to compile nrf project with cmake, but fail and make me stress, so i stick with makefile
 
-**THIRD** debugging with `arm-eabi-none-gdb` a bit tricky you need perform several command before program go into breakpoint.
+- **THIRD** debugging with `arm-eabi-none-gdb` a bit tricky you need perform several command before program go into breakpoint.
 
-**FOURTH** you need to use old gcc compiler (gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2), there is some problem in linking process when you use new gcc version like v14
+- **FOURTH** you need to use old gcc compiler (gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2), there is some problem in linking process when you use new gcc version like v14
+</details>
+
 
 🍮 Step to Compile and flash
 1. because we use makefile just call `make` in root directory
