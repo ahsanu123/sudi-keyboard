@@ -3,7 +3,7 @@ project(Sudi VERSION 1)
 
 set(SDK_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/sdk/nRF5_SDK_12)
 set(PROJ_DIR ${CMAKE_CURRENT_SOURCE_DIR})
-set(TARGET_DEVICE nrf51822_xxac)
+set(TARGET_DEVICE nrf51822_xxaa)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
 include(./cmake/toolchain.cmake)
@@ -23,9 +23,9 @@ endif()
 
 if(EXISTS ${SDK_ROOT}/components/toolchain/gcc/gcc_nrf51_common.ld)
   set(LINKER_FILE ${SDK_ROOT}/components/toolchain/gcc/gcc_nrf51_common.ld)
-  message("-- Found Common Linker File.")
+  message("-- Found Common Linker File at ${SDK_ROOT}/components/toolchain/gcc/gcc_nrf51_common.ld")
 else()
-  message(FATAL_ERROR "Cant Find Linker File")
+  message(FATAL_ERROR "Cant Find Linker File at ${SDK_ROOT}/components/toolchain/gcc/gcc_nrf51_common.ld")
 endif()
 
 message("-- Configuring ld file: ${CMAKE_CURRENT_SOURCE_DIR}/src/gcc_nrf51.ld.in")
@@ -129,18 +129,11 @@ target_compile_options(
   -DNRF_SD_BLE_API_VERSION=2
   -mcpu=cortex-m0
   -mthumb -mabi=aapcs
-  -Wall -Werror -O3 -g3
+  -Wall -Werror -g #3 #-O0
   -mfloat-abi=soft
   -ffunction-sections -fdata-sections -fno-strict-aliasing
   -fno-builtin --short-enums
 
-  -DBOARD_CUSTOM
-  -DSOFTDEVICE_PRESENT
-  -DNRF51
-  -DS130
-  -DBLE_STACK_SUPPORT_REQD
-  -DSWI_DISABLE0
-  -DNRF51822
   -DNRF_SD_BLE_API_VERSION=2
   -D__HEAP_SIZE=1024 -D__STACK_SIZE=1024
 
@@ -268,7 +261,7 @@ set(PROJECT_NAME sudiMain)
 add_custom_command(
         TARGET  ${MAIN_TARGET}
         POST_BUILD
-        COMMAND ${CMAKE_SIZE} ${MAIN_TARGET}.elf
-        COMMAND ${CMAKE_OBJCOPY} -O ihex ${MAIN_TARGET}.elf ${PROJECT_NAME}.hex
-        COMMAND ${CMAKE_OBJCOPY} -O binary ${MAIN_TARGET}.elf ${PROJECT_NAME}.bin
+        COMMAND ${CMAKE_SIZE} ${MAIN_TARGET}.out
+        COMMAND ${CMAKE_OBJCOPY} -O ihex ${MAIN_TARGET}.out ${PROJECT_NAME}.hex
+        COMMAND ${CMAKE_OBJCOPY} -O binary ${MAIN_TARGET}.out ${PROJECT_NAME}.bin
 )

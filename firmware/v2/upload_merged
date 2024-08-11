@@ -1,0 +1,5 @@
+#!/bin/bash
+openocd -f openocd.cfg -c "init" \
+  -c "halt" \
+  -c "nrf51 mass_erase" \
+  -c "program ./build/sudiMain.elf verify reset exit"
