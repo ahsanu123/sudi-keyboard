@@ -67,9 +67,11 @@ LED 1 is blinking (period 200 msec, duty cycle: 50%) BSP_INDICATE_CONNECTED LED
 1 is on
 */
 
-#define LEDS_NUMBER 4
+/*#define NRF_LOG_ENABLED 1*/
+/*#define NRF_LOG_BACKEND_SERIAL_USES_RTT 1*/
 
-#define LED_PIN 1
+#define LEDS_NUMBER 8
+#define LED_PIN 5
 #define LED_START LED_PIN
 #define LED_1 LED_PIN
 #define LED_STOP LED_PIN
@@ -77,7 +79,7 @@ LED 1 is blinking (period 200 msec, duty cycle: 50%) BSP_INDICATE_CONNECTED LED
 #define LEDS_ACTIVE_STATE 0
 
 #define LEDS_LIST                                                              \
-  {}
+  { 1, 2, 3, 4, 5, 6, 7, 8 }
 
 #define LEDS_INV_MASK LEDS_MASK // set to 0 to invert LEDs behavior
 
