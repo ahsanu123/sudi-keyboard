@@ -17,7 +17,7 @@ int main(void) {
     for (int i = 0; i < LEDS_NUMBER; i++) {
       nrf_gpio_pin_toggle(5);
       // bsp_board_led_invert(i);
-      nrf_delay_ms(800);
+      nrf_delay_ms(i * 500);
     }
   }
 }

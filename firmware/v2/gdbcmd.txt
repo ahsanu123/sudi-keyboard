@@ -1,7 +1,4 @@
-target extended-remote localhost:2331
-mon speed 10000
-mon flash download=1
-load
-break main
-mon reset 0
+target extended-remote :3333
+file ./build/nrf51822_xxaa.out
+break main.c:18
 continue
