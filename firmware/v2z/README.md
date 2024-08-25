@@ -15,6 +15,15 @@ zephyr use `workspace` as top folder, first [read getting started here](https://
 west build -b custom_plank app
 
 ```
+```shell
+$ tree -L 1
+.
+├── env.yml
+├── modules
+├── README.md
+├── sudi-v2
+└── zephyr
+```
 
 # 🧱 SDK Setup 
 
