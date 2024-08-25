@@ -40,4 +40,8 @@ micromamba create -f env.yml
 ```
 
 
+# Reference 
+
+- [KConfig (Kernel Config) article](https://www.linuxjournal.com/article/6568)
+
 <sup>💕 08/24/2024 - made with love by ah </sup>
