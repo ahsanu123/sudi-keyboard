@@ -1,6 +1,8 @@
-# Introduction
+# 🗞️ Introduction
 
-# Basic of Zephyr 
+Firmware version 2 with Zephyr RTOS, Will add ZMK soon
+
+# 🧃 Basic of Zephyr 
 
 explanation for myself to understand zephyr project structure. 
 zephyr use `workspace` as top folder, first [read getting started here](https://docs.zephyrproject.org/latest/develop/getting_started/index.html),
@@ -14,13 +16,13 @@ west build -b custom_plank app
 
 ```
 
-# SDK Setup 
+# 🧱 SDK Setup 
 
 project was created use `west` zephyr RTOS _meta_ tools, 
 you need activate environment with `micromamba activate sudiv2`
 then you can use `west`
 
-# Environment Setup 
+# ☁️ Environment Setup 
 
 project was made with `micromamba`, you need to install micromamba, 
 then install requirement inside `env.yml` with 
@@ -29,4 +31,4 @@ micromamba create -f env.yml
 ```
 
 
-08/24/2024 - made with love by ah 
+<sup>💕 08/24/2024 - made with love by ah </sup>
