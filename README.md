@@ -108,7 +108,8 @@ casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete
 - try to logging with segger jlink rtt
 - try to logging with serial logger
 - add usb to serial (ch340g) if serial logger worked
-- add on off switch for board 
+- add on off switch for board
+- 🦀 Change design to use NRF52832 
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
