@@ -1,0 +1,5 @@
+board:
+  name: sudi
+  vendor: sudi
+  socs:
+  - name: nrf51822
