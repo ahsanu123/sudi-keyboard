@@ -1,5 +1,5 @@
 [manifest]
-path = example-application
+path = sudi-v2
 file = west.yml
 
 [zephyr]
