@@ -20,27 +20,25 @@
 </p>
 
 
-Sudi V2 is custom wireless split keyboard based on NRF51822 Nordic Semiconductor Microcontroller series, each side consist 18 keys 36 in totals, use MCP23017 I2C I/O expansion to scan one side of keyboard, and use wire to trasfer data to NRF51.
-Sudi Have interactive RGB LED and OLED 0.91 inch for graphic display. Planned to create 3D print enclosure.
+Sudi V2 is custom wireless split keyboard based on NRF52832 Nordic Semiconductor Microcontroller series, each side consist 18 keys 36 in totals, use MCP23017 I2C I/O expansion to scan one side of keyboard, and use wire to trasfer data to NRF52. Built in SWD debug port, with Serial Logger based on CH340G. Sudi Have interactive RGB LED and OLED 0.91 inch for graphic display. Planned to create 3D print enclosure.
 
 ## 🖨️ Compile And Flash
 
-<details>
-  <summary>expand this if you curious</summary>
-  
-- **Ok!!**, I need 2 days (on my weekend) for figuring out how compile in NRF51 mcu with NRF5 SDK (at time of writing NRF5 SDK was obsolete/under maintenance only by Nordic Semiconductor). 
+🍮 Step to Compile and flash (Zephyr)
 
-- **FIRST** as far as i understand NRF51 MCU series only work with NRF5 sdk below version 12 (never complete compiling with version above 12), so you need to download NRF5 SDK version 12 or below. 
+first activate your python environtment (i use micromamba, sudiv2 is environtment on my linux pc) 
+```shell
+micromamba activate sudiv2
+```
+next build with `west` 
+```shell
+west build -b sudi app
+```
 
-- **SECOND** i have try to compile nrf project with cmake, but fail and make me stress, so i stick with makefile
+---
 
-- **THIRD** debugging with `arm-eabi-none-gdb` a bit tricky you need perform several command before program go into breakpoint.
+🍮 Step to Compile and flash (Makefile and Native toolchain)
 
-- **FOURTH** you need to use old gcc compiler (gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2), there is some problem in linking process when you use new gcc version like v14
-</details>
-
-
-🍮 Step to Compile and flash
 1. because we use makefile just call `make` in root directory
 2. after complete you can use jlink or stlink to program your binary, nrf can programmed with swd
 3. to use jlink you can use this command `sudo JLinkExe -Device NRF51822_XXAA -IF swd -AutoConnect 1 -Speed 1000` then you can load binary file with `loadfile ./path/to/file.out` (we use .out instead .elf)
@@ -54,7 +52,37 @@ openocd -f openocd.cfg -c "init" \
 ```
 
 ## 🐞 Debugging Step
-to debug you can use openocd + stlink, openocd + jlink, ozone. make sure to change `gdbcmd.txt` based on your setting (gdb port, output filename, etc.)
+
+there is many way to debug NRF microcontroller, i will use JLink V8. first connect Jlink SWD to NRF MCU. 
+
+after compile, upload your binary with jlink 
+```shell
+ sudo JLinkExe -Device NRF51822_XXAA -IF swd -AutoConnect 1 -Speed 1000 // change device based on your device
+```
+next inside `JLinkExe` run load binary file with `loadfile ./path/to/your/file.elf` (you can automate this with text script, but i just want write it to remember).
+
+then start `openocd` debug server with
+
+```shell
+sudo openocd -f interface/jlink.cfg  -c "transport select swd; adapter speed 1000" -f target/nrf51.cfg &
+```
+
+finally you can start your debugger in this case we use `arm-none-eabi-gdb` then connect to target with this step (withtout `>`)
+
+```shell
+> file ./path/to/your/file.elf
+> break main.c:22 //optional
+> target extended-remote :3333 // default port for openocd debug server
+> // devices connected
+```
+
+if debugger will _stuck_ on `fail.c` after _arch interrupt lock_ there maybe some bad/wrong setting(recheck your config).
+
+
+<details>
+  <summary>🍷 Old Debug Step (here for history purpose only)</summary>
+  
+  to debug you can use openocd + stlink, openocd + jlink, ozone. make sure to change `gdbcmd.txt` based on your setting (gdb port, output filename, etc.)
 
 ```shell
 //🗒️🗒️🗒️🗒️ gdbcmd.txt 🗒️🗒️🗒️🗒️🗒️
@@ -85,6 +113,22 @@ continue
   
 - ozone
   last option you can use segger ozone. (not trying yet)
+</details>
+
+<details>
+  <summary>expand this if you curious (historic purpose only)</summary>
+  
+- **Ok!!**, I need 2 days (on my weekend) for figuring out how compile in NRF51 mcu with NRF5 SDK (at time of writing NRF5 SDK was obsolete/under maintenance only by Nordic Semiconductor). 
+
+- **FIRST** as far as i understand NRF51 MCU series only work with NRF5 sdk below version 12 (never complete compiling with version above 12), so you need to download NRF5 SDK version 12 or below. 
+
+- **SECOND** i have try to compile nrf project with cmake, but fail and make me stress, so i stick with makefile
+
+- **THIRD** debugging with `arm-eabi-none-gdb` a bit tricky you need perform several command before program go into breakpoint.
+
+- **FOURTH** you need to use old gcc compiler (gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2), there is some problem in linking process when you use new gcc version like v14
+</details>
+
 
 ## 💾 hardware 
 hardware is designed with kicad, you can find out hardware design in `pcb-design` folder. 
@@ -102,19 +146,56 @@ casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete
 <img style="align: center; width: 50vw;" src="./casing-design/Export/keyboarddrawing_img_1.png">
 </details>
 
+## 🪜 Install Module In Zephyr
+zephyr use _manifest_(west.yml) to setting what module used. to automatic install module, add module name after `name-allowlist`, here is example.
+
+```yaml
+manifest:
+  self:
+    west-commands: scripts/west-commands.yml
+
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: main
+      import: 
+        name-allowlist:
+          - cmsis      # required by the ARM port
+          - hal_nordic # required by the custom_plank board (Nordic based)
+          - hal_stm32  # required by the nucleo_f302r8 board (STM32 based)
+          - segger # add another component based on module repository
+
+```
+
+after edit `west.yml` run `west update`, `west` will update the module based on manifest.
+
+`west` will search to this [repo](https://github.com/zephyrproject-rtos/zephyr/tree/main/modules), then download and install it based on your zephyr root.
+
+after you installed (download) zephyr module you can enable with `menuconfig`, you can run menuconfig with 
+```shell
+west build -t menuconfig
+```
+
 ## 🧱 TODO List 
-- try to understand why linker script flash ram address need to change from `0x8000` to `0x4000` [look this thread](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
-- update hardware readme.md section
-- try to logging with segger jlink rtt
+- ~~try to understand why linker script flash ram address need to change from `0x8000` to `0x4000` [look this thread](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)~~, use Zephyr instead.
+- update hardware readme.md section, add schematic svg
+- ~~try to logging with segger jlink rtt~~ at 9 september 2024 22:09
 - try to logging with serial logger
-- add usb to serial (ch340g) if serial logger worked
+- add usb to serial (ch340g) if serial logger worked /or considering to use segger rtt (worked and tested on NRF51822)
 - add on off switch for board
-- 🦀 Change design to use NRF52832 
+- ~~🦀 Change design to use NRF52832~~
+- 🔥 Learn more about Zephyr
+- change JTAG debugger to component with less space and same pinout based on JLink v8 pinout.
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
 - [NRF51 Series Documentation](https://www.nordicsemi.com/Products/nRF51822/GetStarted)
 - [Redox-Keyboard](https://github.com/mattdibi/redox-keyboard) i use redox schematic for initial design  
 - [MCP23017 datasheet](reference/MCP23017-20001952c.pdf) and add my *initial redox sch* with MCP23017
+- [Zephyr Devices Tree](https://docs.zephyrproject.org/latest/build/dts/)
 
 <sup>🔥 make it V2 - 19 juni 2024 10:49</sup>
