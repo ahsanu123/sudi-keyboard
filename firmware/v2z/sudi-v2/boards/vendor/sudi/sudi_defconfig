@@ -6,6 +6,8 @@ CONFIG_GPIO=y
 # enable uart driver
 # CONFIG_SERIAL=y
 
-# enable console
-# CONFIG_CONSOLE=y
-# CONFIG_UART_CONSOLE=y
+# CONFIG_SHELL_BACKENDS=y
+# CONFIG_SHELL=y
+
+# HAS_SEGGER_RTT=y
+# USE_SEGGER_RTT=y
