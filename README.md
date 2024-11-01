@@ -1,7 +1,7 @@
 
 <h1 align="center">🌿 <i>SUDI</i> Keyboard V2</h1>
 <p style="align: right;">
-<img style="align: center; " src="./pcb-design/output/RedoxV2.png"> 
+<img style="align: center; " src="https://github.com/ahsanu123/sudi-keyboard/blob/sudi-v2/pcb-design/output/Regirock_GIF.gif"> 
 </p>
 
 <p >
