@@ -5158,6 +5158,193 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "USB_C_Receptacle_PowerOnly_6P_1"
 			(pin_names
 				(offset 1.016)
@@ -6775,6 +6962,12 @@
 		(uuid "8470a661-6504-44b5-a6d8-a781f598fc45")
 	)
 	(junction
+		(at 177.8 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee174ad-519b-4c9d-99ee-2136a8362610")
+	)
+	(junction
 		(at 330.2 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6987,6 +7180,10 @@
 	(no_connect
 		(at 262.89 219.71)
 		(uuid "01e44aff-c61c-4164-abee-19e032869997")
+	)
+	(no_connect
+		(at 167.64 44.45)
+		(uuid "0cfdb14c-935c-4943-a196-b974d226f47a")
 	)
 	(no_connect
 		(at 88.9 85.09)
@@ -7978,6 +8175,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 60.96) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a3830c-2b2b-4ece-9b05-d10c0518149e")
+	)
+	(wire
+		(pts
 			(xy 247.65 101.6) (xy 250.19 101.6)
 		)
 		(stroke
@@ -8188,7 +8395,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 52.07) (xy 172.72 60.96)
+			(xy 180.34 52.07) (xy 180.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8275,6 +8482,16 @@
 			(type default)
 		)
 		(uuid "44580e39-b5d6-40cc-9b48-607facc79100")
+	)
+	(wire
+		(pts
+			(xy 167.64 39.37) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d0e797-b86e-442c-b900-ebacad66b0bc")
 	)
 	(wire
 		(pts
@@ -8388,6 +8605,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 49.53) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddd3f14-4e69-4653-8193-c017bd13d63b")
+	)
+	(wire
+		(pts
 			(xy 228.6 161.29) (xy 231.14 161.29)
 		)
 		(stroke
@@ -8428,7 +8655,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 49.53) (xy 172.72 49.53)
+			(xy 165.1 49.53) (xy 177.8 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9065,6 +9292,16 @@
 			(type default)
 		)
 		(uuid "6fcc9028-51aa-406e-8ce7-bb83347cb9f6")
+	)
+	(wire
+		(pts
+			(xy 162.56 39.37) (xy 162.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd8e42b-4907-4ea9-b6b5-d5a76bba23aa")
 	)
 	(wire
 		(pts
@@ -10875,6 +11112,16 @@
 			(type default)
 		)
 		(uuid "e2bea831-ee67-4a33-813d-3f8c9b813371")
+	)
+	(wire
+		(pts
+			(xy 177.8 41.91) (xy 177.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c3af58-49bb-4f46-b59d-d496f3fb93f1")
 	)
 	(wire
 		(pts
@@ -14643,6 +14890,72 @@
 			(project "sudi-redox-clone"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30896fff-13d2-4064-9414-b0ea34afb102")
+		(property "Reference" "#PWR035"
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c57297db-54c9-4f0c-a06f-71672615409f")
+		)
+		(instances
+			(project "sudi-redox-clone"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -20002,7 +20315,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 177.8 49.53 0)
+		(at 185.42 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20010,7 +20323,7 @@
 		(dnp no)
 		(uuid "a7fa0af8-0c94-44b5-86fd-cb34fba7a9e3")
 		(property "Reference" "J8"
-			(at 176.276 45.974 0)
+			(at 183.896 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20019,7 +20332,7 @@
 			)
 		)
 		(property "Value" "BatCon"
-			(at 173.736 54.61 0)
+			(at 181.356 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20028,7 +20341,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 177.8 49.53 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20037,7 +20350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 49.53 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20046,7 +20359,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 49.53 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21878,6 +22191,77 @@
 			(project "sudi-redox-clone"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
 					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_SPDT")
+		(at 172.72 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0be4319-99ed-4351-bb02-ca04f8e86338")
+		(property "Reference" "SW4"
+			(at 172.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_SWITCH"
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+			(at 172.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 172.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e85b6a4e-8127-4c17-b5e0-3999a5959472")
+		)
+		(pin "2"
+			(uuid "4f6d7319-0a87-4240-8f9d-c354cdebceab")
+		)
+		(pin "1"
+			(uuid "59e8a0c7-9d76-4d9e-a41b-691d73433e38")
+		)
+		(instances
+			(project "sudi-redox-clone"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
