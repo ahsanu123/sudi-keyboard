@@ -185,11 +185,11 @@ west build -t menuconfig
 - update hardware readme.md section, add schematic svg
 - ~~try to logging with segger jlink rtt~~ at 9 september 2024 22:09
 - try to logging with serial logger
-- add usb to serial (ch340g) if serial logger worked /or considering to use segger rtt (worked and tested on NRF51822)
+- ~~add usb to serial (ch340g) if serial logger worked /or considering to use segger rtt (worked and tested on NRF51822)~~
 - add on off switch for board
 - ~~🦀 Change design to use NRF52832~~
 - 🔥 Learn more about Zephyr
-- change JTAG debugger to component with less space and same pinout based on JLink v8 pinout.
+- ~~change JTAG debugger to component with less space and same pinout based on JLink v8 pinout.~~
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
