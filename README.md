@@ -181,6 +181,8 @@ west build -t menuconfig
 ```
 
 ## 🧱 TODO List 
+![image](https://github.com/user-attachments/assets/e70899e3-468a-459b-8907-813f3469434b)
+
 - ~~try to understand why linker script flash ram address need to change from `0x8000` to `0x4000` [look this thread](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)~~, use Zephyr instead.
 - update hardware readme.md section, add schematic svg
 - ~~try to logging with segger jlink rtt~~ at 9 september 2024 22:09
