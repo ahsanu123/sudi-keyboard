@@ -191,6 +191,7 @@ west build -t menuconfig
 - 🔥 Learn more about Zephyr
 - ~~change JTAG debugger to component with less space and same pinout based on JLink v8 pinout.~~
 - 🔋 battery/and its charger need adjustment, because NRF5232 power supply range is 1.7 V to 3.6 V , and TP4056 will shutdown on 4.2V. if you add AMS1117 3.3v to regulate it, AMS1117 need at least 4.5V to maintain its 3.3V.
+- 🔶check 4 pin crystal compatibility
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
