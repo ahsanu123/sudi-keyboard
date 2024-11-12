@@ -131,8 +131,8 @@ continue
 
 
 ## 💾 hardware 
-hardware is designed with kicad, you can find out hardware design in `pcb-design` folder. 
-- schematic: [sudi schematic](pcb-design/output/sudi-redox-keyboard-Schematic.pdf)
+hardware is designed with Kicad, you can find out hardware design in `pcb-design` folder. 
+![sudi schematic](pcb-design/output/sudi-redox-clone.svg)
 
 casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete yet but planned)  
 <details>
@@ -184,16 +184,19 @@ west build -t menuconfig
 ![image](https://github.com/user-attachments/assets/e70899e3-468a-459b-8907-813f3469434b)
 
 - ~~try to understand why linker script flash ram address need to change from `0x8000` to `0x4000` [look this thread](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)~~, use Zephyr instead.
-- update hardware readme.md section, add schematic svg
+- ~~update hardware readme.md section, add schematic svg~~
 - ~~try to logging with segger jlink rtt~~ at 9 september 2024 22:09
 - try to logging with serial logger
 - ~~add usb to serial (ch340g) if serial logger worked /or considering to use segger rtt (worked and tested on NRF51822)~~
-- add on off switch for board
+- ~~add on off switch for board~~
 - ~~🦀 Change design to use NRF52832~~
 - 🔥 Learn more about Zephyr
 - ~~change JTAG debugger to component with less space and same pinout based on JLink v8 pinout.~~
 - 🔋 battery/and its charger need adjustment, because NRF5232 power supply range is 1.7 V to 3.6 V , and TP4056 will shutdown on 4.2V. if you add AMS1117 3.3v to regulate it, AMS1117 need at least 4.5V to maintain its 3.3V.
 - 🔋 if we use 1.8V for NRF Voltage supply, how its affect other used component
+  - 🪔 WS2812 VIO level was not satisfied, based on its datasheet, min supply is 3.5, VIH 0.7*VDD (2.45), VIL 0.3 *VDD (1.05)
+  - ⚗️ based on MCP23017 datashet its power voltage range is 1.8V to 5.5v, VIH 0.25 VDD + 0.8, VIL 0.8 VDD, so its possible to use MCP23017 with 1.8V NRF voltage supply,
+  - 🐤 CH340G
 - 🔶check 4 pin crystal compatibility
 
 ## 💳 Reference 
