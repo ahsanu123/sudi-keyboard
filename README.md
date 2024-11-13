@@ -194,6 +194,7 @@ west build -t menuconfig
 - ~~change JTAG debugger to component with less space and same pinout based on JLink v8 pinout.~~
 - 🔋 battery/and its charger need adjustment, because NRF5232 power supply range is 1.7 V to 3.6 V , and TP4056 will shutdown on 4.2V. if you add AMS1117 3.3v to regulate it, AMS1117 need at least 4.5V to maintain its 3.3V.
 - 🔋 read about BQ24075 bms datasheet
+- 🔋 Read about  MAX17048  datasheet
 - 🔋 if we use 1.8V for NRF Voltage supply, how its affect other used component
   - 🪔 WS2812 VIO level was not satisfied, based on its datasheet, min supply is 3.5, VIH 0.7*VDD (2.45), VIL 0.3 *VDD (1.05)
   - ⚗️ based on MCP23017 datashet its power voltage range is 1.8V to 5.5v, VIH 0.25 VDD + 0.8, VIL 0.8 VDD, so its possible to use MCP23017 with 1.8V NRF voltage supply,
