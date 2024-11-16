@@ -7,7 +7,7 @@
 	(title_block
 		(title "SUDI - Receiver Schematic")
 		(date "2024-07-07")
-		(rev "1")
+		(rev "2")
 		(company "AHAH_TERROR")
 		(comment 1 "Made With Love By AH")
 	)
@@ -9113,11 +9113,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "df31c949-3596-469c-af68-325408b10809")
+			(uuid "15afaaea-b9bb-426d-8c69-c2e24f8cfebe")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -9179,11 +9179,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "337dd2f2-b91b-431b-93a2-49729da5fd33")
+			(uuid "1c3b8910-f58b-4e82-947b-4f3fd5fe8901")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -9245,14 +9245,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce00b2ca-a08f-42aa-b8a0-b76b07e194cf")
+			(uuid "c3e831c9-cbb0-459f-9a48-a07d3ada99b0")
 		)
 		(pin "2"
-			(uuid "65e49a55-2fb4-4520-8300-3c8257bf9444")
+			(uuid "c25a8934-a967-47f0-87ee-39dc602e6edc")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C28")
 					(unit 1)
 				)
@@ -9315,11 +9315,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddec1e67-5ac6-4339-a7e1-530d57b780ed")
+			(uuid "f4268cfa-5804-4899-ab33-9975f3e3fa73")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -9381,14 +9381,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c756f232-960e-4de5-8ee9-5d2695f0b932")
+			(uuid "f216153e-c533-414e-9a74-22861efb2942")
 		)
 		(pin "2"
-			(uuid "8e2eb7a9-b1c6-4ba3-b251-be0dc9530da6")
+			(uuid "f2565321-06a2-4598-b58d-feb88e2d48c0")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "L4")
 					(unit 1)
 				)
@@ -9450,14 +9450,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae828fe0-2c91-48e2-b363-b452b365f54d")
+			(uuid "5e266247-5d43-4a14-80ee-0b32fd9da93c")
 		)
 		(pin "2"
-			(uuid "eaf9abc5-e54e-417f-b8f4-693f9c661283")
+			(uuid "6acf6cde-e60a-42be-9384-bd3b7c0db895")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C31")
 					(unit 1)
 				)
@@ -9520,14 +9520,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7b05a88-8f0c-4052-933e-3e284d559323")
+			(uuid "459d9ae6-9dae-444d-a45c-e9ffe12b1b77")
 		)
 		(pin "2"
-			(uuid "4936bfc1-c2e6-46e1-9328-609fe70b5ec9")
+			(uuid "9023fdc6-833e-452c-8502-9799b9a831cb")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C24")
 					(unit 1)
 				)
@@ -9590,11 +9590,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a7e876d-edca-4a15-b666-c34684181dac")
+			(uuid "dc4cc9d7-e4e6-410e-a9f1-816456c0e71f")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -9658,11 +9658,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "02598028-9079-4637-92c4-83e08aa3313b")
+			(uuid "96e40334-9104-4b0d-a946-1b1219122f32")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -9725,14 +9725,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a420e535-6dab-496e-9f61-e32458fb753c")
+			(uuid "755ac22f-51b9-4367-92a9-aa4e059c720f")
 		)
 		(pin "2"
-			(uuid "3a8aafc4-8d56-41de-a367-8a0a64d4ca53")
+			(uuid "43f4aff2-eb21-47f7-aca4-b72c24e58009")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C6")
 					(unit 1)
 				)
@@ -9795,155 +9795,155 @@
 			)
 		)
 		(pin "20"
-			(uuid "15b9c2ed-f321-41a4-8eff-fc8478b5c038")
+			(uuid "c33fd06a-e204-405b-82d6-4dca3e1c6c8c")
 		)
 		(pin "14"
-			(uuid "1b3c4869-97ab-4d43-8de1-742ae0df54ea")
+			(uuid "4f6ccceb-dcd7-4419-92db-0d0517c4595d")
 		)
 		(pin "17"
-			(uuid "100f1402-bdca-4772-902b-932806f257ef")
+			(uuid "7ae3d9bd-4753-4258-a930-73dfb244cba9")
 		)
 		(pin "28"
-			(uuid "2c61f26a-81f0-4fa7-9aeb-1514ef90024b")
+			(uuid "64814b17-0a14-4b02-9183-02f4efa53543")
 		)
 		(pin "3"
-			(uuid "daa19a9e-6592-45de-b3dc-30fb6fddf616")
+			(uuid "087a7a7e-a0bb-467e-b441-991f562343ee")
 		)
 		(pin "2"
-			(uuid "9e9d5761-1d10-4cc8-a2cd-23d3636c802e")
+			(uuid "91ff409f-dc03-405b-aca9-0fa0aca1484a")
 		)
 		(pin "23"
-			(uuid "50070e66-a665-40ab-971b-cc3a65f39130")
+			(uuid "ae6cb8df-26c6-40c6-91d0-47373cad4e54")
 		)
 		(pin "32"
-			(uuid "29463949-35b1-4da9-8c53-06da9a33b0aa")
+			(uuid "add056be-413c-475e-a3dc-e597976116ad")
 		)
 		(pin "35"
-			(uuid "2fd0ac71-b970-401d-9c6c-dfb2acc149d2")
+			(uuid "cc231f65-301e-4ea3-9911-a953cf7d5869")
 		)
 		(pin "11"
-			(uuid "6cc3e55d-4dfd-4287-bc79-85279d401bf7")
+			(uuid "746cba1f-c479-42d8-a88c-046890f0b9c8")
 		)
 		(pin "37"
-			(uuid "4b779fae-a58b-46ac-a7c8-f89146f6ae49")
+			(uuid "2f12af21-edf7-4225-bd5b-a420ef6830cc")
 		)
 		(pin "41"
-			(uuid "05bd5938-8f1e-42c7-a728-3e0c9451d298")
+			(uuid "39f081bd-a576-475c-a3f1-85234b707194")
 		)
 		(pin "10"
-			(uuid "ca6359c3-f694-4ef8-8bcb-352685b90235")
+			(uuid "7e2a904d-dec7-47b0-beb8-ed88d24418af")
 		)
 		(pin "15"
-			(uuid "a4139f6d-6676-4c38-8af7-37942826c898")
+			(uuid "fec54972-c8b3-4fdd-95d2-a358c04090dd")
 		)
 		(pin "42"
-			(uuid "65f89617-f77f-4b95-a6e8-42073977a7a1")
+			(uuid "b02f369d-3995-4997-a924-e647ce261eaa")
 		)
 		(pin "4"
-			(uuid "84fd01c3-1c96-44f3-879e-cc2c487e81ce")
+			(uuid "cfcfe314-8ff3-45fd-956f-46cd612ac56b")
 		)
 		(pin "44"
-			(uuid "e154dc35-e75a-4076-a3d3-91cc3f02dc94")
+			(uuid "81a60940-af2e-46f4-bca9-ff871620d1b9")
 		)
 		(pin "13"
-			(uuid "c4aafede-0da7-42ae-a0f2-3b6530388d71")
+			(uuid "121300b1-c4f8-4e82-a746-c51db616b29d")
 		)
 		(pin "30"
-			(uuid "5db49f54-48da-40b7-901a-af8280c43ad3")
+			(uuid "48262b75-69cf-4048-acad-852bb2d92c31")
 		)
 		(pin "21"
-			(uuid "c6265a8e-ed4d-4dd9-a5a6-083f09095db5")
+			(uuid "a988a579-6dab-4171-8fe6-be058607e72d")
 		)
 		(pin "31"
-			(uuid "baaa1665-01fe-41a8-b968-d39ad2b38cdf")
+			(uuid "af718e3a-ca80-4f74-a5de-b542ca44186c")
 		)
 		(pin "16"
-			(uuid "39c49a79-19ef-450a-bec6-41ae21c923f2")
+			(uuid "4e80ea3b-7bfd-4c3b-b345-98fe48bd11dd")
 		)
 		(pin "43"
-			(uuid "e3b45df5-3b4b-46b1-918e-e25277300939")
+			(uuid "ec5c9ae4-90a7-49db-8004-96334264cc6d")
 		)
 		(pin "46"
-			(uuid "e7cb9d1a-a15a-4bee-ab69-9881ee581696")
+			(uuid "e4e0769a-35d0-4adf-ab0f-49d449d811f0")
 		)
 		(pin "19"
-			(uuid "0d159bb3-f076-4ed1-ac89-2d15d9303ce9")
+			(uuid "9c561385-6dce-4cc7-8bd7-28b2eafbe027")
 		)
 		(pin "49"
-			(uuid "1dfac1e1-d03a-4de5-beba-2714fac478d2")
+			(uuid "66473a69-5ee3-41c3-afa5-1f1db5ead72c")
 		)
 		(pin "7"
-			(uuid "974fded8-7b2f-4862-9a0a-d3f7fa6e368e")
+			(uuid "f1a27b9a-3299-487b-b15f-93b5dd4d56be")
 		)
 		(pin "40"
-			(uuid "13b5b893-f607-47fc-b0a4-d4bbec4c788c")
+			(uuid "f7738d18-974f-4a3b-871e-cc3dc2420ff9")
 		)
 		(pin "38"
-			(uuid "496c81f2-b3dd-475b-b8f9-e33955fb12a4")
+			(uuid "2a80b5ae-286c-40d5-86c9-2a4f92ee1f2f")
 		)
 		(pin "39"
-			(uuid "ba4ebdf6-5f98-4c39-805c-5e6acfd7ed84")
+			(uuid "2eae1604-2776-4597-bf74-868794ddb4a4")
 		)
 		(pin "24"
-			(uuid "b798ac72-8610-4890-8f1d-309730b90585")
+			(uuid "67867567-392a-4f40-b41e-2bf654a9e775")
 		)
 		(pin "26"
-			(uuid "b7ae90d6-991a-4732-9053-4ba451f17429")
+			(uuid "b6757a1c-7d4c-422e-ac36-7f057a739d99")
 		)
 		(pin "48"
-			(uuid "d0202437-eb46-4949-b355-df29e03f58de")
+			(uuid "5b6b54a1-2888-41ee-8df1-79d322f99420")
 		)
 		(pin "33"
-			(uuid "74e4ee7b-e4f8-467b-a19f-76ff8290aee7")
+			(uuid "02c6ffeb-b591-4a32-a88a-794a62ff2e17")
 		)
 		(pin "36"
-			(uuid "4b2b7861-e3aa-4ef6-af2e-edd398c07f1b")
+			(uuid "2145fb0b-02b9-4ff9-9e14-373235ec6de2")
 		)
 		(pin "47"
-			(uuid "42f21e32-6052-4b89-b63f-63f004f98a1e")
+			(uuid "4bc113ac-a080-4977-974e-f047516c257e")
 		)
 		(pin "34"
-			(uuid "0a5cd08e-4bd7-4e6f-8bcd-cce2882bfbcc")
+			(uuid "0a5930ca-3958-4dd3-9f64-c5a0dd8f9f30")
 		)
 		(pin "18"
-			(uuid "d7a2fe81-88d1-40a9-95f7-c0ae015378e0")
+			(uuid "dd117cc9-ed07-4002-b37f-8cfe03416156")
 		)
 		(pin "6"
-			(uuid "8c9bb35d-cc98-4672-80f9-f81795af1672")
+			(uuid "38f991e5-1c7f-4db5-83b8-0cca9cefa5d5")
 		)
 		(pin "9"
-			(uuid "3ecaadf5-a940-4009-8d7e-a8522722f030")
+			(uuid "75fbad85-bdb1-43d4-9489-352c47356b87")
 		)
 		(pin "12"
-			(uuid "92bd4fee-c401-496a-8679-29df40835294")
+			(uuid "e45da963-abb6-420d-8f2f-e3d95270bd20")
 		)
 		(pin "1"
-			(uuid "ca087dca-eea1-43b7-bd34-c2b48afb8ad2")
+			(uuid "c236d184-d301-462c-8172-d97cde568a8c")
 		)
 		(pin "29"
-			(uuid "3c5ffba3-8fab-4bcc-bd49-ba4a3489d396")
+			(uuid "9badc571-e0de-4331-9759-5f0fea09c921")
 		)
 		(pin "5"
-			(uuid "a2c1e926-0176-41f0-8786-e37e363f7bd2")
+			(uuid "48ed3679-2c81-4b1a-96b3-d5e3197df23f")
 		)
 		(pin "27"
-			(uuid "a4eceac8-7aa1-4f6e-9e30-a460fa845d2d")
+			(uuid "c4d5eeb8-6390-4324-bb09-0d670d54101e")
 		)
 		(pin "25"
-			(uuid "de872042-e084-41d8-ae47-975ea5aa9fc6")
+			(uuid "12cde2ea-0104-4672-8703-bf87b6bcff9a")
 		)
 		(pin "8"
-			(uuid "63fbbe0a-d9d4-4c62-8f3b-4f31856d7c25")
+			(uuid "f90c4cf9-923e-4bb7-b512-edcfb8739ff8")
 		)
 		(pin "22"
-			(uuid "07d8d201-d328-4a77-9cbf-8f76594caf14")
+			(uuid "a26e525a-0d74-42ce-b935-b93b10d29b1a")
 		)
 		(pin "45"
-			(uuid "11d91865-4f5d-40b8-a960-22f3e49c86b5")
+			(uuid "4ce4d770-0771-4516-b681-4c997f8e5d1d")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "U3")
 					(unit 1)
 				)
@@ -10006,14 +10006,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "58104538-6b87-4329-b09b-37c57474eef0")
+			(uuid "2e95e28b-13d1-4b2b-b40c-fd731be20e59")
 		)
 		(pin "2"
-			(uuid "ac5dc3a4-8fcc-4126-ba6b-f33a6f52bbd6")
+			(uuid "39317f6a-33cc-4ff8-a99a-00675fafbd58")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C29")
 					(unit 1)
 				)
@@ -10075,14 +10075,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbc7b152-1945-444b-ab22-0f107f5a7ea1")
+			(uuid "6820000c-e0e9-459b-b77b-92aae628008f")
 		)
 		(pin "2"
-			(uuid "1a1e2a1c-9de9-43f2-9fc6-cdb9d40d8dd8")
+			(uuid "d9a54b32-a3f5-4385-a57e-a38efde417cc")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C5")
 					(unit 1)
 				)
@@ -10144,14 +10144,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "040153de-f26e-492f-851d-852204725519")
+			(uuid "5c4421b8-9204-464a-85c0-078fbb346b21")
 		)
 		(pin "2"
-			(uuid "18c4f5f2-4dda-48aa-a6a8-6d516b232a34")
+			(uuid "80658643-4e7b-4966-8478-b220e2817fed")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C33")
 					(unit 1)
 				)
@@ -10214,14 +10214,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c69629d-ab76-4811-ab12-3b571d5d98c3")
+			(uuid "603d17d6-f60f-4741-85b3-d9283ff5d3fb")
 		)
 		(pin "2"
-			(uuid "a04940a9-a4a1-450c-a547-37ccaec94215")
+			(uuid "d4c535a6-989f-4fd8-99c7-d542105e0d97")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "L6")
 					(unit 1)
 				)
@@ -10284,11 +10284,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "fabc9897-47c9-409d-a93f-145c98491efb")
+			(uuid "34a33e14-0539-4c21-bd5d-e6ed37de70fa")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -10351,11 +10351,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ca52114-c16f-49e8-b552-af6b0b417652")
+			(uuid "ba048f2f-b52d-452a-9abc-e7c82fa18260")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -10417,14 +10417,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "22ec5ae0-cb62-4f5c-854e-b64ff81ce502")
+			(uuid "ee527400-7727-4d13-bb30-03680830044c")
 		)
 		(pin "2"
-			(uuid "addb24da-35a7-45d0-90fb-3c84b3806581")
+			(uuid "2b1be343-4e4e-48c0-a647-f2a444543111")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C32")
 					(unit 1)
 				)
@@ -10486,14 +10486,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5921820e-4d08-41fd-9a38-ef5b702545cf")
+			(uuid "002ec8fe-c1c5-4d95-8949-15ed495fbfd3")
 		)
 		(pin "2"
-			(uuid "1ec28369-0e03-4f60-9b8f-7dc56806da1c")
+			(uuid "f7671903-b304-4bed-8898-512c4db4698b")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C34")
 					(unit 1)
 				)
@@ -10554,23 +10554,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "065f1c21-65f6-442a-8948-dd20d9f83dee")
+			(uuid "76b6a945-ce69-4553-a15b-b1321d183f20")
 		)
 		(pin "3"
-			(uuid "a8594704-b5c3-4f64-8c89-190287106d54")
+			(uuid "3c4c8bbf-1a75-406d-b8db-243c0c206f16")
 		)
 		(pin "2"
-			(uuid "10d362f3-6df2-4653-af45-7735cbc3c419")
+			(uuid "112965f8-9a24-46c2-8f27-a18081418d91")
 		)
 		(pin "5"
-			(uuid "10d83b05-12b3-4fb7-9ac3-d73e98bb4cc6")
+			(uuid "86b026f2-57c3-4295-b1bf-a1a563293407")
 		)
 		(pin "4"
-			(uuid "b9f52980-a540-480e-8e3d-f57cb3176dac")
+			(uuid "310e74cc-d5ae-4d8f-a8a3-39665b9eb001")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "J6")
 					(unit 1)
 				)
@@ -10630,14 +10630,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "898d1e69-cc74-49bc-b5db-0fbc3683723e")
+			(uuid "98ea2abf-a0f2-41d3-be8b-1917a89fcbf4")
 		)
 		(pin "1"
-			(uuid "5cc882b3-7456-46d1-aba5-e9fdb98552c7")
+			(uuid "8fdfe5c4-cfc2-41c7-8f56-ff1943a123f8")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "FB2")
 					(unit 1)
 				)
@@ -10700,11 +10700,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d08a13d-4e89-4191-9c8b-cc6125d25c26")
+			(uuid "1c25cb8e-ad96-49cf-8e91-bef7b7b9a21b")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -10766,14 +10766,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "919dc819-c68c-410c-bb85-65d696493e6f")
+			(uuid "858ffe84-7b67-43e0-b82d-1289fcd3cda3")
 		)
 		(pin "2"
-			(uuid "05e5fb85-9d12-468f-bcc2-45ff930459f9")
+			(uuid "96bfc8f5-4f39-4207-9b62-21bd861af230")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -10835,11 +10835,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ee9e83e-2c79-4f10-b4da-1bcf9886c707")
+			(uuid "fdda246d-3419-4680-af6e-3dbd426b4ed3")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -10903,11 +10903,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbf12bc9-5cc0-4b75-bb03-af7557277161")
+			(uuid "034f99c5-1799-43c8-a470-8b54c4be8b8e")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -10969,14 +10969,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "795c5adf-084f-44e8-9d2f-08a9871d6675")
+			(uuid "2ff3e115-7271-4575-903e-8a7a84ab8d0e")
 		)
 		(pin "2"
-			(uuid "af6a39b7-ba52-467d-b8f6-45eaacbbfa6b")
+			(uuid "65b0b74d-33b3-4159-91e7-e18769e61caf")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C27")
 					(unit 1)
 				)
@@ -11039,11 +11039,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5220203-577e-4b80-8b4a-d2871a045f7c")
+			(uuid "7c6c5850-57d5-44dd-9306-58e0bb47faac")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -11105,14 +11105,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e50b4c4-9533-4d19-87a0-6972a7488652")
+			(uuid "fa52a22e-6b0e-4bcd-a864-1e9ed2330545")
 		)
 		(pin "2"
-			(uuid "338b2eda-c62a-426e-80ab-f384b99b58ed")
+			(uuid "a3945009-02bf-42da-9f79-fc03e31c91a7")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C23")
 					(unit 1)
 				)
@@ -11129,7 +11129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f9240f6-3cb5-4a23-b964-1d532e931d16")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 160.02 110.4899 0)
 			(effects
 				(font
@@ -11175,27 +11175,27 @@
 			)
 		)
 		(pin "4"
-			(uuid "987599a0-3af5-4e58-b0c9-27b885858725")
+			(uuid "335f4e92-b79c-4292-87e9-dd474b23f629")
 		)
 		(pin "2"
-			(uuid "eebd13a2-e18c-4720-ba67-478867eba7e5")
+			(uuid "64f1c1cc-7d6f-410d-be4d-ee569458ce1e")
 		)
 		(pin "5"
-			(uuid "c802c735-8338-42af-96e3-6d1c37a60316")
+			(uuid "a5fe6dce-0a5a-4401-a898-ffb4b9e0ed84")
 		)
 		(pin "3"
-			(uuid "03a48d85-7117-432f-addd-c5f098c99571")
+			(uuid "72ac6a69-4c2d-4b4a-96ab-903308c185c0")
 		)
 		(pin "1"
-			(uuid "a41716a4-c926-45bf-8545-507cbb614223")
+			(uuid "9ba0c169-4cbb-4f2b-b1c6-ce92a64acc15")
 		)
 		(pin "6"
-			(uuid "ad5b8b79-939b-4a3e-b6e8-baf666be0210")
+			(uuid "10758165-b281-4829-a63a-8b77d059eaac")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
-					(reference "J10")
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11254,17 +11254,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3e7beb7-bc63-4580-8714-0eb3c8f91893")
+			(uuid "1296b50c-24eb-4235-acb7-fd4388e0e424")
 		)
 		(pin "2"
-			(uuid "d36fdad1-d0f2-446a-bf25-8c07c9e40d71")
+			(uuid "5e525133-1e30-4214-9436-7aec5e7eefdd")
 		)
 		(pin "3"
-			(uuid "d0d95574-6f55-417e-a7d0-44007e2e49aa")
+			(uuid "f994d4ad-7d31-4713-ab9c-a9dbf6af40bb")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "U1")
 					(unit 1)
 				)
@@ -11328,11 +11328,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2344e51c-c68b-433e-b698-e9640374d297")
+			(uuid "0265f96f-00ef-4a8f-b564-63f7729d7858")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "AE2")
 					(unit 1)
 				)
@@ -11396,104 +11396,104 @@
 			)
 		)
 		(pin "15"
-			(uuid "baceddf6-8873-4252-802e-b36320bf1a85")
+			(uuid "78c7b80f-fac9-4085-b540-6072d9581616")
 		)
 		(pin "25"
-			(uuid "dbf264e0-9517-46f2-9a07-2bd3a2dc5d58")
+			(uuid "77498d35-ce16-47ce-a150-be69877aeb62")
 		)
 		(pin "32"
-			(uuid "e3f6f97c-802d-489b-9b78-14ae707285e5")
+			(uuid "156da749-8a9e-43f9-a7ce-5668b5a889a1")
 		)
 		(pin "16"
-			(uuid "22715721-ef50-41f4-80a6-386b2e2e19d4")
+			(uuid "2c73f889-8ed3-413a-bcf7-8b83894ee624")
 		)
 		(pin "14"
-			(uuid "081d86d7-e152-463c-9039-48dc24c7370d")
+			(uuid "550e420e-2348-47e1-a95f-e23aa90533e4")
 		)
 		(pin "27"
-			(uuid "d312ef95-7d92-49d3-befc-aebd5884b9ad")
+			(uuid "dfc40242-4b95-410e-a144-aa3ca10a8e0c")
 		)
 		(pin "1"
-			(uuid "54d14be9-b810-46f7-b144-800cfab68e2a")
+			(uuid "4759fa3f-9f4a-4ace-b131-dccf57eff839")
 		)
 		(pin "4"
-			(uuid "4eadf9fc-ab4a-4f5f-ae18-c0f6ad0948cc")
+			(uuid "20571f3d-564d-4a05-806d-a6d05a7cacb2")
 		)
 		(pin "28"
-			(uuid "0ebe727a-437e-4705-9198-09e73d1d3d5b")
+			(uuid "976e3b1c-4a2c-4e6f-b786-bc5c7652c09b")
 		)
 		(pin "21"
-			(uuid "70a49c7e-5226-4ca9-8eda-2b72d8ccb428")
+			(uuid "7f76a97d-a6e4-4f53-b433-b2cbdb6e6ae8")
 		)
 		(pin "2"
-			(uuid "28ee717a-e2a8-47bc-a4cb-ac452923baf7")
+			(uuid "5b913cb0-4ed1-4fc3-9dfd-ebb19186ca19")
 		)
 		(pin "5"
-			(uuid "d540d7c6-c7d1-4163-88b6-b3f634c2d4a9")
+			(uuid "b15447f2-16d8-42cc-9bfd-2b50c88157d3")
 		)
 		(pin "12"
-			(uuid "8ff3ec19-42af-4e3b-9c4c-8ac19ce6971e")
+			(uuid "bfa488ab-491a-4aff-bedc-f8c2e083db99")
 		)
 		(pin "30"
-			(uuid "4213707b-370e-4c1a-9a56-134075abb44c")
+			(uuid "8bb51e52-3fea-4d97-a33e-d6c6c8bb9fd0")
 		)
 		(pin "17"
-			(uuid "392fd1dc-7c4e-4281-a8d5-d8377b34e670")
+			(uuid "3f649c9e-754b-4312-bc48-19643ae38eab")
 		)
 		(pin "31"
-			(uuid "6bb14957-3978-4f83-9085-bf2dbd1b518e")
+			(uuid "7b52e6bf-055b-4f51-af76-ff9cb69db563")
 		)
 		(pin "3"
-			(uuid "40df3948-30a1-4085-bddb-17ce599d6c53")
+			(uuid "0f903870-f33e-40ba-b28f-32a25ef68134")
 		)
 		(pin "18"
-			(uuid "eb3b9df8-26b5-49c3-855f-b54f61f65096")
+			(uuid "ff8be5c2-6623-4d0a-a892-ed157aad09f6")
 		)
 		(pin "13"
-			(uuid "533398e9-da95-4f00-8dcb-8de6db01362b")
+			(uuid "42e84f51-91dc-40cb-9dd0-4004c7e99768")
 		)
 		(pin "20"
-			(uuid "c1961d1f-dd27-4fac-a26d-be19da0e1533")
+			(uuid "ad6bdd2f-d973-4846-85b7-60333776821f")
 		)
 		(pin "11"
-			(uuid "9ea8b801-ea3d-4c03-84f2-c514d2555a6f")
+			(uuid "b953f1b1-328d-4128-abd9-90ef3f5d6567")
 		)
 		(pin "23"
-			(uuid "67319483-2939-4333-8133-f9036a667e34")
+			(uuid "3b5a6355-8602-4c82-a2a6-f66e6ff52443")
 		)
 		(pin "10"
-			(uuid "e05f2d51-8e13-4fe4-9ec6-d829101879c0")
+			(uuid "1ef7d481-b0d8-4bb1-98c1-0efd8ff6844b")
 		)
 		(pin "26"
-			(uuid "953f8e86-696c-43de-abba-651d77221de9")
+			(uuid "aed6de32-838c-4501-a22f-bdc2e4ed62f0")
 		)
 		(pin "6"
-			(uuid "e9b2e640-1f8a-44a0-a48a-4ee4a249c6e5")
+			(uuid "12b322bd-3e80-4a23-ad71-2781374ab174")
 		)
 		(pin "7"
-			(uuid "32ad1774-a91a-4da1-9f9a-1ca20f6b355a")
+			(uuid "3c8f896e-0d03-4d1f-b008-2776639ff98b")
 		)
 		(pin "9"
-			(uuid "88f7a683-9c8d-47de-93a4-66ffcb6ef7a7")
+			(uuid "f0f72582-1f31-4c02-817e-fbf7a21187ef")
 		)
 		(pin "22"
-			(uuid "aafc718f-548f-438e-b51e-9d00f4b2eb09")
+			(uuid "e965b003-0d48-47bb-9357-53840375407a")
 		)
 		(pin "8"
-			(uuid "152405dd-0b11-47bf-9543-1ae82527a31b")
+			(uuid "a1dc1f67-784a-415a-a5c1-ebd057a382b0")
 		)
 		(pin "24"
-			(uuid "c811bf89-2fcc-4ebc-88bb-ea869442744e")
+			(uuid "407ac870-a669-469c-9a4d-97609673ef5f")
 		)
 		(pin "29"
-			(uuid "9128dbe6-6d38-453d-a4b0-83fd1580706e")
+			(uuid "efeeefbe-1cbc-4077-966f-c7c3664ba1a7")
 		)
 		(pin "19"
-			(uuid "248c6b3a-3cf5-4b65-b12b-7e60eb8f1b74")
+			(uuid "77e746a3-0caf-4a49-9039-bf722b8fbd0a")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "U2")
 					(unit 1)
 				)
@@ -11556,14 +11556,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3dcc231d-6b21-4e72-9fb4-704b2ae5d1fc")
+			(uuid "ae47e428-ae8c-4f1e-8cb4-02448d4cf64f")
 		)
 		(pin "2"
-			(uuid "1d46561a-40f1-4647-82c7-b2c3abffc3ba")
+			(uuid "385a43fe-a6c6-47c3-ada6-ac8476917416")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C7")
 					(unit 1)
 				)
@@ -11580,7 +11580,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "8c7307fd-654a-44f5-9a80-96abb4646f26")
-		(property "Reference" "Y4"
+		(property "Reference" "Y2"
 			(at 38.1 43.1799 90)
 			(effects
 				(font
@@ -11626,15 +11626,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b55065c4-7f77-486e-9412-c54bb2f10da1")
+			(uuid "fdabab33-e7ed-4f0d-9725-bef766db27dc")
 		)
 		(pin "1"
-			(uuid "60edb660-acb8-478e-a22b-0cd5f0df5f2e")
+			(uuid "e78b9170-8cad-4495-8673-694bb740f38a")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
-					(reference "Y4")
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -11696,14 +11696,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "36d6916e-264d-4dd2-8c97-3a9b1d41e132")
+			(uuid "082146d8-eef1-4fb3-bac4-7a48753bb715")
 		)
 		(pin "2"
-			(uuid "870eb7a3-35ac-42ab-b18d-10ba443c7f11")
+			(uuid "ff44aa07-2f2a-420a-9ac8-365014d2cb66")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C22")
 					(unit 1)
 				)
@@ -11766,14 +11766,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0dc033a4-dadf-40c9-bf48-2ae53bd87500")
+			(uuid "27c93f7a-a20e-4a61-9f2d-e315f435d926")
 		)
 		(pin "2"
-			(uuid "1cb5eaf0-8ac6-4db7-ad28-4c25f9bab179")
+			(uuid "121ebb01-7da2-411a-9966-b12d5cbdb6c4")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C25")
 					(unit 1)
 				)
@@ -11836,14 +11836,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0bf01bec-f5fb-4ed0-95e8-6bf6e3fdb607")
+			(uuid "7b3fb6f3-8d69-4ad6-a0fe-a28ead67bce7")
 		)
 		(pin "2"
-			(uuid "5356b46f-cabc-4ca2-97de-7a4a181be067")
+			(uuid "4b36ef40-096c-4c71-9445-358b8c547a63")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C10")
 					(unit 1)
 				)
@@ -11906,14 +11906,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "88a4b9bd-42d2-481f-933a-8b0a76ab38bb")
+			(uuid "8752d8f1-5fe4-4b2b-9706-facfc2f12b94")
 		)
 		(pin "2"
-			(uuid "460154f8-5d01-47e5-9176-fee7ce73c02c")
+			(uuid "cb5cac4c-d220-4dda-aeba-dfbcce881a53")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C9")
 					(unit 1)
 				)
@@ -11976,14 +11976,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "48099290-b02a-4d04-b5c0-e747ec126e3c")
+			(uuid "0f4e0d04-f6e8-402f-b353-b907cc693d1a")
 		)
 		(pin "2"
-			(uuid "a132d5e3-cff0-4b5c-907b-9b2cf9141abf")
+			(uuid "efe0167f-4726-4242-b557-d19a5a84da9a")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C26")
 					(unit 1)
 				)
@@ -12045,11 +12045,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c26baa03-27fc-4273-8d61-f6b80f6e693f")
+			(uuid "2f0c2dc8-8bf6-4ed6-8fb9-f93023197925")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -12112,11 +12112,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b7bc736-7700-43fa-88b7-6de88116a2ea")
+			(uuid "36be0bb6-088b-4bab-946b-6d3d8a3bbcd7")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -12178,11 +12178,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b728576-10cd-4d5e-b6b7-f6622f59b4a4")
+			(uuid "ed0affeb-4e6a-4311-9fee-8b48594f484f")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -12245,14 +12245,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b766056-a1ef-4493-8b2d-c06d8fedc289")
+			(uuid "7991e040-e128-4311-99b3-da183b802d28")
 		)
 		(pin "2"
-			(uuid "751045a1-7bab-4956-9170-f709881efe2d")
+			(uuid "988cdbe4-b0e1-46d4-88cc-b1f383f284d4")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "L5")
 					(unit 1)
 				)
@@ -12315,11 +12315,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "67b1af03-bd4f-476a-93f7-f38ac1199763")
+			(uuid "70224ac9-7612-493a-a368-f3d6336240bc")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -12381,14 +12381,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1584c0a8-70c2-4ee8-b6ac-7f12afda10a3")
+			(uuid "f9841ed3-ee62-4e68-bc8e-7c8ea7c40d37")
 		)
 		(pin "2"
-			(uuid "f515af34-9326-4861-a721-9f04b951cbdf")
+			(uuid "b2dccd74-dfd0-45a9-a89d-8dcf32aa0540")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "R8")
 					(unit 1)
 				)
@@ -12451,14 +12451,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "963a6fce-a200-4aa3-bbe8-c78c2f33b4be")
+			(uuid "6b0dec7b-1063-4649-a11a-3a76cf8da885")
 		)
 		(pin "2"
-			(uuid "32e36a61-31f4-4447-8248-6fb187099fb4")
+			(uuid "344cc241-9de1-409e-86aa-ecb36d9c2450")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C30")
 					(unit 1)
 				)
@@ -12521,14 +12521,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "e5e70510-c025-4a4c-a09a-69b7db09b994")
+			(uuid "e2e04355-8143-4733-bcff-71440686dec1")
 		)
 		(pin "1"
-			(uuid "0da95917-7ba5-4320-80b4-ba1497383273")
+			(uuid "ace0ff6b-cab8-43cb-b40c-8025a266eb63")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "Y3")
 					(unit 1)
 				)
@@ -12592,11 +12592,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7ca5a75-f54e-474c-a6db-bc039e87ad5d")
+			(uuid "daee6327-15b6-40ae-9029-aecd5394fdff")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -12613,7 +12613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df63cd75-0fff-45df-9f21-01a4396e16d0")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 118.11 171.4499 0)
 			(effects
 				(font
@@ -12659,27 +12659,27 @@
 			)
 		)
 		(pin "6"
-			(uuid "6e4d5b0a-e1b6-47d4-b4ed-77bf9121dd00")
+			(uuid "4659a0a5-0ac0-4a86-8e69-132613712868")
 		)
 		(pin "5"
-			(uuid "8cb7131d-7cbc-40e7-a750-a479c6eeb874")
+			(uuid "2c5181ca-18c9-4d4b-b658-3eeed5f955d6")
 		)
 		(pin "3"
-			(uuid "0c49a489-3c77-4005-b184-ac7386704ca7")
+			(uuid "b9070810-3dfb-412e-bdd4-fe3374ff271f")
 		)
 		(pin "4"
-			(uuid "d93b6604-5bec-4e60-acf5-718bf84d4fd5")
+			(uuid "17ec91e7-bd8b-41ab-a4ae-1be3a41b735a")
 		)
 		(pin "2"
-			(uuid "3ad44913-1f76-492f-a2e0-a2caa129efd9")
+			(uuid "155120cb-a202-481b-b325-e4fd4ac1a153")
 		)
 		(pin "1"
-			(uuid "3d939f6a-13ba-4df5-bca0-9b963849f51f")
+			(uuid "6faf343f-042d-433a-9ad0-6567d8568788")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
-					(reference "J9")
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12741,11 +12741,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ade87ce-c4aa-40c8-a7d3-5661fcfed044")
+			(uuid "fe6cba7f-97b0-46d2-b576-cbe7593aa0f8")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -12807,11 +12807,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "317b3e1f-89be-4809-99aa-a6d6c1d1b836")
+			(uuid "aceeac5f-18a8-4d8d-a569-02acdbcb7590")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -12874,11 +12874,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd022cbd-4b02-42e1-8c90-370e4578ae66")
+			(uuid "f0697aa0-187f-4299-89e0-92cd7d46b28d")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -12942,11 +12942,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdb1fa14-5cdf-4dfd-89f5-3373afe79c68")
+			(uuid "984bc453-6dbe-4ef4-ab0f-1dac6d5bc03b")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -13008,14 +13008,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a07cc9fe-b121-428c-8afe-7f1d0dd07706")
+			(uuid "90ae4cea-8be8-422d-8ebf-9b6f3113e786")
 		)
 		(pin "2"
-			(uuid "8d282e8a-ddf6-47b7-a92e-eab0a088ef1d")
+			(uuid "48f04f7d-f4bc-4b89-8cdc-e64358dc1d24")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "R9")
 					(unit 1)
 				)
@@ -13077,11 +13077,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2de37e3-13dc-4583-af8d-62b686d5944c")
+			(uuid "7e28c8a8-1b39-4d55-829f-9dfcb0fc5e47")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -13143,11 +13143,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2eee76d-9b69-445b-9bd6-c53c81f308d4")
+			(uuid "eb298190-f1ac-4905-8843-04bbf8b3c49a")
 		)
 		(instances
 			(project "sudi-redox-clone"
-				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/c474124e-34bd-49d8-8819-329d9c2bdf56"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR044")
 					(unit 1)
 				)
