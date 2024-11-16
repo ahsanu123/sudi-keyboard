@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "annular_width|228040000|94310000|ecd59a0c-02ad-4f7a-9e75-8292b8f49865|00000000-0000-0000-0000-000000000000",
-        "hole_clearance|178550000|127190000|69ffa0ac-4678-4f67-8568-b8aeea9d2338|99fc9f7d-0fe4-4106-9015-803f2d246760",
-        "hole_clearance|184900000|119570000|ce783c38-fe33-46ba-9dda-a66fe6324fdc|bf3ffcdf-770d-45fa-b78a-1dc16dba84f8",
-        "hole_clearance|184900000|124650000|326d6612-032e-43be-b39c-966caefde331|1dbe9c18-5f9b-4400-ac7b-e0e73705bdc5",
-        "starved_thermal|182690000|133110000|5556c279-cb00-4242-8fa0-6104704b79a3|0d29c44c-392b-4220-a6b9-e6a6855f389e|B.Cu",
-        "starved_thermal|217760000|80690000|5556c279-cb00-4242-8fa0-6104704b79a3|b881b37c-6093-4f34-b872-86a4ce5549d9|B.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -614,7 +607,7 @@
       "Root"
     ],
     [
-      "c474124e-34bd-49d8-8819-329d9c2bdf56",
+      "9dc52318-0eba-47c2-848e-998ba94c3024",
       "Receiver"
     ]
   ],
