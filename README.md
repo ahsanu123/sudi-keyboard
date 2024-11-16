@@ -199,8 +199,9 @@ west build -t menuconfig
   - 🪔 ~~WS2812 VIO level was not satisfied, based on its datasheet, min supply is 3.5, VIH 0.7*VDD (2.45), VIL 0.3 *VDD (1.05)~~
   - ⚗️ ~~based on MCP23017 datashet its power voltage range is 1.8V to 5.5v, VIH 0.25 VDD + 0.8, VIL 0.8 VDD, so its possible to use MCP23017 with 1.8V NRF voltage supply,~~
   - 🐤 ~~CH340G~~
-- 🔶check 4 pin crystal compatibility
+- ~~🔶check 4 pin crystal compatibility~~
 - 🦄 ~~change MCU to use NRF52833?? (power supply 1.7-5.5), usb, price +1 dollar 😥, or (NRF52820 only $2.6348)~~
+- 🧀 Recheck Silk Screen and componnent 
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
