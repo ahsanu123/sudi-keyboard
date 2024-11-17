@@ -201,7 +201,9 @@ west build -t menuconfig
   - 🐤 ~~CH340G~~
 - ~~🔶check 4 pin crystal compatibility~~
 - 🦄 ~~change MCU to use NRF52833?? (power supply 1.7-5.5), usb, price +1 dollar 😥, or (NRF52820 only $2.6348)~~
-- 🧀 Recheck Silk Screen and componnent 
+- 🧀 ~~Recheck Silk Screen and componnent~~
+- 💸 Create Manufacture id BOM, and Order it
+- ⚽ Final Re-Inspection 
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
