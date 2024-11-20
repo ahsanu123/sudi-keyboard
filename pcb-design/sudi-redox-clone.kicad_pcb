@@ -270,7 +270,7 @@
 		(at 120.65 125.35)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW4"
-			(at -0.85 -3.674999 360)
+			(at -0.85 -3.674999 0)
 			(layer "F.SilkS")
 			(uuid "a245efad-0305-40c8-8735-12e9c740f17b")
 			(effects
@@ -281,7 +281,7 @@
 			)
 		)
 		(property "Value" "5V_EN"
-			(at 6.15 -3.324999 360)
+			(at 6.15 -3.324999 0)
 			(layer "F.SilkS")
 			(uuid "19711aaa-6975-486c-af39-0eb12c7c02a9")
 			(effects
@@ -612,7 +612,7 @@
 			(uuid "c9ae5e05-0a2d-4c85-8e06-fb046bc3fe39")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "dd644be9-62c6-4291-aa0e-3c15cc3bb81d")
 			(effects
@@ -2130,7 +2130,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP16"
-			(at 0.177003 -1.141422 240)
+			(at 0.177003 -1.141422 -120)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "09d65570-9d34-404f-abde-e237162a4bba")
@@ -20873,7 +20873,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
-			(at -3.030255 0.848559 210)
+			(at -3.030255 0.848559 -150)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "09b38036-e3c0-4700-8c9f-e8eeb5c7a138")
@@ -26147,7 +26147,7 @@
 			)
 		)
 		(property "Value" "32MHz_CF4032M00020001"
-			(at 1.979899 -0.424264 225)
+			(at 1.979899 -0.424264 -135)
 			(layer "F.SilkS")
 			(uuid "012fe143-c527-4dc6-bc83-41e84136e0ff")
 			(effects
@@ -36725,7 +36725,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 2.2 270)
+			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ffc999be-f74e-4a73-afb4-32d0efbe94f2")
@@ -41890,7 +41890,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 2.2 270)
+			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e12e66ef-0b48-41f5-8cfb-3af4105d8753")
@@ -49218,7 +49218,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C56"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "B.SilkS")
 			(uuid "5b602d51-7f22-4a39-a590-4856e22ac68e")
 			(effects
@@ -49230,7 +49230,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "B.Fab")
 			(uuid "b3af1e22-97b7-4c27-ac2e-8080e7475608")
 			(effects
@@ -49386,7 +49386,7 @@
 			(uuid "646ce0b3-f2ef-471e-ad56-78629b9816e9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "32640cf9-f056-47d5-85bc-33e6c3a2cbc9")
 			(effects
