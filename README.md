@@ -1,7 +1,7 @@
 
 <h1 align="center">🌿 <i>SUDI</i> Keyboard V2</h1>
 <p style="align: right;">
-<img style="align: center; " src="https://github.com/ahsanu123/sudi-keyboard/blob/sudi-v2/pcb-design/output/Regirock_GIF.gif"> 
+<img style="align: center; " src="https://github.com/ahsanu123/sudi-keyboard/blob/main/pcb-design/version_2/output/Regirock_GIF.gif"> 
 </p>
 
 <p >
@@ -132,7 +132,7 @@ continue
 
 ## 💾 hardware 
 hardware is designed with Kicad, you can find out hardware design in `pcb-design` folder. 
-![sudi schematic](pcb-design/output/sudi-redox-clone.svg)
+![sudi schematic](https://github.com/ahsanu123/sudi-keyboard/blob/main/pcb-design/version_2/output/sudi-redox-clone.svg)
 
 casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete yet but planned)  
 <details>
@@ -146,7 +146,7 @@ casing is designed with PTC CREO, and use cutting acrylic (not uploaded/complete
 <img style="align: center; width: 50vw;" src="./casing-design/Export/keyboarddrawing_img_1.png">
 </details>
 
-## 🪜 Install Module In Zephyr
+## 🧁 Install Module In Zephyr
 zephyr use _manifest_(west.yml) to setting what module used. to automatic install module, add module name after `name-allowlist`, here is example.
 
 ```yaml
@@ -203,6 +203,7 @@ west build -t menuconfig
 - 🦄 ~~change MCU to use NRF52833?? (power supply 1.7-5.5), usb, price +1 dollar 😥, or (NRF52820 only $2.6348)~~
 - 🧀 ~~Recheck Silk Screen and componnent~~
 - 💸 ~~Create Manufacture id BOM, and Order it~~ about 70 dollar
+- 💸 wait dollar until it lower, and order all needed component.
 - ⚽ Final Re-Inspection 
 
 ## 💳 Reference 

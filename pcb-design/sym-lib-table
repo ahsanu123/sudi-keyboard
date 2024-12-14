@@ -1,7 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD} /../library/canadian_library/canadian_schematics/keyboard_parts.lib")(options "")(descr ""))
-  (lib (name "canadian_parts")(type "Legacy")(uri "${KIPRJMOD} /../library/canadian_library/canadian_schematics/canadian_parts.lib")(options "")(descr ""))
-  (lib (name "ProMicro")(type "Legacy")(uri "${KIPRJMOD} /../library/canadian_library/canadian_schematics/ProMicro.lib")(options "")(descr ""))
-  (lib (name "tp4056")(type "KiCad")(uri "${KIPRJMOD} /../library/tp4056.kicad_sym")(options "")(descr ""))
-)
