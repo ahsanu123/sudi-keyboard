@@ -31,6 +31,51 @@ Place to save Zephyr learning with NRF51822 Module
 | freestanding     | other locations                          |
 
 
+### Note on Make Custom Board (Porting)
+
+root folder is `app`
+
+```shell
+boards/
+soc/
+CMakeLists.txt
+prj.conf
+README.rst
+src/
+```
+
+```shell
+.
+├── boards
+│   └── vendor
+│       └── my_custom_board
+│           ├── doc
+│           │   └── img
+│           └── support
+└── src
+```
+
+The contents of my_custom_board should follow the same guidelines for any Zephyr board,
+```shell
+// inside board folder name (/boards/<vendor>/<board-name>/)
+my_custom_board_defconfig
+my_custom_board.dts
+my_custom_board.yaml
+board.cmake
+board.h
+CMakeLists.txt
+doc/
+Kconfig.my_custom_board
+Kconfig.defconfig
+support/
+```
+
+- **Board YAML**
+
+> [!NOTE]
+> The board YAML file describes the board at a high level. This includes the SoC, board variants, and board revisions.
+> Detailed configurations, such as hardware description and configuration are done in devicetree and Kconfig.
+
 ## Log
 
 - Make personal note on how to setup Zephyr Environment with poetry
@@ -38,5 +83,7 @@ Place to save Zephyr learning with NRF51822 Module
 ## Reference 
 
 - [official bluetooth learning resource](https://www.bluetooth.com/bluetooth-resources/?types=study-guide)
+- [zephyr board porting guide](https://docs.zephyrproject.org/latest/hardware/porting/board_porting.html)
+- [Custom Board devicetree and SOC Definitions](https://docs.zephyrproject.org/latest/develop/application/index.html#custom-board-devicetree-and-soc-definitions)
 
 

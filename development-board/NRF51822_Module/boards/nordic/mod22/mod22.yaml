@@ -1,0 +1,14 @@
+identifier: mod22/Module_NRF51822
+name: Module_NRF51822
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 32
+flash: 256
+supported:
+  - ble
+  - nvs
+vendor: nordic

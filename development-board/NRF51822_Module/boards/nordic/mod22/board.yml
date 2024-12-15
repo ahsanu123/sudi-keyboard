@@ -1,0 +1,6 @@
+board:
+  name: mod22
+  full_name: Module_NRF51822
+  vendor: nordic
+  socs:
+  - name: nrf51822
