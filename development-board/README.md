@@ -23,6 +23,32 @@ initial design decision,
 - uart 
 - i2c 
 
+## Note 
+
+- [NRF51822 bluetooth module pin](https://quartzcomponents.com/cdn/shop/products/NRF51822-BLE-Module_1200x1200.jpg?v=1653290384)
+  ![](https://quartzcomponents.com/cdn/shop/products/NRF51822-BLE-Module_1200x1200.jpg?v=1653290384)
+```schell
+left (from top perspectife, count from bottom)      Right (from top perspectife, count from bottom)  
+PO3                                                 PO105                                            
+PO4                                                 PO106                                            
+PO1                                                 PO107                                            
+PO2                                                 PO108                                            
+PO30                                                PO109                                            
+PO0                                                 PO110                                            
+VDD                                                 PO111                                            
+GND                                                 PO112                                            
+PO28                                                PO003                                            
+PO29                                                PO114                                            
+NC                                                  PO015                                            
+NC                                                  PO116                                            
+PO24                                                SDA                                              
+PO25                                                SCLK                                             
+PO22                                                PO117                                            
+PO23                                                PO119                                            
+GND                                                 PO118                                            
+PO21                                                PO200                                            
+
+```
 
 ## Reference 
 
