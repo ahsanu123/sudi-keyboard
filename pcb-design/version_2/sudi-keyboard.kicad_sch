@@ -8953,6 +8953,12 @@
 		(uuid "8b76e291-ca11-4a32-ba80-52b4836f9222")
 	)
 	(junction
+		(at 130.81 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba929b3-0538-4326-96f6-e461112d8459")
+	)
+	(junction
 		(at 349.25 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10859,6 +10865,16 @@
 			(type default)
 		)
 		(uuid "3e333497-9a5c-4f94-acd8-61595a2f649e")
+	)
+	(wire
+		(pts
+			(xy 130.81 180.34) (xy 130.81 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed1d305-1dfd-4065-8367-04b8aef08bee")
 	)
 	(wire
 		(pts
@@ -25481,6 +25497,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "795c3688-c0c8-45b6-9808-4e5dbc79d84c")
+		(property "Reference" "#PWR087"
+			(at 130.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04817102-7609-4960-a906-ae835be63716")
+		)
+		(instances
+			(project "sudi-redox-clone"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "canadian_parts:KEYSW")
 		(at 331.47 135.89 0)
 		(unit 1)
@@ -25681,6 +25764,76 @@
 			(project "sudi-redox-clone"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 175.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ecdf9ee-224f-4ad9-bedd-c4c2a856373e")
+		(property "Reference" "C57"
+			(at 130.556 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5pF"
+			(at 130.556 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 129.8448 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff9a5c4e-2623-49a0-a450-7fae4cd1b398")
+		)
+		(pin "2"
+			(uuid "c20fd2c8-44df-4c18-96db-e15079fa38c6")
+		)
+		(instances
+			(project "sudi-redox-clone"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
+					(reference "C57")
 					(unit 1)
 				)
 			)
