@@ -459,7 +459,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sudi-keyboard.kicad_pro",
+    "filename": "sudi-redox-clone.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -494,7 +494,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "output/gerber/",
+      "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "output/sudi-redox-clone.step",
