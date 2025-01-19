@@ -9116,7 +9116,7 @@
 			(uuid "15afaaea-b9bb-426d-8c69-c2e24f8cfebe")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR017")
 					(unit 1)
@@ -9182,7 +9182,7 @@
 			(uuid "1c3b8910-f58b-4e82-947b-4f3fd5fe8901")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR024")
 					(unit 1)
@@ -9251,7 +9251,7 @@
 			(uuid "c25a8934-a967-47f0-87ee-39dc602e6edc")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C28")
 					(unit 1)
@@ -9318,7 +9318,7 @@
 			(uuid "f4268cfa-5804-4899-ab33-9975f3e3fa73")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR052")
 					(unit 1)
@@ -9387,7 +9387,7 @@
 			(uuid "f2565321-06a2-4598-b58d-feb88e2d48c0")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "L4")
 					(unit 1)
@@ -9456,7 +9456,7 @@
 			(uuid "6acf6cde-e60a-42be-9384-bd3b7c0db895")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C31")
 					(unit 1)
@@ -9526,7 +9526,7 @@
 			(uuid "9023fdc6-833e-452c-8502-9799b9a831cb")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C24")
 					(unit 1)
@@ -9593,7 +9593,7 @@
 			(uuid "dc4cc9d7-e4e6-410e-a9f1-816456c0e71f")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR055")
 					(unit 1)
@@ -9661,7 +9661,7 @@
 			(uuid "96e40334-9104-4b0d-a946-1b1219122f32")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR032")
 					(unit 1)
@@ -9731,7 +9731,7 @@
 			(uuid "43f4aff2-eb21-47f7-aca4-b72c24e58009")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C6")
 					(unit 1)
@@ -9942,7 +9942,7 @@
 			(uuid "4ce4d770-0771-4516-b681-4c997f8e5d1d")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "U3")
 					(unit 1)
@@ -10012,7 +10012,7 @@
 			(uuid "39317f6a-33cc-4ff8-a99a-00675fafbd58")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C29")
 					(unit 1)
@@ -10081,7 +10081,7 @@
 			(uuid "d9a54b32-a3f5-4385-a57e-a38efde417cc")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C5")
 					(unit 1)
@@ -10150,7 +10150,7 @@
 			(uuid "80658643-4e7b-4966-8478-b220e2817fed")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C33")
 					(unit 1)
@@ -10220,7 +10220,7 @@
 			(uuid "d4c535a6-989f-4fd8-99c7-d542105e0d97")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "L6")
 					(unit 1)
@@ -10287,7 +10287,7 @@
 			(uuid "34a33e14-0539-4c21-bd5d-e6ed37de70fa")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR04")
 					(unit 1)
@@ -10354,7 +10354,7 @@
 			(uuid "ba048f2f-b52d-452a-9abc-e7c82fa18260")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR025")
 					(unit 1)
@@ -10423,7 +10423,7 @@
 			(uuid "2b1be343-4e4e-48c0-a647-f2a444543111")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C32")
 					(unit 1)
@@ -10492,7 +10492,7 @@
 			(uuid "f7671903-b304-4bed-8898-512c4db4698b")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C34")
 					(unit 1)
@@ -10569,7 +10569,7 @@
 			(uuid "310e74cc-d5ae-4d8f-a8a3-39665b9eb001")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "J6")
 					(unit 1)
@@ -10636,7 +10636,7 @@
 			(uuid "8fdfe5c4-cfc2-41c7-8f56-ff1943a123f8")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "FB2")
 					(unit 1)
@@ -10703,7 +10703,7 @@
 			(uuid "1c25cb8e-ad96-49cf-8e91-bef7b7b9a21b")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR049")
 					(unit 1)
@@ -10772,7 +10772,7 @@
 			(uuid "96bfc8f5-4f39-4207-9b62-21bd861af230")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "SW2")
 					(unit 1)
@@ -10838,7 +10838,7 @@
 			(uuid "fdda246d-3419-4680-af6e-3dbd426b4ed3")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR047")
 					(unit 1)
@@ -10906,7 +10906,7 @@
 			(uuid "034f99c5-1799-43c8-a470-8b54c4be8b8e")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR046")
 					(unit 1)
@@ -10975,7 +10975,7 @@
 			(uuid "65b0b74d-33b3-4159-91e7-e18769e61caf")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C27")
 					(unit 1)
@@ -11042,7 +11042,7 @@
 			(uuid "7c6c5850-57d5-44dd-9306-58e0bb47faac")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR051")
 					(unit 1)
@@ -11111,7 +11111,7 @@
 			(uuid "a3945009-02bf-42da-9f79-fc03e31c91a7")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C23")
 					(unit 1)
@@ -11193,7 +11193,7 @@
 			(uuid "10758165-b281-4829-a63a-8b77d059eaac")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "J8")
 					(unit 1)
@@ -11263,7 +11263,7 @@
 			(uuid "f994d4ad-7d31-4713-ab9c-a9dbf6af40bb")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "U1")
 					(unit 1)
@@ -11331,7 +11331,7 @@
 			(uuid "0265f96f-00ef-4a8f-b564-63f7729d7858")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "AE2")
 					(unit 1)
@@ -11492,7 +11492,7 @@
 			(uuid "77e746a3-0caf-4a49-9039-bf722b8fbd0a")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "U2")
 					(unit 1)
@@ -11562,7 +11562,7 @@
 			(uuid "385a43fe-a6c6-47c3-ada6-ac8476917416")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C7")
 					(unit 1)
@@ -11632,7 +11632,7 @@
 			(uuid "e78b9170-8cad-4495-8673-694bb740f38a")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "Y2")
 					(unit 1)
@@ -11702,7 +11702,7 @@
 			(uuid "ff44aa07-2f2a-420a-9ac8-365014d2cb66")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C22")
 					(unit 1)
@@ -11772,7 +11772,7 @@
 			(uuid "121ebb01-7da2-411a-9966-b12d5cbdb6c4")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C25")
 					(unit 1)
@@ -11842,7 +11842,7 @@
 			(uuid "4b36ef40-096c-4c71-9445-358b8c547a63")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C10")
 					(unit 1)
@@ -11912,7 +11912,7 @@
 			(uuid "cb5cac4c-d220-4dda-aeba-dfbcce881a53")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C9")
 					(unit 1)
@@ -11982,7 +11982,7 @@
 			(uuid "efe0167f-4726-4242-b557-d19a5a84da9a")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C26")
 					(unit 1)
@@ -12048,7 +12048,7 @@
 			(uuid "2f0c2dc8-8bf6-4ed6-8fb9-f93023197925")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR030")
 					(unit 1)
@@ -12115,7 +12115,7 @@
 			(uuid "36be0bb6-088b-4bab-946b-6d3d8a3bbcd7")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR048")
 					(unit 1)
@@ -12181,7 +12181,7 @@
 			(uuid "ed0affeb-4e6a-4311-9fee-8b48594f484f")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR029")
 					(unit 1)
@@ -12251,7 +12251,7 @@
 			(uuid "988cdbe4-b0e1-46d4-88cc-b1f383f284d4")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "L5")
 					(unit 1)
@@ -12318,7 +12318,7 @@
 			(uuid "70224ac9-7612-493a-a368-f3d6336240bc")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR053")
 					(unit 1)
@@ -12387,7 +12387,7 @@
 			(uuid "b2dccd74-dfd0-45a9-a89d-8dcf32aa0540")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "R8")
 					(unit 1)
@@ -12457,7 +12457,7 @@
 			(uuid "344cc241-9de1-409e-86aa-ecb36d9c2450")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "C30")
 					(unit 1)
@@ -12527,7 +12527,7 @@
 			(uuid "ace0ff6b-cab8-43cb-b40c-8025a266eb63")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "Y3")
 					(unit 1)
@@ -12595,7 +12595,7 @@
 			(uuid "daee6327-15b6-40ae-9029-aecd5394fdff")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR010")
 					(unit 1)
@@ -12677,7 +12677,7 @@
 			(uuid "6faf343f-042d-433a-9ad0-6567d8568788")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "J7")
 					(unit 1)
@@ -12744,7 +12744,7 @@
 			(uuid "fe6cba7f-97b0-46d2-b576-cbe7593aa0f8")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR050")
 					(unit 1)
@@ -12810,7 +12810,7 @@
 			(uuid "aceeac5f-18a8-4d8d-a569-02acdbcb7590")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR031")
 					(unit 1)
@@ -12877,7 +12877,7 @@
 			(uuid "f0697aa0-187f-4299-89e0-92cd7d46b28d")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR043")
 					(unit 1)
@@ -12945,7 +12945,7 @@
 			(uuid "984bc453-6dbe-4ef4-ab0f-1dac6d5bc03b")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR045")
 					(unit 1)
@@ -13014,7 +13014,7 @@
 			(uuid "48f04f7d-f4bc-4b89-8cdc-e64358dc1d24")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "R9")
 					(unit 1)
@@ -13080,7 +13080,7 @@
 			(uuid "7e28c8a8-1b39-4d55-829f-9dfcb0fc5e47")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR054")
 					(unit 1)
@@ -13146,7 +13146,7 @@
 			(uuid "eb298190-f1ac-4905-8843-04bbf8b3c49a")
 		)
 		(instances
-			(project "sudi-redox-clone"
+			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b/9dc52318-0eba-47c2-848e-998ba94c3024"
 					(reference "#PWR044")
 					(unit 1)

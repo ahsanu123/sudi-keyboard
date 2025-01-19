@@ -203,8 +203,10 @@ west build -t menuconfig
 - 🦄 ~~change MCU to use NRF52833?? (power supply 1.7-5.5), usb, price +1 dollar 😥, or (NRF52820 only $2.6348)~~
 - 🧀 ~~Recheck Silk Screen and componnent~~
 - 💸 ~~Create Manufacture id BOM, and Order it~~ about 70 dollar
-- 💸 wait dollar until it lower, and order all needed component.
-- ⚽ Final Re-Inspection 
+- 💸 ~~wait dollar until it lower, and order all needed component.~~ shit!!!, dollar does not decline
+- ⚽ ~~Final Re-Inspection~~ not doing it actually
+- 💸 ~~ordered pcb. 5 Pcs for $15.72 with shipment 7.02 dollar and the pcb is 8.7, still wait for tax. ⏰ 19 januari 2025 at 22:16,~~ arrived in 7 Februari
+- 👘 Ordering Component 58 dollar free shipping ( shipping is 7 dollar) , ⏰ 8 Februari 2025
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
@@ -213,5 +215,6 @@ west build -t menuconfig
 - [MCP23017 datasheet](reference/MCP23017-20001952c.pdf) and add my *initial redox sch* with MCP23017
 - [Zephyr Devices Tree](https://docs.zephyrproject.org/latest/build/dts/)
 - [Buck Boost for 3.3v](https://www.eevblog.com/forum/projects/regulating-lipo-battery-to-3-3v/)
+- [RMK - Rust Keyboard Firmware](https://github.com/HaoboGu/rmk/tree/main)
 
 <sup>🔥 make it V2 - 19 juni 2024 10:49</sup>
