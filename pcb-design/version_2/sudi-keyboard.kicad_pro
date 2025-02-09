@@ -497,7 +497,7 @@
       "plot": "output/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "output/sudi-redox-clone.step",
+      "step": "output/sudiv2.step",
       "svg": "",
       "vrml": ""
     },

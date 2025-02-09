@@ -1,7 +1,8 @@
 
 <h1 align="center">🌿 <i>SUDI</i> Keyboard V2</h1>
 <p style="align: right;">
-<img style="align: center; " src="https://github.com/ahsanu123/sudi-keyboard/blob/main/pcb-design/version_2/output/Regirock_GIF.gif"> 
+  <img style="align: center; " src="https://github.com/ahsanu123/sudi-keyboard/blob/main/pcb-design/version_2/output/Regirock_GIF.gif"> 
+  
 </p>
 
 <p >
@@ -20,7 +21,14 @@
 </p>
 
 
-Sudi V2 is custom wireless split keyboard based on NRF52832 Nordic Semiconductor Microcontroller series, each side consist 18 keys 36 in totals, use MCP23017 I2C I/O expansion to scan one side of keyboard, and use wire to trasfer data to NRF52. Built in SWD debug port, with Serial Logger based on CH340G. Sudi Have interactive RGB LED and OLED 0.91 inch for graphic display. Planned to create 3D print enclosure.
+Sudi V2 is custom wireless split keyboard based on NRF52832 Nordic Semiconductor Microcontroller series, each side consist 18 keys 36 in totals, use MCP23017 I2C I/O expansion to scan one side of keyboard, and use wire to trasfer data to NRF52. Built in SWD debug port, with Serial Logger based on CH340G. Sudi Have interactive RGB LED and OLED 0.91 inch for graphic display. Planned to create 3D print enclosure.\
+
+<details>
+  <summary>Casing Design</summary>
+ 
+  <img style="align: center; " src="https://github.com/user-attachments/assets/757e66f2-dc90-4c82-b3ea-4b9d677a7870"> 
+
+</details>
 
 ## 🖨️ Compile And Flash
 
@@ -207,6 +215,10 @@ west build -t menuconfig
 - ⚽ ~~Final Re-Inspection~~ not doing it actually
 - 💸 ~~ordered pcb. 5 Pcs for $15.72 with shipment 7.02 dollar and the pcb is 8.7, still wait for tax. ⏰ 19 januari 2025 at 22:16,~~ arrived in 7 Februari
 - 👘 Ordering Component 58 dollar free shipping ( shipping is 7 dollar) , ⏰ 8 Februari 2025
+- 💼 Casing - Left Right Connector
+- 💼 Casing - top fastener
+- 💼 Casing - Battery Holder
+- 28 April 2025 ⏰ 05:47, finish one side small component soldering, there is still a lot solder bridge, need to recheck before aplying power
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
