@@ -219,6 +219,10 @@ west build -t menuconfig
 - 💼 Casing - top fastener
 - 💼 Casing - Battery Holder
 - 28 April 2025 ⏰ 05:47, finish one side small component soldering, there is still a lot solder bridge, need to recheck before aplying power
+- 🐞 **BUG**, 1 Mei 2025 ⏰17:29, cell pin need to connect into battery pin, not 3.3v
+
+  ![image](https://github.com/user-attachments/assets/363a6b74-c302-4f9d-b82b-56d6065a34a2)
+
 
 ## 💳 Reference 
 - [you need to read this if blink example not working](https://devzone.nordicsemi.com/f/nordic-q-a/78577/nrf-sdk-pre-built-blinky-hex-works-compiled-hex-does-not-nrf51822)
