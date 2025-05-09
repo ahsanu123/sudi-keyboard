@@ -19,14 +19,16 @@ use rand_chacha::ChaCha12Rng;
 use rand_core::SeedableRng;
 use rmk::ble::trouble::build_ble_stack;
 use rmk::channel::EVENT_CHANNEL;
-use rmk::config::{BehaviorConfig, ControllerConfig, KeyboardUsbConfig, RmkConfig, StorageConfig, VialConfig};
+use rmk::config::{
+    BehaviorConfig, ControllerConfig, KeyboardUsbConfig, RmkConfig, StorageConfig, VialConfig,
+};
 use rmk::debounce::default_debouncer::DefaultDebouncer;
 use rmk::futures::future::join3;
 use rmk::input_device::Runnable as _;
 use rmk::keyboard::Keyboard;
 use rmk::light::LightController;
 use rmk::matrix::Matrix;
-use rmk::{HostResources, initialize_keymap_and_storage, run_devices, run_rmk};
+use rmk::{initialize_keymap_and_storage, run_devices, run_rmk, HostResources};
 use static_cell::StaticCell;
 use vial::{VIAL_KEYBOARD_DEF, VIAL_KEYBOARD_ID};
 use {defmt_rtt as _, panic_probe as _};
@@ -81,7 +83,8 @@ async fn main(spawner: Spawner) {
     info!("Hello RMK BLE!");
     // Initialize the peripherals and nrf-sdc controller
     let p = embassy_nrf::init(Default::default());
-    let mpsl_p = mpsl::Peripherals::new(p.RTC0, p.TIMER0, p.TEMP, p.PPI_CH19, p.PPI_CH30, p.PPI_CH31);
+    let mpsl_p =
+        mpsl::Peripherals::new(p.RTC0, p.TIMER0, p.TEMP, p.PPI_CH19, p.PPI_CH30, p.PPI_CH31);
     let lfclk_cfg = mpsl::raw::mpsl_clock_lfclk_cfg_t {
         source: mpsl::raw::MPSL_CLOCK_LF_SRC_RC as u8,
         rc_ctiv: mpsl::raw::MPSL_RECOMMENDED_RC_CTIV as u8,
@@ -99,8 +102,8 @@ async fn main(spawner: Spawner) {
     )));
     spawner.must_spawn(mpsl_task(&*mpsl));
     let sdc_p = sdc::Peripherals::new(
-        p.PPI_CH17, p.PPI_CH18, p.PPI_CH20, p.PPI_CH21, p.PPI_CH22, p.PPI_CH23, p.PPI_CH24, p.PPI_CH25, p.PPI_CH26,
-        p.PPI_CH27, p.PPI_CH28, p.PPI_CH29,
+        p.PPI_CH17, p.PPI_CH18, p.PPI_CH20, p.PPI_CH21, p.PPI_CH22, p.PPI_CH23, p.PPI_CH24,
+        p.PPI_CH25, p.PPI_CH26, p.PPI_CH27, p.PPI_CH28, p.PPI_CH29,
     );
     let mut rng = rng::Rng::new(p.RNG, Irqs);
     let mut rng_gen = ChaCha12Rng::from_rng(&mut rng).unwrap();
@@ -113,8 +116,7 @@ async fn main(spawner: Spawner) {
     let flash = Flash::take(mpsl, p.NVMC);
 
     // Initialize IO Pins
-    let (input_pins, output_pins) =
-        config_matrix_pins_nrf!(peripherals: p, input: [P0_30, P0_31, P0_29, P0_27], output:  [P0_28, P0_03, P0_11]);
+    let (input_pins, output_pins) = config_matrix_pins_nrf!(peripherals: p, input: [P0_30, P0_31, P0_29, P0_27], output:  [P0_28, P0_03, P0_11]);
 
     // Keyboard config
     let keyboard_usb_config = KeyboardUsbConfig {
@@ -142,7 +144,8 @@ async fn main(spawner: Spawner) {
     let mut default_keymap = keymap::get_default_keymap();
     let behavior_config = BehaviorConfig::default();
     let (keymap, mut storage) =
-        initialize_keymap_and_storage(&mut default_keymap, flash, &storage_config, behavior_config).await;
+        initialize_keymap_and_storage(&mut default_keymap, flash, &storage_config, behavior_config)
+            .await;
 
     // Initialize the matrix and keyboard
     let debouncer = DefaultDebouncer::<ROW, COL>::new();
@@ -151,14 +154,21 @@ async fn main(spawner: Spawner) {
     let mut keyboard = Keyboard::new(&keymap);
 
     // Initialize the light controller
-    let mut light_controller: LightController<Output> = LightController::new(ControllerConfig::default().light_config);
+    let mut light_controller: LightController<Output> =
+        LightController::new(ControllerConfig::default().light_config);
 
     join3(
         run_devices! (
             (matrix) => EVENT_CHANNEL,
         ),
         keyboard.run(), // Keyboard is special
-        run_rmk(&keymap, &stack, &mut storage, &mut light_controller, rmk_config),
+        run_rmk(
+            &keymap,
+            &stack,
+            &mut storage,
+            &mut light_controller,
+            rmk_config,
+        ),
     )
     .await;
 }
