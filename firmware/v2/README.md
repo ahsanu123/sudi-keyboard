@@ -1,7 +1,15 @@
-# Introduction 
+# Introduction
 
-# Installation 
 
-All SDK hosted here https://developer.nordicsemi.com/
+## Pinout 
 
-- run `wget https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v17.x.x/nRF5_SDK_17.1.0_ddde560.zip` to download NRF5 SDK and move to sdk folder
+![image](https://github.com/user-attachments/assets/6d15e3f7-7a83-4aba-a6de-77e7969a0a49)
+
+
+## Note 
+
+- to custom cargo subcommand use `Makefile.toml` with `cargo-make`, `cargo make some-task`
+
+## Reference 
+
+- [flash softdevice (bluetooth stack by nordic, closed source), only flash once](https://github.com/embassy-rs/nrf-softdevice#running-examples)

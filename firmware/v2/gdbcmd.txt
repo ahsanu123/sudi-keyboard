@@ -1,4 +1,0 @@
-target extended-remote :3333
-file ./build/nrf51822_xxaa.out
-break main.c:18
-continue

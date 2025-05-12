@@ -1,7 +1,1 @@
-sdk/nRF*
-build/
-.cache/
-gcc/
-sam*/
-.gdb_history
-
+target/
