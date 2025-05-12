@@ -137,7 +137,8 @@ macro_rules! info {
     };
 }
 
-macro_rules! _warn {
+#[macro_export]
+macro_rules! warn {
     ($s:literal $(, $x:expr)* $(,)?) => {
         {
             #[cfg(feature = "defmt")]
@@ -224,7 +225,6 @@ impl<'a> defmt::Format for Bytes<'a> {
     }
 }
 
-pub(crate) use _warn as warn;
 pub(crate) use assert;
 pub(crate) use assert_eq;
 pub(crate) use assert_ne;
@@ -233,7 +233,6 @@ pub(crate) use debug_assert;
 pub(crate) use debug_assert_eq;
 pub(crate) use debug_assert_ne;
 pub(crate) use error;
-// pub use info;
 pub(crate) use panic;
 pub(crate) use todo;
 pub(crate) use trace;

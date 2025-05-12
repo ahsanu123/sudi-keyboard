@@ -1,5 +1,11 @@
 # Introduction
 
+
+## Pinout 
+
+![image](https://github.com/user-attachments/assets/6d15e3f7-7a83-4aba-a6de-77e7969a0a49)
+
+
 ## Note 
 
 - to custom cargo subcommand use `Makefile.toml` with `cargo-make`, `cargo make some-task`
