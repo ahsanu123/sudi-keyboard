@@ -82,7 +82,17 @@ hardware is designed with Kicad, you can find out hardware design in `pcb-design
   ![image](https://github.com/user-attachments/assets/363a6b74-c302-4f9d-b82b-56d6065a34a2)
   
 - 🐞 **BUG**, 9 Mei 2025 ⏰ 20:18 current version 2 gerber used for manufacturing pcb is not updated, there is shorted between 3.3v and gnd
+- 🐞 **BUG**, 13 Mei 2025 ⏰ 06:52 look and re-calculate inductor 5v buck-boost, when its at full load (all ws28 12 is on) inductor is burn, but ic is not.
+
+ 
+> change inductor to use power inductor like VLF4012-2R2 (2.2uH, 1.5A), or choose same capacitance with higher current rate.
+>
+> look this [lcsc power inductor](https://www.lcsc.com/product-detail/Power-Inductors_MetalLions-MTQH201608S2R2MBT_C17701122.html?s_z=n_VLF4012-2R2%2520)
+
+
+
 - 🎰 able to run and flash RMK example with jlink and probe-rs ⏰ 9 Mei 2025, 20:19
+ 
 
   
 </details>
