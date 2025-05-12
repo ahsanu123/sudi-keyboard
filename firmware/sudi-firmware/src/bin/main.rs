@@ -1,7 +1,7 @@
 #![no_std]
 #![no_main]
 
-mod fmt;
+use sudi_firmware::info;
 
 #[cfg(not(feature = "defmt"))]
 use panic_halt as _;
@@ -12,7 +12,6 @@ use {defmt_rtt as _, panic_probe as _};
 use embassy_executor::Spawner;
 use embassy_nrf::gpio::{Level, Output, OutputDrive};
 use embassy_time::Timer;
-use fmt::info;
 
 #[embassy_executor::main]
 async fn main(_spawner: Spawner) {
