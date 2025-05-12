@@ -20,9 +20,9 @@ use embassy_time::Timer;
 
 // row is output
 // and column is input
-enum MatrixDirection {
-    RowColumn,
-    ColumnRow,
+enum DiodeDirection {
+    RowToColumn,
+    ColumnToRow,
 }
 
 // active low will use pullup
@@ -33,15 +33,17 @@ enum PinReadCondition {
 }
 
 struct MatrixDirectPinReaderConfig {
-    matrix_direction: MatrixDirection,
+    read_interval_in_micros: u64,
+    diode_direction: DiodeDirection,
     pin_read_condition: PinReadCondition,
 }
 
 impl Default for MatrixDirectPinReaderConfig {
     fn default() -> Self {
         Self {
-            matrix_direction: MatrixDirection::ColumnRow,
+            diode_direction: DiodeDirection::ColumnToRow,
             pin_read_condition: PinReadCondition::ActiveLow,
+            read_interval_in_micros: 100,
         }
     }
 }
@@ -62,7 +64,9 @@ where
     RowType: InputPin,
     ColType: OutputPin,
 {
-    pub async fn read(&mut self) -> Result<ReaderResult<bool, 3, 6>, core::fmt::Error> {
+    async fn read_as_diode_column_to_row(
+        &mut self,
+    ) -> Result<ReaderResult<bool, 3, 6>, core::fmt::Error> {
         let mut data: ReaderResult<bool, 3, 6> = [[false; 3]; 6];
 
         for (col_index, col) in self.cols.iter_mut().enumerate() {
@@ -72,16 +76,45 @@ where
                 if row.is_high().unwrap() {
                     info!("row {}, column {}", row_index, col_index);
 
-                    // data[row_index][col_index] = true;
+                    data[col_index][row_index] = true;
                 }
             }
 
             col.set_low().unwrap();
         }
-
-        Timer::after_millis(50).await;
+        Timer::after_micros(self.config.read_interval_in_micros).await;
 
         Ok(data)
+    }
+
+    async fn read_as_diode_row_to_column(
+        &mut self,
+    ) -> Result<ReaderResult<bool, 3, 6>, core::fmt::Error> {
+        let mut data: ReaderResult<bool, 3, 6> = [[false; 3]; 6];
+
+        for (col_index, col) in self.cols.iter_mut().enumerate() {
+            col.set_low().unwrap();
+
+            for (row_index, row) in self.rows.iter_mut().enumerate() {
+                if row.is_high().unwrap() {
+                    info!("row {}, column {}", row_index, col_index);
+
+                    data[col_index][row_index] = true;
+                }
+            }
+
+            col.set_high().unwrap();
+        }
+        Timer::after_micros(self.config.read_interval_in_micros).await;
+
+        Ok(data)
+    }
+
+    pub async fn read(&mut self) -> Result<ReaderResult<bool, 3, 6>, core::fmt::Error> {
+        match self.config.diode_direction {
+            DiodeDirection::ColumnToRow => self.read_as_diode_column_to_row().await,
+            DiodeDirection::RowToColumn => self.read_as_diode_row_to_column().await,
+        }
     }
 
     pub fn new(rows: [RowType; ROWSIZE], cols: [ColType; COLSIZE]) -> Self {
@@ -96,9 +129,6 @@ where
 #[embassy_executor::main]
 async fn main(_spawner: Spawner) {
     let peripheral = embassy_nrf::init(Default::default());
-
-    let direction: MatrixDirection = MatrixDirection::ColumnRow;
-    let pin_read_condition: PinReadCondition = PinReadCondition::ActiveLow;
 
     let rows: [Input; 3] = [
         Input::new(peripheral.P0_10, Pull::Down),
