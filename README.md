@@ -92,6 +92,39 @@ hardware is designed with Kicad, you can find out hardware design in `pcb-design
 
 
 - 🎰 able to run and flash RMK example with jlink and probe-rs ⏰ 9 Mei 2025, 20:19
+- basic setup on WSL, so able to develop in WSL ⏰ 20 Mei 2025, 05:26
+
+  to debugging you need bridge usb device from windows to wsl with `usbipd`
+
+  ```shell
+  C:\Windows\System32> usbipd list
+  Connected:
+  BUSID  VID:PID    DEVICE                                                        STATE
+  1-1    feed:0ffa  USB Input Device                                              Not shared
+  1-2    0000:3825  USB Input Device                                              Not shared
+  1-4    0bda:0129  Realtek USB 2.0 Card Reader                                   Not shared
+  1-5    13d3:56cb  USB2.0 HD IR UVC WebCam                                       Not shared
+  1-6    1366:0101  J-Link driver                                                 Not shared
+  1-10   8087:0026  Intel(R) Wireless Bluetooth(R)                                Not shared
+
+  Persisted:
+  GUID                                  DEVICE
+
+
+  C:\Windows\System32> usbipd bind --busid 1-6
+
+  C:\Windows\System32> usbipd attach --wsl --busid 1-6
+  usbipd: info: Using WSL distribution 'Arch' to attach; the device will be available in all WSL 2 distributions.
+  usbipd: info: Detected networking mode 'nat'.
+  usbipd: info: Using IP address 172.27.144.1 to reach the host.
+
+  C:\Windows\System32>
+  ```
+
+
+  then you can access the usb device as in linux
+
+- 24 mei 2025, trying to run trouble bas example, its give good sign, even 5v sepic is died for now -> https://github.com/embassy-rs/trouble/blob/main/examples/apps/src/ble_bas_peripheral.rs ⏰ 09:01 
  
 
   
