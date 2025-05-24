@@ -120,9 +120,13 @@ hardware is designed with Kicad, you can find out hardware design in `pcb-design
 
   C:\Windows\System32>
   ```
- 
+
 
   then you can access the usb device as in linux
+
+- 24 mei 2025, trying to run trouble bas example, its give good sign, even 5v sepic is died for now -> https://github.com/embassy-rs/trouble/blob/main/examples/apps/src/ble_bas_peripheral.rs ⏰ 09:01 
+ 
+
   
 </details>
 
