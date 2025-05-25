@@ -124,8 +124,25 @@ hardware is designed with Kicad, you can find out hardware design in `pcb-design
 
   then you can access the usb device as in linux
 
-- 24 mei 2025, trying to run trouble bas example, its give good sign, even 5v sepic is died for now -> https://github.com/embassy-rs/trouble/blob/main/examples/apps/src/ble_bas_peripheral.rs ⏰ 09:01 
- 
+- 24 Mei 2025, trying to run trouble bas example, its give good sign, even 5v sepic is died for now -> https://github.com/embassy-rs/trouble/blob/main/examples/apps/src/ble_bas_peripheral.rs ⏰ 09:01 
+
+- 25 Mei 2025, able to read uuid for battery level on trouble bas example, also create basic reading uuid with bleak python library, but its really intermitent, bluez is more robust, several note to use and connect bluez with device.
+
+also flashed firmware is from trouble example, current v2 firmware is compiled but not running, 🪞 need to investigate it
+
+```shell
+$ bluetoothctl
+hci0 new_settings: powered bondable ssp br/edr le secure-conn
+Agent registered
+
+[bluetoothctl]> connect FF:E4:05:1A:8F:FF
+[bluetoothctl]> disconnect FF:E4:05:1A:8F:FF
+[bluetoothctl]> menu gatt
+[bluetoothctl]> list-attributes
+[bluetoothctl]> select-attribute /org/bluez/hci0/dev_FF_E4_05_1A_8F_FF/service0020/char0021
+[bluetoothctl]> read
+[bluetoothctl]>
+```
 
   
 </details>
