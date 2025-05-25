@@ -29,6 +29,8 @@ embassy-nrf = { version = "0.3.1", features = [
   "time-driver-rtc1",
   "nfc-pins-as-gpio",
 ] }
+trouble-host = { version = "0.1.0", features = ["derive", "scan"] }
+static_cell = "2.1.0"
 
 [dev-dependencies]
 cargo-make = "0.37.24"
@@ -52,7 +54,7 @@ opt-level = "z"
 incremental = true
 
 [features]
-defmt = ["dep:defmt"]
+defmt = ["dep:defmt", "trouble-host/defmt"]
 defmt-rtt = ["dep:defmt-rtt"]
 panic-probe = ["dep:panic-probe"]
 default = ["debug"]
