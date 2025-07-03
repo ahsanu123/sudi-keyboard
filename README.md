@@ -144,6 +144,8 @@ Agent registered
 [bluetoothctl]>
 ```
 
+- 3 Juli 2025, reading more about trouble, here is `trouble-host-macro` documentation located https://docs.rs/trouble-host-macros/latest/trouble_host_macros/
+
   
 </details>
 
