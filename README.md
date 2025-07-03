@@ -144,7 +144,9 @@ Agent registered
 [bluetoothctl]>
 ```
 
-- 3 Juli 2025, reading more about trouble, here is `trouble-host-macro` documentation located https://docs.rs/trouble-host-macros/latest/trouble_host_macros/
+- 3 Juli 2025, reading more about trouble, here is `trouble-host-macro` documentation located https://docs.rs/trouble-host-macros/latest/trouble_host_macros/ , here are some note
+  - Peripherals may use **GATT** (Generic Attribute Profile) to expose **services** and **characteristics**,
+  - still many question about why linker cant linking ble exampl (stack is overflow) even though its identical with example
 
   
 </details>
