@@ -147,6 +147,11 @@ Agent registered
 - 3 Juli 2025, reading more about trouble, here is `trouble-host-macro` documentation located https://docs.rs/trouble-host-macros/latest/trouble_host_macros/ , here are some note
   - Peripherals may use **GATT** (Generic Attribute Profile) to expose **services** and **characteristics**,
   - still many question about why linker cant linking ble exampl (stack is overflow) even though its identical with example
+  - this error ` cannot move location counter backwards (from 3ffdeca8 to 3ffdc000` is because `embassy-executor` `task-arena-<size>` i am not sure why and what value its shouuld be. but without defining task arena its compiled but `panic` on runtime.
+  - ok, i find out making `embassy-executor` have `embassy-executor = { version = "0.7.0", features = ["task-arena-size-8192"]}` will make it compiled 😙, need to learn what is that.
+
+finally at ⏰ 21:46 its compiled and able to run, its discoverable with phone 
+![image](https://github.com/user-attachments/assets/2b09340f-20cc-469a-8e2c-ec75c688ec44)
 
   
 </details>
