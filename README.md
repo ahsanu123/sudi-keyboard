@@ -78,6 +78,7 @@ hardware is designed with Kicad, you can find out hardware design in `pcb-design
 - 💼 Casing - Battery Holder
 - 28 April 2025 ⏰ 05:47, finish one side small component soldering, there is still a lot solder bridge, need to recheck before aplying power
 - 🐞 **BUG**, 1 Mei 2025 ⏰17:29, cell pin need to connect into battery pin, not 3.3v
+- 23 Agustus 2025, finally my first SUDI was broke (MCU) and I must finish SUDI v2 for working.
 
   ![image](https://github.com/user-attachments/assets/363a6b74-c302-4f9d-b82b-56d6065a34a2)
   
@@ -143,6 +144,15 @@ Agent registered
 [bluetoothctl]> read
 [bluetoothctl]>
 ```
+
+- 3 Juli 2025, reading more about trouble, here is `trouble-host-macro` documentation located https://docs.rs/trouble-host-macros/latest/trouble_host_macros/ , here are some note
+  - Peripherals may use **GATT** (Generic Attribute Profile) to expose **services** and **characteristics**,
+  - still many question about why linker cant linking ble exampl (stack is overflow) even though its identical with example
+  - this error ` cannot move location counter backwards (from 3ffdeca8 to 3ffdc000` is because `embassy-executor` `task-arena-<size>` i am not sure why and what value its shouuld be. but without defining task arena its compiled but `panic` on runtime.
+  - ok, i find out making `embassy-executor` have `embassy-executor = { version = "0.7.0", features = ["task-arena-size-8192"]}` will make it compiled 😙, need to learn what is that.
+
+finally at ⏰ 21:46 its compiled and able to run, its discoverable with phone 
+![image](https://github.com/user-attachments/assets/2b09340f-20cc-469a-8e2c-ec75c688ec44)
 
   
 </details>
