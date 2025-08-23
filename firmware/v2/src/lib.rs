@@ -1,5 +1,6 @@
 #![no_std]
 
+pub mod ble;
 pub mod fmt;
 pub mod middleware;
 pub mod models;

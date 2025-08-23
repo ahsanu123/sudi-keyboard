@@ -13,13 +13,24 @@ use std::fs::File;
 use std::io::Write;
 use std::path::PathBuf;
 
+fn linker_data() -> &'static [u8] {
+    #[cfg(feature = "nrf52832")]
+    return include_bytes!("memory-nrf52832.x");
+    #[cfg(feature = "nrf52833")]
+    return include_bytes!("memory-nrf52833.x");
+    #[cfg(feature = "nrf52840")]
+    return include_bytes!("memory-nrf52840.x");
+    #[cfg(not(any(feature = "nrf52832", feature = "nrf52833", feature = "nrf52840")))]
+    unimplemented!("must select a target")
+}
+
 fn main() {
     // Put `memory.x` in our output directory and ensure it's
     // on the linker search path.
     let out = &PathBuf::from(env::var_os("OUT_DIR").unwrap());
     File::create(out.join("memory.x"))
         .unwrap()
-        .write_all(include_bytes!("memory.x"))
+        .write_all(linker_data())
         .unwrap();
     println!("cargo:rustc-link-search={}", out.display());
 
@@ -31,6 +42,5 @@ fn main() {
 
     println!("cargo:rustc-link-arg-bins=--nmagic");
     println!("cargo:rustc-link-arg-bins=-Tlink.x");
-    #[cfg(feature = "defmt")]
     println!("cargo:rustc-link-arg-bins=-Tdefmt.x");
 }

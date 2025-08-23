@@ -153,7 +153,10 @@ Agent registered
 finally at ⏰ 21:46 its compiled and able to run, its discoverable with phone 
 ![image](https://github.com/user-attachments/assets/2b09340f-20cc-469a-8e2c-ec75c688ec44)
 
-- 23 Agustus 2025, finally my first SUDI was broke (MCU) and I must finish SUDI v2 for working. 
+- 23 Agustus 2025, finally my first SUDI was broke (MCU) and I must finish SUDI v2 for working.
+- 24 agustus 2025, basic bas for nrf is compiled and flashed, ⏰ 13:25 
+  <img width="1284" height="378" alt="image" src="https://github.com/user-attachments/assets/927c074d-6ae7-46d9-94de-ee9862d3ff24" />
+
 </details>
 
 ## 💳 Reference 

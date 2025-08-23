@@ -1,0 +1,12 @@
+
+bdev:
+  cargo build --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server
+
+brel:
+  cargo build --release --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server
+
+rdev:
+  cargo run --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server
+
+rrel:
+  cargo run --release --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server

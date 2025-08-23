@@ -1,8 +1,0 @@
-[tasks.monitor]
-command = "probe-rs"
-args = [
-  "attach",
-  "--chip",
-  "nrf52832_xxAA",
-  "./target/thumbv7em-none-eabihf/debug/sudi-firmware",
-]

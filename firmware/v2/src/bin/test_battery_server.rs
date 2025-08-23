@@ -3,12 +3,12 @@
 
 use defmt::unwrap;
 use embassy_executor::Spawner;
+use embassy_nrf::mode::Async;
 use embassy_nrf::peripherals::RNG;
 use embassy_nrf::{bind_interrupts, rng};
 use nrf_sdc::mpsl::MultiprotocolServiceLayer;
 use nrf_sdc::{self as sdc, mpsl};
 use static_cell::StaticCell;
-use trouble_example_apps::ble_bas_peripheral;
 use trouble_host::prelude::*;
 use {defmt_rtt as _, panic_probe as _};
 
@@ -34,7 +34,7 @@ const L2CAP_RXQ: u8 = 3;
 
 fn build_sdc<'d, const N: usize>(
     p: nrf_sdc::Peripherals<'d>,
-    rng: &'d mut rng::Rng<RNG>,
+    rng: &'d mut rng::Rng<RNG, Async>,
     mpsl: &'d MultiprotocolServiceLayer,
     mem: &'d mut sdc::Mem<N>,
 ) -> Result<nrf_sdc::SoftdeviceController<'d>, nrf_sdc::Error> {
@@ -43,8 +43,8 @@ fn build_sdc<'d, const N: usize>(
         .support_peripheral()?
         .peripheral_count(1)?
         .buffer_cfg(
-            DefaultPacketPool::MTU as u8,
-            DefaultPacketPool::MTU as u8,
+            DefaultPacketPool::MTU as u16,
+            DefaultPacketPool::MTU as u16,
             L2CAP_TXQ,
             L2CAP_RXQ,
         )?
@@ -79,5 +79,5 @@ async fn main(spawner: Spawner) {
     let mut sdc_mem = sdc::Mem::<4720>::new();
     let sdc = unwrap!(build_sdc(sdc_p, &mut rng, mpsl, &mut sdc_mem));
 
-    ble_bas_peripheral::run(sdc).await;
+    sudi_firmware::ble::battery_server::run(sdc).await;
 }
