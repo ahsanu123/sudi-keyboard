@@ -78,7 +78,6 @@ hardware is designed with Kicad, you can find out hardware design in `pcb-design
 - 💼 Casing - Battery Holder
 - 28 April 2025 ⏰ 05:47, finish one side small component soldering, there is still a lot solder bridge, need to recheck before aplying power
 - 🐞 **BUG**, 1 Mei 2025 ⏰17:29, cell pin need to connect into battery pin, not 3.3v
-- 23 Agustus 2025, finally my first SUDI was broke (MCU) and I must finish SUDI v2 for working.
 
   ![image](https://github.com/user-attachments/assets/363a6b74-c302-4f9d-b82b-56d6065a34a2)
   
@@ -154,7 +153,7 @@ Agent registered
 finally at ⏰ 21:46 its compiled and able to run, its discoverable with phone 
 ![image](https://github.com/user-attachments/assets/2b09340f-20cc-469a-8e2c-ec75c688ec44)
 
-  
+- 23 Agustus 2025, finally my first SUDI was broke (MCU) and I must finish SUDI v2 for working. 
 </details>
 
 ## 💳 Reference 

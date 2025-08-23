@@ -329,7 +329,7 @@
 		)
 		(path "/9303b793-f269-4dd0-810b-09ad7f32108f")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.45 -0.07)
@@ -765,7 +765,7 @@
 		)
 		(path "/9b9780c8-cbcc-4d80-bcc8-db693c592674")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -1770,7 +1770,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/8213634d-2746-4d5a-9571-e850171b537a")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.171265 0.509999)
@@ -1980,7 +1980,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/24997f94-a407-4a54-9de3-326a416be88a")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -2191,7 +2191,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c3345d7e-728c-4a76-8e16-1cd32ec108c9")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2303,7 +2303,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e369258a-b7ac-4f6e-b335-8cc49f49c830")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -2515,7 +2515,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/c92a012e-4cd7-49b5-bc05-6043bb16d0f7")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.67 -0.25)
@@ -2778,7 +2778,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/7f5c127d-292a-4c65-b7d5-51240bf8fd45")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420002 -1.15)
@@ -3086,7 +3086,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/adfff337-a24f-4cb1-9f74-540529b9b9ec")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261251 0.734999)
@@ -3297,7 +3297,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/32001bc7-6a34-4357-98ee-4efbab05df70")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -3406,7 +3406,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/26b20b1b-9b17-419b-a718-91403b5eff79")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -3753,7 +3753,7 @@
 		)
 		(path "/173fcf90-63d7-4f15-a642-c1607d8d5db6")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -4759,7 +4759,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/22d4296c-eec7-411c-b258-a5879fda2c53")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -4871,7 +4871,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/87b0ebb8-16a9-4263-a2b5-64ad671a6840")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -4986,7 +4986,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b8d2e6f7-68f2-409a-9305-36b94242684e")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -5100,7 +5100,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/adc14646-e3f0-4ec5-b3d8-0d4c049bf9b4")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420002 -1.15)
@@ -5408,7 +5408,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7ecdf9ee-224f-4ad9-bedd-c4c2a856373e")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.26125 0.734999)
@@ -5619,7 +5619,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/146a85d9-f3eb-4770-94ad-f6e2c996f068")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -5732,7 +5732,7 @@
 		)
 		(path "/fbff9653-f751-429c-894a-3b681e76a84c")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -6738,7 +6738,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7c6c8b3e-7343-4d1c-b0a1-75e89f0ba2b3")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -6850,7 +6850,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a5dc413d-4b34-4c6c-bb36-c13628b39980")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -7061,7 +7061,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/edee083a-f45b-4fe2-8caa-262ce4761789")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -7172,7 +7172,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f7466473-7de2-48af-937e-20bfb9683a07")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -7381,7 +7381,7 @@
 		)
 		(path "/3ca2fe80-4d46-4641-868f-a21733b71234")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -8385,7 +8385,7 @@
 		)
 		(path "/7af7f17b-1f85-4e3e-b56e-93cf2a2469a0")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -9391,7 +9391,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/f0c7c747-5f2a-411a-ba46-ae145ab42020")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -9504,7 +9504,7 @@
 		)
 		(path "/652273b4-82a6-4210-9846-9877c110f884")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -10507,7 +10507,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/bed7f6c9-eb8f-45d4-a1ac-eea1b474d8b1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -10855,7 +10855,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/38312e21-50de-45d9-8d55-35870c2b8d7d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -11065,7 +11065,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c083dd8e-79a7-486c-a63d-238262e7db99")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735001)
@@ -11275,7 +11275,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d1d7897-2a21-42af-be4f-f491e5f6b13b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -11485,7 +11485,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/2bbc2d77-0fe2-4a46-bf93-4e456f6a2280")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -11793,7 +11793,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/64cbfbf3-a0fa-4df3-819e-bd59d304a7f6")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735001)
@@ -12003,7 +12003,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/538f7e08-5d74-42f9-90ef-88b741131773")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.26125 0.734999)
@@ -12212,7 +12212,7 @@
 		)
 		(path "/b305ee95-1ac8-4e3d-b1de-47f1a58233b7")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -13215,7 +13215,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/0f3fdebe-699a-472b-8c20-1c06bdb7e732")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -13563,7 +13563,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6a7360e9-c0da-4094-84f7-72d64a815437")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -13773,7 +13773,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/7897af09-6b62-4e64-873b-9941634fbb56")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -13885,7 +13885,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/525ea5ca-017a-4eb8-a0c1-c2a6888f6523")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -13999,7 +13999,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/bf09e0bf-f3de-48f1-a9ae-56b7cdffa305")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -14112,7 +14112,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/d7f9c280-c54d-44c4-b8dd-550617a5aef3")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -14222,7 +14222,7 @@
 		)
 		(path "/64e978be-f449-4810-a2c1-316e1083c829")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -15227,7 +15227,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8fc12a43-2607-4944-8fac-bea406c58fb1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -15436,7 +15436,7 @@
 		)
 		(path "/9d9793a4-0279-48e7-bf29-d3dae3bb479b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -16442,7 +16442,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ad064072-e3f1-48d0-88ec-f146948c0d74")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -16552,7 +16552,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/ffa83300-428f-4b01-a344-5c3da5a619d5")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -16899,7 +16899,7 @@
 		)
 		(path "/d9b536b0-3ae5-4ad9-8aff-70854b9ddcd6")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -17903,7 +17903,7 @@
 		)
 		(path "/fbed0472-db6e-4676-a2a3-6a3b0edae2da")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -18908,7 +18908,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a42432ab-fbe7-4f68-8da6-02af089c549e")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -19118,7 +19118,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/76a6e467-5a72-4cd7-9393-2bab9dadd238")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735001)
@@ -19328,7 +19328,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/939353ff-5e72-4133-bf38-6a85a6642cae")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -19636,7 +19636,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7d6c644f-7085-4c99-8cea-f4c8a8184115")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -19845,7 +19845,7 @@
 		)
 		(path "/146c7982-52b7-46de-82b6-5b7aa0f8fe1d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(net_tie_pad_groups "1,2")
 		(fp_poly
@@ -20107,7 +20107,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/02e574bd-983c-4d9b-a51d-ff9fddf3d4eb")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.26125 0.734999)
@@ -20317,7 +20317,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/d061c2e7-6fd9-44a5-9afc-3a7b706e7e8c")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -20625,7 +20625,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/4697cf98-3e64-4682-8bda-e2924d7ce2d7")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -20933,7 +20933,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e0319467-4647-43c2-8188-5e32d163196f")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -21144,7 +21144,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/23b90a15-0625-4846-950d-c358f831743b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -21256,7 +21256,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/40629583-26a5-448c-8929-583881dd8d53")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -21466,7 +21466,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c53036c9-4704-44f2-abc7-1ab4b22de680")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -21676,7 +21676,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bca20756-d34b-4316-ab8f-d7d9ba072326")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -21887,7 +21887,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/65cd4ad8-0c9e-452a-ba52-ea64fd4c38fd")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -21999,7 +21999,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ff073fba-9c5f-4196-996f-a79cf12a5bca")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -22209,7 +22209,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/756f444c-6422-40b9-b1c1-2e32a00c0a71")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -22517,7 +22517,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/41eed1fe-512e-4da1-963c-27b7daad6069")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -22783,7 +22783,7 @@
 		)
 		(path "/707aa49d-55e6-4387-af57-0c8236db2463")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -23788,7 +23788,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/19e41308-40f8-4752-a3a3-5944988c16dd")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -24000,7 +24000,7 @@
 		(property ki_fp_filters "USB*C*Plug*")
 		(path "/05ae84e8-6475-4da7-9caa-a508b83a8998")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.67 -0.1)
@@ -24366,7 +24366,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f4c65449-c591-4f0f-9149-47ce5e2f42fc")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -24476,7 +24476,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/7406fb14-7e9b-457e-81fd-8daa2b75ca45")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -24824,7 +24824,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/aeb5b92a-bc34-4a5c-8015-b685ad82d071")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -25034,7 +25034,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/410243d7-4370-42be-8e29-06a6ff29d1d1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.734999)
@@ -25244,7 +25244,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/eb3575ce-3fa7-4cf4-879d-d9463561f475")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -25454,7 +25454,7 @@
 		(property ki_fp_filters "QFN*1EP*6x6mm*P0.4mm*")
 		(path "/3989ef7d-5531-41c5-8399-47e58cef3811")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.559999 -3.110001)
@@ -26294,7 +26294,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2a8115dd-c2c6-4c6c-aa18-c2a68b7f72cb")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -26339,16 +26339,16 @@
 			(uuid "d1a371b9-ba24-4b87-86cc-b4a9b4b9ad91")
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 		(layer "F.Cu")
 		(uuid "7dc945f8-e75b-4b85-b27e-7166bc2a57d9")
 		(at 225.1 96.3 -135)
-		(descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
-		(tags "SMD SMT crystal")
+		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, hand-soldering, 3.2x2.5mm^2 package")
+		(tags "SMD SMT crystal hand-soldering")
 		(property "Reference" "Y1"
-			(at 0 -2.000001 -135)
+			(at 0 -3.05 -135)
 			(layer "F.SilkS")
-			(uuid "6c199c07-0b99-4e2f-aceb-e426fbbe4515")
+			(uuid "f28f1534-0d4c-474d-a44e-10cb4fa83fdd")
 			(effects
 				(font
 					(size 1 1)
@@ -26357,9 +26357,9 @@
 			)
 		)
 		(property "Value" "32MHz_CF4032M00020001"
-			(at 1.979899 -0.424264 -135)
-			(layer "F.SilkS")
-			(uuid "012fe143-c527-4dc6-bc83-41e84136e0ff")
+			(at 0 3.05 -135)
+			(layer "F.Fab")
+			(uuid "6f7645dc-2721-4c64-a649-fc771516dc17")
 			(effects
 				(font
 					(size 1 1)
@@ -26367,12 +26367,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "949abfd7-568d-4712-8272-a9bd9b76eb2c")
+			(uuid "918a0a87-7796-4c00-aa89-a2a5f0314f0b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26384,7 +26384,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56f7c61f-9b06-471d-bc61-0b748d416b3c")
+			(uuid "a4019540-893d-4a99-8953-893889e6fc83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26396,7 +26396,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f2449a8-320b-4dd4-a9cf-1a4b383c05f2")
+			(uuid "715bf16f-ade5-4f9e-bffe-c4c0023f5af1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26406,206 +26406,166 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/6f6e72d3-3404-4fcd-9503-1a21ee4ee3e7")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.349998 1.150003)
-			(end 1.350001 1.15)
+			(start -2.7 2.25)
+			(end 2.7 2.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "501daf00-6909-49b5-b06e-b22d4998386c")
+			(uuid "2dd05c92-ba42-4ea7-b077-f43bc2181696")
 		)
 		(fp_line
-			(start -1.350001 -1.15)
-			(end -1.349998 1.150003)
+			(start -2.7 -2.25)
+			(end -2.7 2.25)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e334a1ec-6c5f-4ac9-99b3-ecbf71785a7a")
+			(uuid "22dc3c23-dfab-46ed-a732-74c19483512d")
 		)
 		(fp_line
-			(start 1.399999 1.300002)
-			(end 1.399999 -1.300002)
+			(start 2.8 2.300001)
+			(end 2.8 -2.300001)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bd59f64a-bc2b-458b-bb55-31e9b2baa5c3")
+			(uuid "138a44b6-4335-4be0-96ee-ab8ed025d137")
 		)
 		(fp_line
-			(start 1.399999 -1.300002)
-			(end -1.399999 -1.300002)
+			(start 2.8 -2.300001)
+			(end -2.8 -2.300001)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2b968dc9-4097-46be-93e4-6a56304cdaac")
+			(uuid "eb72d9fa-a13b-4d83-a0c3-d55fe7095c18")
 		)
 		(fp_line
-			(start -1.399999 1.300002)
-			(end 1.399999 1.300002)
+			(start -2.8 2.300001)
+			(end 2.8 2.300001)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "45787f7b-2c93-419c-a3ae-3c1a631872cd")
+			(uuid "2138f00e-8de9-44dd-88b4-5e88549773f7")
 		)
 		(fp_line
-			(start -1.399999 -1.300002)
-			(end -1.399999 1.300002)
+			(start -2.8 -2.300001)
+			(end -2.8 2.300001)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fe0f7bb8-452a-4b26-b918-da8a74960631")
+			(uuid "961d75c2-914b-4f50-8f59-de86a1388d49")
 		)
 		(fp_line
-			(start 0.899998 0.800002)
-			(end -0.900003 0.799999)
+			(start 1.6 1.25)
+			(end 1.6 -1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6b95e580-1607-491b-a387-a26b3f829f6c")
+			(uuid "803a94e2-b7e4-41db-8aa8-8e39934c53a8")
 		)
 		(fp_line
-			(start 0.999998 0.7)
-			(end 0.899998 0.800002)
+			(start 1.6 -1.25)
+			(end -1.6 -1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fec4f3e7-1893-47b8-b7e2-b5370aee687c")
+			(uuid "fc3721c7-d9dd-4427-992d-0d30ac46a4d6")
 		)
 		(fp_line
-			(start 1.000001 -0.7)
-			(end 0.999998 0.7)
+			(start -1.6 1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "52d714ac-bb66-433b-8ce9-2a5b583f18c6")
+			(uuid "745ee0f1-91a3-46b5-931a-a70deb99b080")
 		)
 		(fp_line
-			(start 0.900003 -0.799999)
-			(end 1.000001 -0.7)
+			(start -1.6 0.25)
+			(end -0.600001 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6eac9585-ace9-4ddf-8298-e8e0f38a77c0")
+			(uuid "a77f2964-98af-441e-8737-c1c36c0c034d")
 		)
 		(fp_line
-			(start -0.900003 0.799999)
-			(end -1.000001 0.7)
+			(start -1.6 -1.25)
+			(end -1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d47c2fd3-4cb4-4ece-87d9-4d621885fdae")
-		)
-		(fp_line
-			(start -1.000001 0.7)
-			(end -0.999998 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ea76db0d-9eb7-49aa-aa89-4d361f23832a")
-		)
-		(fp_line
-			(start -0.999999 0.300001)
-			(end -0.500001 0.799999)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc9cb769-cedf-41db-8ec7-2e6d9e8f921a")
-		)
-		(fp_line
-			(start -0.999998 -0.7)
-			(end -0.899998 -0.800002)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c1590de2-f3e5-4225-b67c-715fa44c081e")
-		)
-		(fp_line
-			(start -0.899998 -0.800002)
-			(end 0.900003 -0.799999)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d57a46cb-6bb8-452a-882b-8445f1f55131")
+			(uuid "5ae98541-5265-4d60-a914-77648eba0d36")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -135)
 			(layer "F.Fab")
-			(uuid "ac0f42eb-b1b0-4a36-9da6-b7dabad5b544")
+			(uuid "cab756ff-bc03-4f76-9e12-7602e891e9dc")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.075)
+					(size 0.7 0.7)
+					(thickness 0.105)
 				)
 			)
 		)
 		(pad "1" smd rect
-			(at -0.700003 0.549999 225)
-			(size 0.9 0.8)
+			(at -1.45 1.15 225)
+			(size 2.1 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 22 "Net-(U7-XC2)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b90b5cfd-8a58-40e1-ae0f-740e1c605484")
+			(uuid "514b8c9d-77b0-44ee-bc21-eb6ae02f4c3d")
 		)
 		(pad "2" smd rect
-			(at 0.700001 0.55 225)
-			(size 0.9 0.8)
+			(at 1.45 1.15 225)
+			(size 2.1 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 25 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3f7ef8ae-31ad-4a0d-92ce-e0a5cffb1ecb")
+			(uuid "69236509-7a10-49a6-a089-3291f614f55a")
 		)
 		(pad "3" smd rect
-			(at 0.700003 -0.549999 225)
-			(size 0.9 0.8)
+			(at 1.45 -1.15 225)
+			(size 2.1 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 21 "Net-(U7-XC1)")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "9ed88aa5-b512-4466-abd1-9b893e9478a9")
+			(uuid "79df2a78-3e4b-4726-8bc9-99cf280ea95d")
 		)
 		(pad "4" smd rect
-			(at -0.700001 -0.55 225)
-			(size 0.9 0.8)
+			(at -1.45 -1.15 225)
+			(size 2.1 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 25 "GND")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "3d6f68c0-4d63-44b8-8048-f32e00d77be7")
+			(uuid "66ea2c6f-1a1c-4c58-aaf9-b5feed9c566c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26683,7 +26643,7 @@
 		)
 		(path "/61a3f8c3-010e-4737-a6e9-2e461a1b3f64")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -27689,7 +27649,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/62887d5b-bb01-484b-89df-fed5f5736e04")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -27800,7 +27760,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8ce0947d-f5d6-42b8-8b49-9734f26ff7b5")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -28009,7 +27969,7 @@
 		)
 		(path "/11713c5e-d21c-4465-a71e-7d7b3f08ec40")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -29014,7 +28974,7 @@
 		(property ki_fp_filters "VQFN*1EP*3x3mm*P0.5mm*")
 		(path "/0034c9b2-e0a4-4c8c-b686-08619746e9f1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 1.61)
@@ -29487,7 +29447,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/049aa9d1-5b8c-45a1-8c71-31380709712d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261251 0.735001)
@@ -29697,7 +29657,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ed6987ae-af12-4a32-87d9-1543089e8f9b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.26125 0.734999)
@@ -29907,7 +29867,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/282f4558-f9dc-49b8-bccb-b7b684e0a116")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -30117,7 +30077,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2165df94-5157-4a29-a6ee-522adaabaa6c")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.26125 0.734999)
@@ -30325,7 +30285,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/c584f316-72ac-4c5d-8a31-eb9b9533d8a4")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -30671,7 +30631,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/8d5c5685-2607-490a-8aa5-31192f812b22")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -31019,7 +30979,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/37caaf6c-9042-432e-8c2e-b7f1779c4939")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -31325,7 +31285,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/b8406ddf-bca2-443c-abbc-8de60b22e0a7")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -31673,7 +31633,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a1e17b98-a24e-406f-9ef3-cfe15b495939")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.26125 0.734999)
@@ -31921,7 +31881,7 @@
 		)
 		(path "/29e60944-95a2-4e39-9997-9b640947a1b6")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -32183,7 +32143,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/d799dad5-b536-43cb-900e-1b240b38be34")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025001 1.200001)
@@ -32531,7 +32491,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/ee289cd5-1f0b-480f-a6f7-246ccea3b6be")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -32838,7 +32798,7 @@
 		)
 		(path "/e2531a14-61f5-4301-9117-52d9f7e7cb7d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -33843,7 +33803,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ed98c3ff-7f0e-4cd7-8a20-dce089167515")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -34053,7 +34013,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e6243c19-511e-4a4f-8000-84a55898067b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.000002 -0.96)
@@ -34283,7 +34243,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/0692b604-3888-4eeb-b72e-2b7b31172f19")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -34632,7 +34592,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/5d853a95-3e05-454e-b3ac-07531237251f")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -34747,7 +34707,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6976d9b9-2c83-4c03-8591-41fa23f10713")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -34859,7 +34819,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a5fdd0d2-99a1-4674-8833-c29fdd63b227")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -35069,7 +35029,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3e31602f-9485-47a8-a96a-841a9a8b4bf4")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -35279,7 +35239,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/34f3ed7c-73d9-42b7-bf66-b57241dfc519")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420002 -1.15)
@@ -35587,7 +35547,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/f4a09700-934b-4b36-8819-2c44acb9d5ef")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -35895,7 +35855,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/59042d34-6fdc-4581-92a1-fcb925f0d3d3")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -36105,7 +36065,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/482dd572-f1b4-42e3-8a51-5225851cb56f")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -36316,7 +36276,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c66a6723-7fc8-4ada-b8ae-016db3e4f541")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -36428,7 +36388,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/165ecf32-895c-4286-876b-cb77a61c6198")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -36636,7 +36596,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/3ac815db-1104-4e77-9783-ff2918311e7d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025001 1.200001)
@@ -36985,7 +36945,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/b303dc78-2830-41de-8d49-c0c604e0165f")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -37293,7 +37253,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e887f048-6f82-45c2-919d-acb5f052d5f2")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -37504,7 +37464,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2a6f3c63-4d3f-434e-a035-a34f29ed3c97")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -37615,7 +37575,7 @@
 		)
 		(path "/3886e575-390d-46b7-ad3e-7e0466adc8ab")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -38621,7 +38581,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b94bd18d-8beb-4ca9-8e94-ecc453cd959a")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -38733,7 +38693,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/193be580-cd7e-4945-a999-81988e005fca")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735)
@@ -38944,7 +38904,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/435e345e-79ef-4702-93fc-7b4634b6ba0d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -39057,7 +39017,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e501b913-3211-4bf7-ab5d-6f82f595016c")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -39169,7 +39129,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/f73f542e-21fa-4519-b72c-9749969b512c")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -39436,7 +39396,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/a99796d9-99e7-4a9a-9b66-fa0c73942300")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -39742,7 +39702,7 @@
 		)
 		(path "/114f2706-2884-48db-a190-726906aa2dde")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.2 3.23)
@@ -40180,7 +40140,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0dd032aa-71d6-4a4a-a0ce-b1c75c9f0a2a")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -40290,7 +40250,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/efd8ed77-e6ab-4ef5-bc76-89b83b6646c4")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -40638,7 +40598,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a5348abd-5690-4b55-b0a4-d29b05e762d6")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -40849,7 +40809,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/604ab569-3a7b-4cdf-bead-773b80991e57")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -40961,7 +40921,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/dc5d7022-a845-44fa-9f64-7af6eb0e8626")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.000002 -0.96)
@@ -41193,7 +41153,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/ebc46f2b-d955-49ad-855a-95e68784f684")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420002 -1.15)
@@ -41499,7 +41459,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/81aa3b3b-4bf7-4cf9-b2f4-33d38915425b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -41885,7 +41845,7 @@
 		)
 		(path "/6fc91810-9062-4e10-a0de-97cb9b5916ef")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -42150,7 +42110,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/18cefe6d-8e0d-44b8-be93-8de5becb6426")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -42456,7 +42416,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/91e9ad5e-de94-429b-9f7b-fdcd56fa9d1d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -42805,7 +42765,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/64dadae2-db99-4354-973a-e0be77de14ae")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -42917,7 +42877,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9bf14eae-f751-401b-8123-68471f323819")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.26125 0.734999)
@@ -43127,7 +43087,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ac38d6c4-a393-46b0-a055-d6b92d15f76c")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.171266 0.510001)
@@ -43340,7 +43300,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/10bfdbac-2b94-42a3-9912-4b9100876135")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -43450,7 +43410,7 @@
 		)
 		(path "/5d2231fb-fab2-42b5-9438-ef564b6c32c0")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -44455,7 +44415,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b270a91c-3df9-4868-bf2d-167de5605528")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.330001 8.95)
@@ -44752,7 +44712,7 @@
 		)
 		(path "/09335ca8-25a3-4f57-a9e0-5298fdf6fff1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -45757,7 +45717,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fb57eaae-51ff-4a73-9c6d-9801c8563edc")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261249 0.735001)
@@ -45968,7 +45928,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/a06e1af1-81f2-4246-bd52-de8af5691338")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -46080,7 +46040,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/72723db7-76df-4bd5-9e23-ec228084834f")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -46193,7 +46153,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/4c6b5988-4cbd-4447-8baa-0188c246b067")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -46305,7 +46265,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/f7d9b103-9123-44af-b0d5-c66bf8583ce6")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.2)
@@ -46653,7 +46613,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/246fc8bc-d345-4a93-b1fc-75b2c928089e")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -46961,7 +46921,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/3002bf87-a0a5-413e-8829-84aa78268fff")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.420001 -1.150001)
@@ -47270,7 +47230,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/890dda1d-7a24-45f9-91b0-35274435a27e")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -47387,7 +47347,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/8dcd6d9d-f234-4834-8f15-f7a5dc2f246b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.200001)
@@ -47740,7 +47700,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/245b08c2-23b7-4775-926b-b0a61405ee2c")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 10.100001 0.380001)
@@ -48562,7 +48522,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9d722e6c-2a6e-4394-9ef6-f486e07b6dd8")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -48778,7 +48738,7 @@
 		(property ki_fp_filters "SOIC*3.9x9.9mm*P1.27mm*")
 		(path "/c2a3cff3-a300-42f5-be6a-9f5a48e67f65")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.950001 5.060002)
@@ -49177,7 +49137,7 @@
 		)
 		(path "/4043282a-92b4-4487-85f2-92c4f79e16ea")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.23 -1.3)
@@ -49493,7 +49453,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/53f15692-cfcd-451e-9771-dd392dfad034")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -49709,7 +49669,7 @@
 		(property ki_fp_filters "LED*WS2812*-2020_PLCC4*")
 		(path "/f0276629-a9b0-45b7-80b0-bcf5b4f274e7")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.420001 -1.150001)
@@ -50023,7 +49983,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2594527f-a994-471d-9e1e-e7f4705d427b")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -50239,7 +50199,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/82001869-410b-40a0-ac9f-a701b3bec54d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -50453,7 +50413,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/df15af94-8880-4201-8459-c1241b2892f1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025001 1.200001)
@@ -50806,7 +50766,7 @@
 		(property ki_fp_filters "Texas*DRC0010J*")
 		(path "/ad2d1f08-aa57-4956-8041-73b21a537399")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.634999 -1.610001)
@@ -51221,16 +51181,16 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 		(layer "B.Cu")
 		(uuid "72b44204-d253-49ac-bd9b-87306245f767")
 		(at 166.35 124.689999 180)
-		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-		(tags "inductor handsolder")
+		(descr "Shielded Power Inductors (https://www.bourns.com/docs/product-datasheets/srp7028a.pdf)")
+		(tags "Shielded Inductors Bourns SMD SRP7028A")
 		(property "Reference" "L1"
-			(at 0 1.43 180)
+			(at 0 4.2 180)
 			(layer "B.SilkS")
-			(uuid "f34f39c8-97fd-4dcd-bd0d-bb11b42333ec")
+			(uuid "dab96bdf-5570-42b7-8f91-165162d44c9f")
 			(effects
 				(font
 					(size 1 1)
@@ -51240,9 +51200,9 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at -1.7 -1.810001 180)
-			(layer "B.SilkS")
-			(uuid "d867991a-dc14-4e3d-bd42-abf056002084")
+			(at 0 -4.5 180)
+			(layer "B.Fab")
+			(uuid "38211032-07ba-4232-ae83-9bb6301317d1")
 			(effects
 				(font
 					(size 1 1)
@@ -51251,12 +51211,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c3279ce2-b9b4-434e-bfc1-685a90987275")
+			(uuid "047fe0f3-d6cf-4f2b-8d55-f439dee5f5e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51269,7 +51229,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9b832615-23fd-4656-b317-919388e57933")
+			(uuid "c3d3ac66-d197-4e26-a8e6-0918686e09f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51282,7 +51242,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dcdfe4a6-3ff8-4149-b5b1-eff59aaebf29")
+			(uuid "1ac025d6-98be-41c3-9a61-3413bd20e978")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51293,141 +51253,347 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/5ad25ac6-1764-4d02-931e-a2eba084e2e1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.171268 -0.51)
-			(end -0.171267 -0.509999)
+			(start 3.46 1.95)
+			(end 3.46 2.8)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "0bd9ebbb-ee46-48c3-83a3-e269978f0a91")
+			(uuid "a427e9be-8425-4dce-ad85-c06a4d08c1a6")
 		)
 		(fp_line
-			(start 0.171267 0.509999)
-			(end -0.171268 0.51)
+			(start 3.46 -2.8)
+			(end 3.46 -1.95)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7961f4b5-ad11-47bd-8233-480a170c87f5")
+			(uuid "f239a6bd-c72c-4298-8481-d852769af213")
 		)
 		(fp_line
-			(start 1.650002 -0.73)
-			(end 1.649997 0.729998)
+			(start 2.85 3.41)
+			(end -2.85 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fbe24662-867a-40a6-bd5d-f6c0f953e303")
+		)
+		(fp_line
+			(start -2.8 -3.41)
+			(end 2.85 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "279ea33e-6d2b-4541-bc5e-53b002c6ed53")
+		)
+		(fp_line
+			(start -3.46 2.8)
+			(end -3.46 1.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "25fd8153-9af0-481f-baa2-38e245dab701")
+		)
+		(fp_line
+			(start -3.46 -1.95)
+			(end -3.46 -2.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5637571e-b546-47fb-9008-387ed94a5387")
+		)
+		(fp_arc
+			(start 3.46 2.8)
+			(mid 3.281335 3.231335)
+			(end 2.85 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "08266a77-d5bb-49e2-9696-c4e31aa4e4c7")
+		)
+		(fp_arc
+			(start 2.85 -3.41)
+			(mid 3.281335 -3.231335)
+			(end 3.46 -2.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f4f06ca4-3f3d-410a-94b2-473cb86f2124")
+		)
+		(fp_arc
+			(start -2.85 3.41)
+			(mid -3.281335 3.231335)
+			(end -3.46 2.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4b76234a-fc83-435e-aa3f-1e0dee09aee6")
+		)
+		(fp_arc
+			(start -3.46 -2.75)
+			(mid -3.26669 -3.21669)
+			(end -2.8 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "47ac67e1-6619-435c-b1f5-3f94c251c1d8")
+		)
+		(fp_line
+			(start 4.45 2)
+			(end 3.6 2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9e2cb41e-1f3d-4069-b6b5-d82b948edbe0")
+			(uuid "3a752cd7-f9bf-45eb-b285-f87f551c1fcb")
 		)
 		(fp_line
-			(start 1.649997 0.729998)
-			(end -1.650002 0.73)
+			(start 4.45 -2)
+			(end 4.45 2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "17ac6550-02cd-4e99-9173-35603379c67a")
+			(uuid "162adcd6-6d11-452f-a508-884a9d33a06f")
 		)
 		(fp_line
-			(start -1.649997 -0.729998)
-			(end 1.650002 -0.73)
+			(start 3.6 3.55)
+			(end -3.6 3.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c8dbadce-d90d-403c-bffc-a6fe6780d5c1")
+			(uuid "8a646e63-5a59-46f1-8ff4-9a8eae480349")
 		)
 		(fp_line
-			(start -1.650002 0.73)
-			(end -1.649997 -0.729998)
+			(start 3.6 2)
+			(end 3.6 3.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b6d02c98-c996-4c6f-a88c-c3a710a08456")
+			(uuid "4fa60f6c-9785-4909-a563-337e6ede592f")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.400001)
+			(start 3.6 -2)
+			(end 4.45 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5d02d7f0-f87b-4191-81d8-931b8bfab3fb")
+		)
+		(fp_line
+			(start 3.6 -3.55)
+			(end 3.6 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "855219ba-55ba-451f-8cf6-60f5f9767220")
+		)
+		(fp_line
+			(start -3.6 3.55)
+			(end -3.6 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "77e46a3e-36d2-4b16-b51a-c86eba9a63ac")
+		)
+		(fp_line
+			(start -3.6 2)
+			(end -4.45 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9d5c3f9a-4e73-489a-b0de-72307b5d03ce")
+		)
+		(fp_line
+			(start -3.6 -2)
+			(end -3.6 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d8edc63b-ebab-429c-9edf-d890227a39c8")
+		)
+		(fp_line
+			(start -3.6 -3.55)
+			(end 3.6 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "73edbf83-f799-4306-afce-087215f47be9")
+		)
+		(fp_line
+			(start -4.45 2)
+			(end -4.45 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f671412d-f063-4fca-bfc4-8de70ff4e27b")
+		)
+		(fp_line
+			(start -4.45 -2)
+			(end -3.6 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5d8e6a33-953c-4b6d-8938-02818aa875f7")
+		)
+		(fp_line
+			(start 3.35 -2.8)
+			(end 3.35 2.8)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f9148eb7-7612-447f-b216-f7267ff8dc1d")
+			(uuid "aa0a01bb-ef4a-40d9-832e-e4a0dedcf98d")
 		)
 		(fp_line
-			(start 0.8 -0.400001)
-			(end 0.8 0.4)
+			(start 2.85 3.3)
+			(end -2.85 3.3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "6129150a-f565-49f7-80f8-b2f188369126")
+			(uuid "85bb2617-6b10-4457-ae66-e9f7b284bf47")
 		)
 		(fp_line
-			(start -0.8 0.400001)
-			(end -0.8 -0.4)
+			(start -2.85 -3.3)
+			(end 2.85 -3.3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c74189a6-9bb5-456b-957d-a7079c390599")
+			(uuid "683040c7-3666-4c5e-b190-3390a765caf0")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.400001)
+			(start -3.35 2.8)
+			(end -3.35 -2.8)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "28274976-c08e-4082-9f85-09aad358a39b")
+			(uuid "08d73ed6-60f4-48c4-bb2d-2be4e7c34fcf")
+		)
+		(fp_arc
+			(start 3.35 2.8)
+			(mid 3.203553 3.153553)
+			(end 2.85 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "1cf93922-5837-45a2-aec1-bbbf2a84abaf")
+		)
+		(fp_arc
+			(start 2.85 -3.3)
+			(mid 3.203553 -3.153553)
+			(end 3.35 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "07b257c3-eca1-45f5-a782-8e924e6ae44e")
+		)
+		(fp_arc
+			(start -2.85 3.3)
+			(mid -3.203553 3.153553)
+			(end -3.35 2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8abe8b88-d921-4055-94f8-bd33653e9aa9")
+		)
+		(fp_arc
+			(start -3.35 -2.8)
+			(mid -3.203553 -3.153553)
+			(end -2.85 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "95db0cce-00b7-42d0-b5b5-0c6cf0b4f1ad")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "B.Fab")
-			(uuid "4c0b99cc-b4e5-4326-87e6-0a1d9ba54264")
+			(uuid "5a58e2a0-c7cf-4d51-ba96-237ce115dd7d")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(pad "1" smd roundrect
-			(at -0.875 0 180)
-			(size 1.05 0.95)
+		(pad "1" smd rect
+			(at -2.725 0 180)
+			(size 2.95 3.5)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.25)
 			(net 116 "Net-(U6-L2)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "68824c3c-83aa-4d2a-8265-ba49cabd2fee")
+			(uuid "b030301d-ab6a-4564-8004-f812b0918d76")
 		)
-		(pad "2" smd roundrect
-			(at 0.875 0 180)
-			(size 1.05 0.95)
+		(pad "2" smd rect
+			(at 2.725 0 180)
+			(size 2.95 3.5)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.25)
 			(net 115 "Net-(U6-L1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4d1746bc-4876-4f1d-8b53-997def06fe88")
+			(uuid "020b67f6-e249-4887-8230-4ea5b94d0c57")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP7028A_7.3x6.6mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51511,7 +51677,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fd027b44-1a20-410d-9ed8-08abb21bf3fd")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -51727,7 +51893,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/58e66872-6f4d-4c5c-bd58-20b8ae353720")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -51943,7 +52109,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5092c7ef-c51a-4329-9cf2-51b6f68de4d9")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -52159,7 +52325,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ada146a5-987a-4ad7-aa63-e5738d8fe280")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.269998 1.269998)
@@ -52719,7 +52885,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b204b945-8f5f-4895-9192-159698109222")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -52935,7 +53101,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/16c9831c-8c47-4f75-96df-d4831bc1296d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -53151,7 +53317,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1c52e743-bbf0-4527-a47b-04c146a369fa")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -53367,7 +53533,7 @@
 		(property ki_fp_filters "SSOP*5.3x10.2mm*P0.65mm*")
 		(path "/3168c1cf-cd5a-43e3-a3cf-b71e5eb56b16")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.875 5.325)
@@ -53877,7 +54043,7 @@
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/f0195b22-2b74-4b65-8dad-f39a51d21d0f")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.025 1.200001)
@@ -54230,7 +54396,7 @@
 		(property ki_fp_filters "Texas*DRC0010J*")
 		(path "/c9d6d86e-0113-4574-98f2-cb7a1a23f55d")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.61 -1.61)
@@ -54719,7 +54885,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/281dcd49-e2ff-4e5a-90ef-2223e17677e1")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.67 1.949999)
@@ -54987,7 +55153,7 @@
 		)
 		(path "/913e6e74-b59d-4099-a1c9-7a270579b1ab")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 1.135)
@@ -55145,7 +55311,7 @@
 			(size 0.7 0.25)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 16 "+3.3V")
+			(net 58 "+BATT")
 			(pinfunction "CELL")
 			(pintype "power_in")
 			(uuid "6c289db9-3e6b-4491-a20e-3561ca12d5aa")
@@ -55305,7 +55471,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/19b2ff1f-542b-45f8-9e8d-543b413f8076")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -55449,16 +55615,16 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 		(layer "B.Cu")
 		(uuid "fff3fa67-b73a-42e2-b230-61d286ea376a")
 		(at 138.85 119.45 180)
-		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-		(tags "inductor handsolder")
+		(descr "Shielded Power Inductors (https://www.bourns.com/docs/product-datasheets/srp7028a.pdf)")
+		(tags "Shielded Inductors Bourns SMD SRP7028A")
 		(property "Reference" "L2"
-			(at 1.3 1.35 180)
+			(at 0 4.2 180)
 			(layer "B.SilkS")
-			(uuid "a90666c0-7f90-42f0-9b9e-86f01e0b1f7c")
+			(uuid "f96b14c7-f0c3-4e7f-a28d-8f90ed162fb6")
 			(effects
 				(font
 					(size 1 1)
@@ -55468,9 +55634,9 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at -1.85 -0.85 180)
-			(layer "B.SilkS")
-			(uuid "822f36a9-f20b-4dea-a51d-f6a7e299a4c4")
+			(at 0 -4.5 180)
+			(layer "B.Fab")
+			(uuid "e75cd350-2935-4003-97b2-35abfcc492ac")
 			(effects
 				(font
 					(size 1 1)
@@ -55479,12 +55645,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ae726f3c-062e-4d03-ae12-fa38b268acf5")
+			(uuid "885c2665-e1f6-4f5e-a961-bdcb77d48c2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55497,7 +55663,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c30e3847-3b76-46e2-aa2f-612b0b332a96")
+			(uuid "dcfeaeb8-2e50-4a78-a79d-5780b316871a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55510,7 +55676,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4ad05f8b-dd44-4572-839d-4c0f89b0a193")
+			(uuid "3ed6acaa-1d51-47cd-a55d-e5191c902db4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55521,141 +55687,347 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/278c5eb9-f486-4872-b446-74b04bc40fd8")
 		(sheetname "Root")
-		(sheetfile "sudi-redox-clone.kicad_sch")
+		(sheetfile "sudi-keyboard.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.171266 0.510001)
-			(end -0.171265 0.51)
+			(start 3.46 1.95)
+			(end 3.46 2.8)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "04333363-19b2-41f6-8398-7457525bf49a")
+			(uuid "22928416-effd-4186-8fab-88f9554451f7")
 		)
 		(fp_line
-			(start 0.171265 -0.51)
-			(end -0.171266 -0.510001)
+			(start 3.46 -2.8)
+			(end 3.46 -1.95)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "22119fc6-7c1b-4a87-b8de-5cc7f6931e8d")
+			(uuid "79084888-43e9-48e0-b247-c01f2367f9b8")
 		)
 		(fp_line
-			(start 1.650002 -0.73)
-			(end 1.65 0.729998)
+			(start 2.85 3.41)
+			(end -2.85 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "bc0e7e43-22e4-40d1-ba7f-154148a2a355")
+		)
+		(fp_line
+			(start -2.8 -3.41)
+			(end 2.85 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "bc98890d-b412-4104-8529-39167cf32456")
+		)
+		(fp_line
+			(start -3.46 2.8)
+			(end -3.46 1.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2aa3f664-df33-4037-a122-67a7bd396ee0")
+		)
+		(fp_line
+			(start -3.46 -1.95)
+			(end -3.46 -2.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2e72e503-961b-4e3c-9754-3b24b0be7a95")
+		)
+		(fp_arc
+			(start 3.46 2.8)
+			(mid 3.281335 3.231335)
+			(end 2.85 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b768a1c1-fbf1-4971-bf97-347a671045a9")
+		)
+		(fp_arc
+			(start 2.85 -3.41)
+			(mid 3.281335 -3.231335)
+			(end 3.46 -2.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4be8122c-2e60-4514-9447-e2eb9660c64c")
+		)
+		(fp_arc
+			(start -2.85 3.41)
+			(mid -3.281335 3.231335)
+			(end -3.46 2.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4ff7075b-31cf-4847-ab5d-46da12954963")
+		)
+		(fp_arc
+			(start -3.46 -2.75)
+			(mid -3.26669 -3.21669)
+			(end -2.8 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ef3a5cf6-b4f4-4919-b877-461bb6af67cf")
+		)
+		(fp_line
+			(start 4.45 2)
+			(end 3.6 2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "120eade2-ca46-44e6-b991-aad1c76b49be")
+			(uuid "090f62e8-6cff-4faa-9896-1a59d2f66ebb")
 		)
 		(fp_line
-			(start 1.65 0.729998)
-			(end -1.650002 0.73)
+			(start 4.45 -2)
+			(end 4.45 2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "90a42732-0863-43aa-a78b-ee8b75a42b5b")
+			(uuid "46a25d3e-6c76-4fa5-88bd-5661fe4fbdc5")
 		)
 		(fp_line
-			(start -1.65 -0.729998)
-			(end 1.650002 -0.73)
+			(start 3.6 3.55)
+			(end -3.6 3.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "931bdea2-548d-4cfb-85b2-c0a1ce4268e4")
+			(uuid "32f44843-53e7-48ee-a2a4-cf1dc5c66083")
 		)
 		(fp_line
-			(start -1.650002 0.73)
-			(end -1.65 -0.729998)
+			(start 3.6 2)
+			(end 3.6 3.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "123935ac-ec80-4c20-b6a6-3f90fb8e4c8d")
+			(uuid "511fab1a-e668-486c-9407-1998312cb208")
 		)
 		(fp_line
-			(start 0.800001 0.399999)
-			(end -0.800001 0.400001)
+			(start 3.6 -2)
+			(end 4.45 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "aed42fac-f3a7-4d1b-9bd1-38be23b2cdf9")
+		)
+		(fp_line
+			(start 3.6 -3.55)
+			(end 3.6 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6f025b83-dd47-41de-955b-c532fff693f9")
+		)
+		(fp_line
+			(start -3.6 3.55)
+			(end -3.6 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "244e37e4-414b-4022-b4c2-7259e5aa4660")
+		)
+		(fp_line
+			(start -3.6 2)
+			(end -4.45 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "efa6e408-6799-4b09-aa67-8119c36f526b")
+		)
+		(fp_line
+			(start -3.6 -2)
+			(end -3.6 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f406f5b5-dd22-40bd-b6f4-c20f32904af6")
+		)
+		(fp_line
+			(start -3.6 -3.55)
+			(end 3.6 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f42517bd-b936-4554-aee3-21590e6468a0")
+		)
+		(fp_line
+			(start -4.45 2)
+			(end -4.45 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "58638bce-fa7d-4ad1-aa80-768867547afc")
+		)
+		(fp_line
+			(start -4.45 -2)
+			(end -3.6 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c1414613-b2fb-4b9f-bfcd-e2252341f3c6")
+		)
+		(fp_line
+			(start 3.35 -2.8)
+			(end 3.35 2.8)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "26c58641-52a8-4910-a83f-08c7f4d708f0")
+			(uuid "f5eaaa00-4870-4220-b720-b7b371220bd5")
 		)
 		(fp_line
-			(start 0.800001 -0.400001)
-			(end 0.800001 0.399999)
+			(start 2.85 3.3)
+			(end -2.85 3.3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "99224689-7e90-474d-b681-d3dd11d545f8")
+			(uuid "7aa92e8d-3fc3-4fea-85bc-491c964c931d")
 		)
 		(fp_line
-			(start -0.800001 0.400001)
-			(end -0.800001 -0.399999)
+			(start -2.85 -3.3)
+			(end 2.85 -3.3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b65b2e01-2ac3-46c2-a87a-e2ac3d6f8d04")
+			(uuid "ca66dfc5-4be8-4b31-a9a0-32f12fe3576e")
 		)
 		(fp_line
-			(start -0.800001 -0.399999)
-			(end 0.800001 -0.400001)
+			(start -3.35 2.8)
+			(end -3.35 -2.8)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b83d2250-00b2-4358-85bb-79582d90ac5b")
+			(uuid "61563e4a-ed4f-46da-a42a-89a50eb34f22")
+		)
+		(fp_arc
+			(start 3.35 2.8)
+			(mid 3.203553 3.153553)
+			(end 2.85 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "59a2ab42-30ac-4401-9f24-37e1f2369782")
+		)
+		(fp_arc
+			(start 2.85 -3.3)
+			(mid 3.203553 -3.153553)
+			(end 3.35 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ea13b845-0a20-45f9-b216-dcc35263709d")
+		)
+		(fp_arc
+			(start -2.85 3.3)
+			(mid -3.203553 3.153553)
+			(end -3.35 2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "2de57321-d575-45f3-ab27-a298d55cdf80")
+		)
+		(fp_arc
+			(start -3.35 -2.8)
+			(mid -3.203553 -3.153553)
+			(end -2.85 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4d8895a2-9070-4faf-8785-7d9872688f79")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "B.Fab")
-			(uuid "e84ec4a7-ed2a-4489-93ad-1dbb72ddf49d")
+			(uuid "5cb40310-2700-4118-8717-5fe2d59f5837")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(pad "1" smd roundrect
-			(at -0.875 0 180)
-			(size 1.05 0.95)
+		(pad "1" smd rect
+			(at -2.725 0 180)
+			(size 2.95 3.5)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.25)
 			(net 117 "Net-(U9-L2)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6715af44-2459-4278-863a-e42ec73b061b")
+			(uuid "ba5f6db7-b65f-44ec-995a-04c3af743a76")
 		)
-		(pad "2" smd roundrect
-			(at 0.875 0 180)
-			(size 1.05 0.95)
+		(pad "2" smd rect
+			(at 2.725 0 180)
+			(size 2.95 3.5)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.25)
 			(net 118 "Net-(U9-L1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e1515511-7719-4101-9709-2c76417753be")
+			(uuid "63c9656b-86a3-4af1-afb7-13f95149e6e6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP7028A_7.3x6.6mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60752,12 +61124,12 @@
 		(uuid "0032ae00-a930-4d5e-b9b5-4d141b7d539f")
 	)
 	(segment
-		(start 171.3 108.54974)
+		(start 171.3 109.229899)
 		(end 171.3 107.4375)
 		(width 0.25)
 		(layer "B.Cu")
 		(net 16)
-		(uuid "030546b2-e334-45fe-a6c1-5ec65f3c712f")
+		(uuid "04d1ec17-e197-4766-a896-92ca998fed41")
 	)
 	(segment
 		(start 216.415 71.635)
@@ -60806,6 +61178,14 @@
 		(layer "B.Cu")
 		(net 16)
 		(uuid "1309895e-86b4-4377-8a0a-c435bde2e63b")
+	)
+	(segment
+		(start 173.479899 111.829899)
+		(end 173.479899 112.65)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "1800ac8a-4ce7-425f-9104-6017433a21bf")
 	)
 	(segment
 		(start 159.05 115.15)
@@ -60942,6 +61322,22 @@
 		(layer "B.Cu")
 		(net 16)
 		(uuid "5aed5d9b-0cf3-42fd-9293-013040d8d2f0")
+	)
+	(segment
+		(start 171.5 109.85)
+		(end 173.479899 111.829899)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "5da41e00-b259-492d-9a97-80da0e3a1c15")
+	)
+	(segment
+		(start 170.679899 109.85)
+		(end 171.3 109.229899)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "6006641b-abba-4c6e-ab9a-22f48e169719")
 	)
 	(segment
 		(start 217.587718 99.512282)
@@ -61144,14 +61540,6 @@
 		(uuid "9c06cce3-a7dc-4b5b-a62c-ffe00fa480c9")
 	)
 	(segment
-		(start 170.49974 109.35)
-		(end 171.3 108.54974)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 16)
-		(uuid "9fa9fd66-6c9e-4274-9025-f581b444a219")
-	)
-	(segment
 		(start 212.605 77.445)
 		(end 213.55 76.5)
 		(width 0.2)
@@ -61264,14 +61652,6 @@
 		(uuid "c15a3843-80ac-4028-bf75-f362e13011a3")
 	)
 	(segment
-		(start 170.1 109.35)
-		(end 170.1 109.85)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 16)
-		(uuid "c178e9a9-72df-4457-a6e5-94f5efab467a")
-	)
-	(segment
 		(start 135.6 118.3)
 		(end 136.45 118.3)
 		(width 0.2)
@@ -61318,14 +61698,6 @@
 		(layer "B.Cu")
 		(net 16)
 		(uuid "d1999991-3234-499d-8539-9771a9612f8f")
-	)
-	(segment
-		(start 170.1 109.35)
-		(end 170.49974 109.35)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 16)
-		(uuid "d2b6de90-00fe-4eea-9a46-02b045a0116f")
 	)
 	(segment
 		(start 162.8 117.05)
@@ -61384,20 +61756,20 @@
 		(uuid "e66d1d08-6ca4-4411-81e5-3ab2efa87977")
 	)
 	(segment
+		(start 170.679899 109.85)
+		(end 171.5 109.85)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "e8601639-91f0-4234-a3aa-192246c2dcd0")
+	)
+	(segment
 		(start 216.415 74.649999)
 		(end 216.415 73.675)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 16)
 		(uuid "e97b76e9-aa2a-4192-aa44-0fe30f1fdee9")
-	)
-	(segment
-		(start 170.679899 109.85)
-		(end 173.479899 112.65)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 16)
-		(uuid "f678bcbd-51f6-4e70-a6a1-0607ce6b5def")
 	)
 	(segment
 		(start 173.6 135.239946)

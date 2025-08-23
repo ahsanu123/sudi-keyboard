@@ -8701,12 +8701,6 @@
 		(uuid "39f973a1-3e5c-4757-9bec-ddc3610b4684")
 	)
 	(junction
-		(at 49.53 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a8ac45f-1045-469b-9208-d6663d5e05e0")
-	)
-	(junction
 		(at 92.71 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9568,16 +9562,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 242.57) (xy 49.53 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "059eb99c-7f99-4cfb-b430-d35d8efb11ac")
-	)
-	(wire
-		(pts
 			(xy 309.88 180.34) (xy 318.77 180.34)
 		)
 		(stroke
@@ -10208,7 +10192,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 242.57) (xy 52.07 242.57)
+			(xy 31.75 242.57) (xy 52.07 242.57)
 		)
 		(stroke
 			(width 0)
@@ -12118,6 +12102,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 245.11) (xy 52.07 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703f97a6-becd-44a6-a2e3-f39763cfb5ce")
+	)
+	(wire
+		(pts
 			(xy 152.4 179.07) (xy 152.4 180.34)
 		)
 		(stroke
@@ -12738,16 +12732,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 245.11) (xy 52.07 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af0dc35-4f4e-49c6-b63b-903ae1c56668")
-	)
-	(wire
-		(pts
 			(xy 260.35 224.79) (xy 271.78 224.79)
 		)
 		(stroke
@@ -12795,16 +12779,6 @@
 			(type default)
 		)
 		(uuid "8e62639a-415b-4032-be61-8bef4bd037d9")
-	)
-	(wire
-		(pts
-			(xy 49.53 242.57) (xy 49.53 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f4e80e5-1303-4c7a-911f-a9d22cbcc798")
 	)
 	(wire
 		(pts
@@ -20032,7 +20006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 48.26 210.82 0)
 			(effects
 				(font
@@ -23585,7 +23559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 62.23 160.02 0)
 			(effects
 				(font
@@ -24668,7 +24642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 151.13 189.23 0)
 			(effects
 				(font
@@ -31452,6 +31426,73 @@
 			(project "sudi-keyboard"
 				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
 					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 48.26 245.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df27a4d1-1ee1-464a-8553-74fc74b127e1")
+		(property "Reference" "#PWR088"
+			(at 52.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 44.45 245.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 48.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0253610c-4f54-4873-870e-b38aa835c42b")
+		)
+		(instances
+			(project "sudi-keyboard"
+				(path "/5bbd2338-13ff-49b0-9f87-5cbfec528c5b"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
