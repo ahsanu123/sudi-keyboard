@@ -1,12 +1,17 @@
+bins: 
+  cargo build --bin
 
-bdev:
-  cargo build --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server
+bdev binName:
+  cargo build --features nrf52832 --target thumbv7em-none-eabihf --bin {{binName}}
 
-brel:
-  cargo build --release --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server
+brel binName:
+  cargo build --release --features nrf52832 --target thumbv7em-none-eabihf --bin {{binName}}
 
-rdev:
-  cargo run --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server
+rdev binName:
+  cargo run --features nrf52832 --target thumbv7em-none-eabihf --bin {{binName}}
 
-rrel:
-  cargo run --release --features nrf52832 --target thumbv7em-none-eabihf --bin test_battery_server
+rrel binName:
+  cargo run --release --features nrf52832 --target thumbv7em-none-eabihf --bin {{binName}}
+
+adev binName: 
+   probe-rs attach --chip nRF52832_xxAA target/thumbv7em-none-eabihf/debug/{{binName}}
