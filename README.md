@@ -34,7 +34,21 @@ RGB LED and OLED 0.91 inch for graphic display. Planned to create 3D print enclo
 
 ## 💾 hardware 
 hardware is designed with Kicad, you can find out hardware design in `pcb-design` folder. 
+
 ![sudi schematic](https://github.com/ahsanu123/sudi-keyboard/blob/main/pcb-design/version_2/output/sudi-redox-clone.svg)
+
+**Over simplified workflow**
+```mermaid
+flowchart TD
+    MatrixScanner[Matrix Scanner]
+    COR[Chain Of Responsibility]
+    FinalReport
+    HIDBLEServer[BLE HID Server]
+
+    MatrixScanner --> COR
+    COR --> FinalReport
+    FinalReport --> HIDBLEServer
+```
 
 <details>
   <summary>Casing Design</summary>
