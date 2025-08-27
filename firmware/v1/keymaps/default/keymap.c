@@ -33,10 +33,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                 KC_BSPC, KC_BSLS,   KC_ENT,   KC_RSFT,   KC_EQL,    KC_RBRC,  KC_QUOT,
                 KC_SLSH, KC_DLR,    KC_MINS,  KC_LBRC,   KC_SCLN,   KC_DOT,   KC_CIRC,
-                KC_0,    KC_P,      KC_L,     KC_COMM,   KC_DEL,    KC_9,     KC_O,
-                KC_K,    KC_M,      KC_BSPC,  KC_8,      KC_I,      KC_J,     KC_N,
-                KC_LSFT, KC_7,      KC_U,     KC_H,      KC_ESC,    KC_HOME,  KC_PGUP,
-                KC_PGDN, KC_LALT,   KC_UP,    KC_DOWN,   KC_F1,     KC_F4,    KC_F5
+                KC_0,    KC_P,      KC_L,     KC_COMM,   KC_LALT,    KC_9,     KC_O,
+                KC_K,    KC_M,      KC_DEL,   KC_8,      KC_I,      KC_J,     KC_N,
+                KC_LSFT, KC_7,      KC_U,     KC_H,      KC_END,    KC_HOME,  KC_PGUP,
+                KC_PGDN, KC_BSPC,   KC_UP,    KC_DOWN,   KC_F1,     KC_F4,    KC_F5
                 ),
 
     [SHIFTED] = LAYOUT(
