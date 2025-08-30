@@ -98,7 +98,7 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
+			(viasonmask yes)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -2093,7 +2093,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "d89a6a15-5aca-4a87-add9-22df5beccd63")
 			(effects
@@ -2104,7 +2104,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "5b0e0218-66ae-46c9-bbff-ffb2a9066633")
 			(effects
@@ -2256,7 +2256,7 @@
 			(uuid "cef29258-f34c-4b07-9327-11eee5b7c489")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b47a3b25-094d-430d-ad8e-fe9181e92c3a")
 			(effects
@@ -2451,7 +2451,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C42"
-			(at -1.75 -1.749998 360)
+			(at -1.75 -1.749998 0)
 			(layer "F.SilkS")
 			(uuid "2733a9ef-2cc9-4368-a4e7-ac3fb06bb19b")
 			(effects
@@ -2462,7 +2462,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at -2.400001 -3.249999 360)
+			(at -2.400001 -3.249999 0)
 			(layer "F.SilkS")
 			(uuid "5826e4fe-764e-44df-883d-bf606e7966db")
 			(effects
@@ -2614,7 +2614,7 @@
 			(uuid "9fdf862c-3b90-4569-88f6-700c52955d99")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2cf113a1-0b41-4c07-96b6-55b4889815ed")
 			(effects
@@ -2683,7 +2683,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C41"
-			(at 3.5 0.05 360)
+			(at 3.5 0.05 0)
 			(layer "F.SilkS")
 			(uuid "9a9bca54-da11-4c3c-997c-52b7ad68905a")
 			(effects
@@ -2694,7 +2694,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.SilkS")
 			(uuid "8cf44efc-ac5f-43b1-95b6-dd561088f6af")
 			(effects
@@ -2846,7 +2846,7 @@
 			(uuid "0c828f1e-91fc-45a2-a46a-996e846b760a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "838d276a-0847-4888-863a-3195b518a940")
 			(effects
@@ -3147,7 +3147,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C43"
-			(at 3.749998 0.149999 360)
+			(at 3.749998 0.149999 0)
 			(layer "F.SilkS")
 			(uuid "d9145cc7-1850-4a08-ac68-2bc857a2b11d")
 			(effects
@@ -3158,7 +3158,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.SilkS")
 			(uuid "d530b12d-56d3-4894-af38-9516c0a02625")
 			(effects
@@ -3310,7 +3310,7 @@
 			(uuid "90ffdfdc-6051-41d9-9258-c81d18a8dd99")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d61a0423-ea4a-4781-b002-f1af502b7df2")
 			(effects
@@ -3390,7 +3390,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.562501 2.324998 315)
+			(at 2.562501 2.324998 -45)
 			(layer "F.SilkS")
 			(uuid "3a61f2b1-3d0d-46be-a3db-31efc1c97dc0")
 			(effects
@@ -7242,7 +7242,7 @@
 		(descr "5-pin SOT23 package")
 		(tags "SOT-23-5 hand-soldering")
 		(property "Reference" "U1"
-			(at 0 -2.9 270)
+			(at 0 -2.9 -90)
 			(layer "F.SilkS")
 			(uuid "e4d41a50-59f0-4395-840f-669958c9ff10")
 			(effects
@@ -7253,7 +7253,7 @@
 			)
 		)
 		(property "Value" "SN74LV1T34DBV"
-			(at 0 2.9 270)
+			(at 0 2.9 -90)
 			(layer "F.Fab")
 			(uuid "8b44684a-9f1a-428f-884f-a64f16ef4e0b")
 			(effects
@@ -8758,7 +8758,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.6125 -0.275002 315)
+			(at 2.6125 -0.275002 -45)
 			(layer "F.SilkS")
 			(uuid "c919e71b-5ca7-4b4b-b0b0-6cfc7d02cf54")
 			(effects
@@ -9210,7 +9210,7 @@
 		(at 197.430002 116.8 90)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW2"
-			(at 0 -3.2 270)
+			(at 0 -3.2 -90)
 			(layer "F.SilkS")
 			(uuid "b82e4181-f02a-4e95-8eb8-aaf16069a3a0")
 			(effects
@@ -9221,7 +9221,7 @@
 			)
 		)
 		(property "Value" "SW_RGB"
-			(at 0 4.25 270)
+			(at 0 4.25 -90)
 			(layer "F.Fab")
 			(uuid "1a259e1e-f9a6-4fb8-8ed2-cd7ecd4eab3f")
 			(effects
@@ -9552,7 +9552,7 @@
 			(uuid "3fa8a34e-2a1a-47d2-a4e2-ac558e9402b2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.2 270)
+			(at 0 -3.2 -90)
 			(layer "F.Fab")
 			(uuid "11a703d3-d0d6-4cf2-8450-3446849bf85a")
 			(effects
@@ -10634,7 +10634,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0.550003 1.650003 360)
+			(at 0.550003 1.650003 0)
 			(layer "F.SilkS")
 			(uuid "6bb52508-386b-4757-95fe-b969ac2cee95")
 			(effects
@@ -10797,7 +10797,7 @@
 			(uuid "0624272a-8edb-4b69-bba1-dcbbc0b288b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f585b2cf-bdb0-48c7-b1d8-2a0dd1f855df")
 			(effects
@@ -11098,7 +11098,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at -2.949999 -0.01 270)
+			(at -2.949999 -0.01 -90)
 			(layer "F.SilkS")
 			(uuid "8cb6d2ab-958c-4544-bae5-ef9b9dd50ac8")
 			(effects
@@ -11109,7 +11109,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 3.8 -0.050002 270)
+			(at 3.8 -0.050002 -90)
 			(layer "F.SilkS")
 			(uuid "5a011891-0c50-4ff2-b6e1-668609fbc3bd")
 			(effects
@@ -11261,7 +11261,7 @@
 			(uuid "f963f174-297a-4097-92b7-22f6236f41b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "18cf6444-8e36-4901-a488-cd8f56d70e61")
 			(effects
@@ -11330,7 +11330,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C44"
-			(at 3.8 -0.050002 360)
+			(at 3.8 -0.050002 0)
 			(layer "F.SilkS")
 			(uuid "78acecbf-a0d0-40f0-a894-54a229ab7ecb")
 			(effects
@@ -11341,7 +11341,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.SilkS")
 			(uuid "67a5c183-9c5c-492c-8f07-e8f8de59a5b6")
 			(effects
@@ -11493,7 +11493,7 @@
 			(uuid "55b492fc-7a77-4569-8f65-393a852f0834")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a020a926-3dd6-482b-9e35-23f687383047")
 			(effects
@@ -15521,7 +15521,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at -2.950001 0.06 270)
+			(at -2.950001 0.06 -90)
 			(layer "F.SilkS")
 			(uuid "b84f3573-c277-4823-8eb0-eb381d53e1a2")
 			(effects
@@ -15532,7 +15532,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 3.699999 0.21 270)
+			(at 3.699999 0.21 -90)
 			(layer "F.SilkS")
 			(uuid "649efc30-443b-4a7d-956d-353c51dc4f7b")
 			(effects
@@ -15684,7 +15684,7 @@
 			(uuid "0bbbae30-5750-47ba-92bf-1a7e54214fd3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "9b2fdc23-2c1b-4e17-b01d-b658f3983af3")
 			(effects
@@ -17151,7 +17151,7 @@
 		(uuid "97265bce-3568-4070-88bc-98c83142a0d0")
 		(at 121.54 156.36)
 		(property "Reference" "D14"
-			(at -5.450001 -1.549999 360)
+			(at -5.450001 -1.549999 0)
 			(layer "F.SilkS")
 			(uuid "c3f7b303-8da5-412c-b438-3bfa8e2f02ae")
 			(effects
@@ -17162,7 +17162,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 -1.925 360)
+			(at 0 -1.925 0)
 			(layer "F.SilkS")
 			(uuid "348abc35-2a74-452d-8924-60b563af8847")
 			(effects
@@ -21480,7 +21480,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "daa64d1d-b435-4518-95b6-95c55c4ea33f")
 			(effects
@@ -21491,7 +21491,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "0387ea1f-4cbb-4538-9c8d-5b48385e53d1")
 			(effects
@@ -21643,7 +21643,7 @@
 			(uuid "760ac454-7af0-4615-a79f-b21824774a10")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bdd2d566-48e2-48bf-b3ec-86c5bb887d2c")
 			(effects
@@ -21712,7 +21712,7 @@
 		(descr "28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
 		(tags "SSOP 0.65")
 		(property "Reference" "U8"
-			(at 2.45 -6.350001 360)
+			(at 2.45 -6.350001 0)
 			(layer "F.SilkS")
 			(uuid "08414cdc-54c6-4492-8871-f861311e88d0")
 			(effects
@@ -21937,7 +21937,7 @@
 			(uuid "ea8b5f94-93f3-472a-866f-d3c356a37bf7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e4bcf135-89fe-4729-8dc3-cd778b795d17")
 			(effects
@@ -28730,7 +28730,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.649999 -2.8 315)
+			(at 2.649999 -2.8 -45)
 			(layer "F.SilkS")
 			(uuid "75b22305-6820-480f-97b5-29d3b54d76b2")
 			(effects
@@ -30571,7 +30571,7 @@
 			(uuid "52ee9cc2-3559-4d21-9534-309c1090f96e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.000001 -3.810001 315)
+			(at 0.000001 -3.810001 -45)
 			(layer "B.Fab")
 			(uuid "2f9cf9a0-f8a1-46a8-bae7-256926ba6b8d")
 			(effects
@@ -39947,7 +39947,7 @@
 			(uuid "90f7072c-453f-481a-adee-d36e9d79e7d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.809999 315)
+			(at 0 -3.809999 -45)
 			(layer "B.Fab")
 			(uuid "b7fbd97c-3d15-46e3-8df4-6d1bb3c657f5")
 			(effects
@@ -56631,10 +56631,10 @@
 				(xy 141.250699 116.205288) (xy 141.354798 116.379669) (xy 141.664124 116.897835) (xy 141.665422 116.906695)
 				(xy 141.663131 116.911244) (xy 141.357261 117.284861) (xy 141.349369 117.289091) (xy 141.340796 117.286502)
 				(xy 141.339935 117.285722) (xy 141.209153 117.15494) (xy 141.206776 117.151512) (xy 141.176256 117.084421)
-				(xy 141.17595 117.075471) (xy 141.177173 117.073085) (xy 141.209606 117.024547) (xy 141.230018 116.92193)
-				(xy 141.209606 116.819313) (xy 141.16615 116.754276) (xy 141.166147 116.754272) (xy 141.041135 116.629261)
-				(xy 141.041131 116.629258) (xy 140.976095 116.585802) (xy 140.952657 116.581139) (xy 140.945212 116.576164)
-				(xy 140.94429 116.574509) (xy 140.855655 116.379669) (xy 140.855349 116.370719) (xy 140.86146 116.364174)
+				(xy 141.17595 117.075471) (xy 141.177175 117.073081) (xy 141.209606 117.024546) (xy 141.230018 116.921929)
+				(xy 141.209606 116.819312) (xy 141.16615 116.754275) (xy 141.166147 116.754271) (xy 141.041135 116.62926)
+				(xy 141.041131 116.629257) (xy 140.976095 116.585801) (xy 140.952656 116.581138) (xy 140.945211 116.576163)
+				(xy 140.944293 116.574516) (xy 140.855654 116.379668) (xy 140.855349 116.370719) (xy 140.86146 116.364174)
 				(xy 140.861504 116.364153) (xy 141.235971 116.200563) (xy 141.244923 116.200393)
 			)
 		)
@@ -64663,14 +64663,14 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 141.389109 115.710108) (xy 141.396773 115.713518) (xy 141.448282 115.765028) (xy 141.448286 115.765031)
-				(xy 141.513323 115.808488) (xy 141.61594 115.8289) (xy 141.718557 115.808488) (xy 141.783594 115.765032)
-				(xy 141.812627 115.735997) (xy 141.820896 115.732573) (xy 141.821469 115.732588) (xy 141.911974 115.737293)
+				(xy 141.389108 115.710108) (xy 141.396771 115.713518) (xy 141.448282 115.765029) (xy 141.448286 115.765032)
+				(xy 141.513323 115.808489) (xy 141.61594 115.828901) (xy 141.718557 115.808489) (xy 141.783594 115.765033)
+				(xy 141.812628 115.735997) (xy 141.820897 115.732573) (xy 141.821468 115.732588) (xy 141.911974 115.737293)
 				(xy 141.919638 115.740704) (xy 142.052701 115.873768) (xy 142.056128 115.882041) (xy 142.055484 115.885871)
 				(xy 141.992422 116.067927) (xy 141.991095 116.070595) (xy 141.986918 116.076847) (xy 141.983818 116.092432)
 				(xy 141.983399 116.093978) (xy 141.915534 116.289903) (xy 141.909588 116.296599) (xy 141.902726 116.297642)
 				(xy 141.2556 116.199609) (xy 141.247933 116.194982) (xy 141.245784 116.18629) (xy 141.31814 115.716948)
-				(xy 141.322786 115.709297) (xy 141.330306 115.70705)
+				(xy 141.322786 115.709297) (xy 141.330307 115.70705)
 			)
 		)
 	)
@@ -66363,21 +66363,20 @@
 				(xy 145.681504 118.194593) (xy 145.714075 118.268847) (xy 145.714076 118.268849) (xy 145.804778 118.407679)
 				(xy 145.824965 118.474568) (xy 145.805785 118.541754) (xy 145.753327 118.587904) (xy 145.700969 118.5995)
 				(xy 140.671748 118.5995) (xy 140.604709 118.579815) (xy 140.584067 118.563181) (xy 140.066891 118.046005)
-				(xy 140.033406 117.984682) (xy 140.03839 117.91499) (xy 140.066887 117.870648) (xy 140.107616 117.829919)
-				(xy 140.168935 117.796437) (xy 140.238627 117.801421) (xy 140.270779 117.819227) (xy 140.271603 117.819859)
-				(xy 140.27864 117.823922) (xy 140.276853 117.827016) (xy 140.318531 117.860577) (xy 140.324138 117.870835)
-				(xy 140.324599 117.870569) (xy 140.328665 117.877612) (xy 140.396244 117.965681) (xy 140.396245 117.965682)
-				(xy 140.396247 117.965684) (xy 140.396251 117.965689) (xy 140.536825 118.106262) (xy 140.536829 118.106265)
-				(xy 140.536831 118.106267) (xy 140.536834 118.10627) (xy 140.624898 118.173846) (xy 140.6249 118.173846)
-				(xy 140.624903 118.173849) (xy 140.761861 118.230578) (xy 140.87209 118.245089) (xy 140.908832 118.249927)
-				(xy 140.908833 118.249927) (xy 140.908834 118.249927) (xy 140.92415 118.24791) (xy 141.055805 118.230578)
-				(xy 141.192763 118.173849) (xy 141.280841 118.106263) (xy 141.739612 117.647491) (xy 141.752778 117.630334)
-				(xy 141.807195 117.559418) (xy 141.807194 117.559418) (xy 141.807199 117.559413) (xy 141.822117 117.523395)
-				(xy 141.84073 117.4923) (xy 141.9172 117.398893) (xy 142.054272 117.231461) (xy 142.055893 117.228967)
-				(xy 142.072186 117.20885) (xy 142.443451 116.837584) (xy 142.48368 116.810705) (xy 142.491722 116.807374)
-				(xy 142.606976 116.759635) (xy 142.695054 116.692049) (xy 142.724614 116.662488) (xy 142.785933 116.629004)
-				(xy 142.799951 116.626785) (xy 142.823686 116.624412) (xy 142.840484 116.622244) (xy 142.843257 116.621887)
-				(xy 142.859123 116.620868) (xy 145.058261 116.620868)
+				(xy 140.033406 117.984682) (xy 140.03839 117.91499) (xy 140.066888 117.870647) (xy 140.107616 117.829919)
+				(xy 140.168937 117.796436) (xy 140.238629 117.801422) (xy 140.270778 117.819226) (xy 140.271602 117.819858)
+				(xy 140.278642 117.823923) (xy 140.276748 117.827201) (xy 140.317687 117.859376) (xy 140.324063 117.870887)
+				(xy 140.324603 117.870576) (xy 140.328663 117.877609) (xy 140.364367 117.924138) (xy 140.396251 117.965689)
+				(xy 140.536825 118.106262) (xy 140.536829 118.106265) (xy 140.536831 118.106267) (xy 140.536834 118.10627)
+				(xy 140.624898 118.173846) (xy 140.6249 118.173846) (xy 140.624903 118.173849) (xy 140.761861 118.230578)
+				(xy 140.87209 118.245089) (xy 140.908832 118.249927) (xy 140.908833 118.249927) (xy 140.908834 118.249927)
+				(xy 140.92415 118.24791) (xy 141.055805 118.230578) (xy 141.192763 118.173849) (xy 141.280841 118.106263)
+				(xy 141.739612 117.647491) (xy 141.752778 117.630334) (xy 141.807195 117.559418) (xy 141.807194 117.559418)
+				(xy 141.807199 117.559413) (xy 141.822117 117.523395) (xy 141.84073 117.4923) (xy 141.9172 117.398893)
+				(xy 142.054272 117.231461) (xy 142.055893 117.228967) (xy 142.072186 117.20885) (xy 142.443451 116.837584)
+				(xy 142.48368 116.810705) (xy 142.491722 116.807374) (xy 142.606976 116.759635) (xy 142.695054 116.692049)
+				(xy 142.724614 116.662488) (xy 142.785933 116.629004) (xy 142.799951 116.626785) (xy 142.823686 116.624412)
+				(xy 142.840484 116.622244) (xy 142.843257 116.621887) (xy 142.859123 116.620868) (xy 145.058261 116.620868)
 			)
 		)
 		(filled_polygon
