@@ -15,3 +15,36 @@ rrel binName:
 
 adev binName: 
    probe-rs attach --chip nRF52832_xxAA target/thumbv7em-none-eabihf/debug/{{binName}}
+
+# test run 
+tr testName:
+  cargo test {{testName}} -- --nocapture
+
+tl: 
+  cargo test --target x86_64-unknown-linux-gnu
+
+# to list available target you can run `rustup show`
+#
+# $ rustup show
+# Default host: x86_64-unknown-linux-gnu
+# rustup home:  /home/ah/.rustup
+#
+# installed toolchains
+# --------------------
+# stable-x86_64-unknown-linux-gnu
+# 1.84-x86_64-unknown-linux-gnu
+# 1.85-x86_64-unknown-linux-gnu (default)
+# 1.88-x86_64-unknown-linux-gnu (active)
+# esp
+#
+# active toolchain
+# ----------------
+# name: 1.88-x86_64-unknown-linux-gnu
+# active because: overridden by '/home/ah/project/sudi-keyboard/firmware/v2/rust-toolchain.toml'
+# installed targets:
+#   riscv32imc-unknown-none-elf
+#   thumbv6m-none-eabi
+#   thumbv7em-none-eabi
+#   thumbv7em-none-eabihf
+#   thumbv8m.main-none-eabihf
+#   x86_64-unknown-linux-gnu

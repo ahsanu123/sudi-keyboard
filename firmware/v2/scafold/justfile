@@ -1,0 +1,6 @@
+# list all no_std test 
+tl: 
+  cargo test --target  x86_64-unknown-linux-gnu
+
+tr testName: 
+  cargo test {{testName}} --target  x86_64-unknown-linux-gnu -- --nocapture
