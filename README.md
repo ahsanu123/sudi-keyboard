@@ -1,4 +1,4 @@
-<p >
+ <p >
   <a href="">
     <img alt="keyboard version" src="https://badgen.net/github/commits/ahsanu123/sudi-keyboard/">
   </a>
@@ -173,7 +173,40 @@ finally at ⏰ 21:46 its compiled and able to run, its discoverable with phone
 
   ⏰ 21:29, able to advertise device as bluetooth hid, but still cant establishing connection to keyboard,
   need to understand how HID keyboard is connected in USB and in BLE.
- 
+
+- 11 September 2025, after reading more about BLE spesification, to more understand what each endpoint / characteristic does in BLE HID, you need to:
+  * read characteristic code from [bluetooth assigned number](http://bluetooth.com/wp-content/uploads/Files/Specification/HTML/Assigned_Numbers/out/en/Assigned_Numbers.pdf). for example look at `2a4a` from `hid_info` property in this struct (take from RMK github)
+    ```rust
+    #[gatt_service(uuid = service::HUMAN_INTERFACE_DEVICE)]
+    pub(crate) struct HidService {
+        #[characteristic(uuid = "2a4a", read, value = [0x01, 0x01, 0x00, 0x03])]
+        pub(crate) hid_info: [u8; 4],
+        #[characteristic(uuid = "2a4b", read, value = KeyboardReport::desc().try_into().expect("Failed to convert KeyboardReport to [u8; 67]"))]
+        pub(crate) report_map: [u8; 67],
+        #[characteristic(uuid = "2a4c", write_without_response)]
+        pub(crate) hid_control_point: u8,
+        #[characteristic(uuid = "2a4e", read, write_without_response, value = 1)]
+        pub(crate) protocol_mode: u8,
+        #[descriptor(uuid = "2908", read, value = [0u8, 1u8])]
+        #[characteristic(uuid = "2a4d", read, notify)]
+        pub(crate) input_keyboard: [u8; 8],
+        #[descriptor(uuid = "2908", read, value = [0u8, 2u8])]
+        #[characteristic(uuid = "2a4d", read, write, write_without_response)]
+        pub(crate) output_keyboard: [u8; 1],
+    }
+    ```
+  * search `2a4a` on BLE Assigned number you will find **HID Information**
+    <img width="244" height="33" alt="image" src="https://github.com/user-attachments/assets/4a436093-56ed-4860-a73a-7f92cf08889c" />
+  * from that information (HID Information), look at [HID over gatt profile](https://www.bluetooth.com/specifications/specs/hid-over-gatt-profile-1-0/)
+    <img width="662" height="287" alt="image" src="https://github.com/user-attachments/assets/ce5a493c-50f0-479e-b636-b49faca6f79b" />
+  * it will give you basic information of what is **HID information** is
+  * to understand more about what value should provided by your device, you can continue to [Device Class Definition for HID](https://www.usb.org/sites/default/files/hid1_11.pdf), and try to search keyword from _HID over gatt profile_ description, for example `bcountryCode`, search on _Device class definition for HID_ then you will find **HID Descriptor**
+    <img width="1041" height="709" alt="image" src="https://github.com/user-attachments/assets/7ea69aa2-a904-4ca6-8700-0923f856628a" />
+  * from that information you can conclude `value = [0x01, 0x01, 0x00, 0x03])]` is HID Descriptor, then
+  * `0x01` is _bLength_
+  * `0x01` is _bDescriptorType_
+  * `0x00` is _bcdHID_
+  * `0x03` is _bCountryCode_
 </details>
 
 ## 💳 Reference 
