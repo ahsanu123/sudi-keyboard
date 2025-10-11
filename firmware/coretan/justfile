@@ -1,0 +1,9 @@
+tr testName: 
+  cargo test {{testName}} -- --nocapture
+
+tl: 
+  cargo test -- --list
+
+# list package features
+lf packageName: 
+  cargo tree -e features -i {{packageName}}
