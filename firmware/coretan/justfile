@@ -4,6 +4,14 @@ tr testName:
 tl: 
   cargo test -- --list
 
+# binary list
+bl: 
+  cargo run --bin
+
+# run binary
+br binaryName: 
+  cargo run --bin {{binaryName}}
+
 # list package features
 lf packageName: 
   cargo tree -e features -i {{packageName}}

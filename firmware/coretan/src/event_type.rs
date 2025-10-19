@@ -31,7 +31,7 @@ pub trait EventTrait {
     fn get_data(self) -> Self::DataType;
 }
 
-pub trait CorTrait: Debug {
+pub trait HandlerCorTrait: Debug {
     type HandlingType;
 
     fn handling_type(&self) -> Self::HandlingType;
@@ -77,7 +77,7 @@ pub struct BatteryEventHandler;
 #[derive(Default, Debug)]
 pub struct KeyEventHandler;
 
-impl CorTrait for BatteryEventHandler {
+impl HandlerCorTrait for BatteryEventHandler {
     type HandlingType = HandlerTypeEnum;
 
     fn handle(&self, event: &Event) {
@@ -91,7 +91,7 @@ impl CorTrait for BatteryEventHandler {
     }
 }
 
-impl CorTrait for KeyEventHandler {
+impl HandlerCorTrait for KeyEventHandler {
     type HandlingType = HandlerTypeEnum;
 
     fn handle(&self, event: &Event) {

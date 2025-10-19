@@ -6,10 +6,10 @@ fn main() {
         Event::KeyEvent(Some(KeyEventData { character: 'C' })),
         Event::BatteryEvent(Some(BatteryEventData { percent: 50 })),
         Event::KeyEvent(Some(KeyEventData { character: 'A' })),
-        Event::HostEvent(Some(HostEventData { data: 'A' })),
+        // Event::HostEvent(Some(HostEventData { data: 'A' })),
     ];
 
-    let event_handlers: [&dyn CorTrait<HandlingType = HandlerTypeEnum>; 2] =
+    let event_handlers: [&dyn HandlerCorTrait<HandlingType = HandlerTypeEnum>; 2] =
         [&KeyEventHandler::default(), &BatteryEventHandler::default()];
 
     for event in events {
@@ -20,5 +20,7 @@ fn main() {
         if handler.is_none() {
             panic!("cant find event handler for {event:#?}")
         }
+
+        handler.unwrap().handle(&event);
     }
 }
