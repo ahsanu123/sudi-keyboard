@@ -1,0 +1,17 @@
+[package]
+name = "sudi_shared"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+std = []
+
+[dependencies]
+defmt = "1.0.1"
+embassy-futures = "0.1.2"
+embassy-sync = "0.7.2"
+embassy-time = "0.5.0"
+embedded-hal = "1.0.0"
+embedded-hal-async = "1.0.0"
+heapless = { version = "0.9.2" }
